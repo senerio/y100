@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Story Choice</title>
+	<meta name="viewport" content="initial-scale=1,maximum-scale=1" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+	<nav>
+		<a href="index.html">index</a>
+		<a href="voice.html">voice</a>
+		<a href="list.html">list</a>
+		<a href="skills.html">skills</a>
+		<a href="choice.html">choice</a>
+	</nav>
+	<main>
+		<a href="http://kneesockscollector.net/wiki/yume-100/?キャラクター" target="_blank">jp wiki list</a>
+		<input type="text" id="url" placeholder="page url" value="" />
+		<button id="submit">generate</button>
+		<textarea id="choice">Ready.</textarea>
+		<button id="copy">copy code</button>
+		<input type="text" id="title" placeholder="eg. Avi (Bridal)" />
+		<button id="edit">edit wikia page</button>
+	</main>
+	<script>
+		function getChoiceSection(url) {
+			var xhr = new XMLHttpRequest();
+			xhr.onreadystatechange = function() {
+			    if(xhr.readyState == 4) {
+					var temp = xhr.responseText
+					  , parser = new DOMParser()
+					  , doc = parser.parseFromString(temp, "text/html");
+					parse(doc.getElementById('story_select').parentElement.nextElementSibling.getElementsByTagName('tbody')[0]);
+			    }
+			}
+			xhr.open('GET', url, true);
+			xhr.setRequestHeader("Content-Type", "text/plain");
+			xhr.send();
+		}
+		function returnIfDefined(a, b) {
+			if(a != undefined) {
+				return a[b];
+			} else {
+				return null;
+			}
+		}
+		function parse(doc) {
+			var c = document.getElementById('choice');
+			c.innerHTML = '{{Choice';
+			var rowCount = doc.getElementsByTagName('tr').length;
+			var chapter = 1, route;
+			for(var i = 1, set = 1; i < rowCount; i++, set++) {
+				var row = doc.getElementsByTagName('tr')[i];
+					title = returnIfDefined(row.getElementsByTagName('th')[0], 'innerHTML'),
+					choice = row.getElementsByTagName('td')[0].innerHTML,
+					points = row.getElementsByTagName('td')[1].innerHTML;
+				// title
+				if (title != null) {
+					chapter++; set = 1;
+					c.innerHTML += '\n|title' + chapter + ' = ' + title;
+				}
+				// points
+				if (points.indexOf('月') != -1) {
+					route = 'm';
+				}
+				else {
+					route = 's';
+				}
+				c.innerHTML += '\n|points' + chapter + set + route + ' = ' + points.match(/\d.*/);
+				// choice
+				c.innerHTML += '\n|choice' + chapter + set + route + ' = ' + choice;
+			}
+			c.innerHTML += '\n}}';
+		}
+		document.getElementById('submit').addEventListener('click', function() {
+			getChoiceSection(document.getElementById('url').value);
+		});
+		document.getElementById('copy').addEventListener('click', function(event) {
+			document.querySelector('#choice').select();
+			document.execCommand('Copy');
+		});
+		document.getElementById('edit').addEventListener('click', function() {
+			window.open('http://yume100prince.wikia.com/wiki/' + document.getElementById('title').value + '?action=edit&section=3', '_blank');
+		});
+	</script>
+</body>
+</html>
