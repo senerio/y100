@@ -14,16 +14,16 @@
 		<a href="choice.html">choice</a>
 	</nav>
 	<main>
+		<textarea id="input" placeholder="Paste here."></textarea>
+		<textarea id="choice"></textarea>
 		<a href="http://kneesockscollector.net/wiki/yume-100/?キャラクター" target="_blank">jp wiki list</a>
-		<input type="text" id="url" placeholder="page url" value="" />
 		<button id="submit">generate</button>
-		<textarea id="choice">Ready.</textarea>
 		<button id="copy">copy code</button>
 		<input type="text" id="title" placeholder="eg. Avi (Bridal)" />
 		<button id="edit">edit wikia page</button>
 	</main>
 	<script>
-		function getChoiceSection(url) {
+		function getChoiceSectionXHR(url) {
 			var xhr = new XMLHttpRequest();
 			xhr.onreadystatechange = function() {
 			    if(xhr.readyState == 4) {
@@ -44,7 +44,7 @@
 				return null;
 			}
 		}
-		function parse(doc) {
+		function parseHTML(doc) {
 			var c = document.getElementById('choice');
 			c.innerHTML = '{{Choice';
 			var rowCount = doc.getElementsByTagName('tr').length;
@@ -72,8 +72,37 @@
 			}
 			c.innerHTML += '\n}}';
 		}
+		function parse(text) {
+			var c = document.getElementById('choice');
+			var rows = text.split('\n').filter( x => /\d/.test(x) );
+			c.innerHTML = '{{Choice';
+			var chapter = 1, route;
+			for(var i in rows) {
+				var row = rows[i].split('\t').reverse(),
+					title = row[2],
+					choice = row[1],
+					points = row[0];
+				// title
+				if (title != undefined) {
+					chapter++; set = 1;
+					c.innerHTML += '\n|title' + chapter + ' = ' + title;
+				}
+				// points
+				if (points.indexOf('月') != -1) {
+					route = 'm';
+				}
+				else {
+					route = 's';
+				}
+				c.innerHTML += '\n|points' + chapter + set + route + ' = ' + points.match(/\d.*/);
+				// choice
+				c.innerHTML += '\n|choice' + chapter + set + route + ' = ' + choice;
+			}
+			c.innerHTML += '\n}}';
+		}
 		document.getElementById('submit').addEventListener('click', function() {
-			getChoiceSection(document.getElementById('url').value);
+			// getChoiceSection(document.getElementById('url').value);
+			parse(document.getElementById('input').value);
 		});
 		document.getElementById('copy').addEventListener('click', function(event) {
 			document.querySelector('#choice').select();
