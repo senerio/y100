@@ -23,60 +23,11 @@
 		<button id="edit">edit wikia page</button>
 	</main>
 	<script>
-		function getChoiceSectionXHR(url) {
-			var xhr = new XMLHttpRequest();
-			xhr.onreadystatechange = function() {
-			    if(xhr.readyState == 4) {
-					var temp = xhr.responseText
-					  , parser = new DOMParser()
-					  , doc = parser.parseFromString(temp, "text/html");
-					parse(doc.getElementById('story_select').parentElement.nextElementSibling.getElementsByTagName('tbody')[0]);
-			    }
-			}
-			xhr.open('GET', url, true);
-			xhr.setRequestHeader("Content-Type", "text/plain");
-			xhr.send();
-		}
-		function returnIfDefined(a, b) {
-			if(a != undefined) {
-				return a[b];
-			} else {
-				return null;
-			}
-		}
-		function parseHTML(doc) {
-			var c = document.getElementById('choice');
-			c.innerHTML = '{{Choice';
-			var rowCount = doc.getElementsByTagName('tr').length;
-			var chapter = 1, route;
-			for(var i = 1, set = 1; i < rowCount; i++, set++) {
-				var row = doc.getElementsByTagName('tr')[i];
-					title = returnIfDefined(row.getElementsByTagName('th')[0], 'innerHTML'),
-					choice = row.getElementsByTagName('td')[0].innerHTML,
-					points = row.getElementsByTagName('td')[1].innerHTML;
-				// title
-				if (title != null) {
-					chapter++; set = 1;
-					c.innerHTML += '\n|title' + chapter + ' = ' + title;
-				}
-				// points
-				if (points.indexOf('月') != -1) {
-					route = 'm';
-				}
-				else {
-					route = 's';
-				}
-				c.innerHTML += '\n|points' + chapter + set + route + ' = ' + points.match(/\d.*/);
-				// choice
-				c.innerHTML += '\n|choice' + chapter + set + route + ' = ' + choice;
-			}
-			c.innerHTML += '\n}}';
-		}
 		function parse(text) {
 			var c = document.getElementById('choice');
 			var rows = text.split('\n').filter( x => /\d/.test(x) );
 			c.innerHTML = '{{Choice';
-			var chapter = 1, route;
+			var chapter = 1, route, set;
 			for(var i in rows) {
 				var row = rows[i].split('\t').reverse(),
 					title = row[2],
@@ -94,14 +45,17 @@
 				else {
 					route = 's';
 				}
-				c.innerHTML += '\n|points' + chapter + set + route + ' = ' + points.match(/\d.*/);
 				// choice
+				c.innerHTML += '\n|points' + chapter + set + route + ' = ' + points.match(/\d.*/);
 				c.innerHTML += '\n|choice' + chapter + set + route + ' = ' + choice;
+				// set
+				if (i%2 == 1) {
+					set++;
+				}
 			}
 			c.innerHTML += '\n}}';
 		}
 		document.getElementById('submit').addEventListener('click', function() {
-			// getChoiceSection(document.getElementById('url').value);
 			parse(document.getElementById('input').value);
 		});
 		document.getElementById('copy').addEventListener('click', function(event) {
