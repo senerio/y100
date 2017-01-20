@@ -52,7 +52,8 @@ function appendNew(newIds, callback1, callback2, callback3) {
 			})().toString();
 			list[id].name = mCard[id].name;
 		}
-		fs.writeFile('./public/list.json', JSON.stringify(list,null,'\t'), callback1(list), callback2(list), callback3);
+		fs.writeFileSync('./public/list.json', JSON.stringify(list,null,'\t'));
+		callback1(list); callback2(list); callback3();
 	});
 }
 
@@ -74,6 +75,7 @@ function appendSkills (list) {
 		var y = require('./y.js');
 		var skill = require('./skill.js');
 		for(var id of listNew()) {
+			if(id > 1000) { continue; }
 			skills[list[id].no] = {
 				'Before' : { 'LSkill' : '', 'Skill' : '' },
 				'Sun' : { 'LSkill' : '', 'Skill' : '' },
@@ -124,6 +126,7 @@ function getNewData () {
 
 	console.log("* Skills:");
 	for(var id of newChars) {
+		if(id > 1000) { continue; }
 		console.log( list[id].no + '\t' + mCard[id].name + '\tBefore\t' + skill.getSkillsToSheets(id) );
 		console.log( list[id].no + '\t' + mCard[id].name + '\tSun\t' + skill.getSkillsToSheets(y.getSunId(id)) );
 		console.log( list[id].no + '\t' + mCard[id].name + '\tMoon\t' + skill.getSkillsToSheets(y.getMoonId(id)) );

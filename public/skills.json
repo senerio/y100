@@ -4828,5 +4828,61 @@
 			"LSkill": "Increase EXP obtained by 15%",
 			"Skill": "Insert hearts (1-3)"
 		}
+	},
+	"346": {
+		"Before": {
+			"LSkill": "16chainで全員の攻撃力70%UP",
+			"Skill": "紫を黄に、緑を赤に変換"
+		},
+		"Sun": {
+			"LSkill": "16chainで全員の攻撃力80%UP",
+			"Skill": "紫を黄に、緑を赤に変換"
+		},
+		"Moon": {
+			"LSkill": "14chainで全員の攻撃力70%UP",
+			"Skill": "紫を黄に、青を赤に変換"
+		}
+	},
+	"347": {
+		"Before": {
+			"LSkill": "赤属性の全能力を15%UP",
+			"Skill": "縦中央を赤ピースに変換する 小"
+		},
+		"Sun": {
+			"LSkill": "赤属性の全能力を20%UP",
+			"Skill": "縦中央を赤ピースに変換する 中"
+		},
+		"Moon": {
+			"LSkill": "赤属性の全能力を20%UP",
+			"Skill": "縦中央を赤ピースに変換する 中"
+		}
+	},
+	"348": {
+		"Before": {
+			"LSkill": "メンバー3属性以上で攻撃力を30%UP",
+			"Skill": "青を全て消し、緑を青に変換する"
+		},
+		"Sun": {
+			"LSkill": "メンバー3属性以上で攻30%/HP10%UP",
+			"Skill": "青を全て消し、緑を青に変換する"
+		},
+		"Moon": {
+			"LSkill": "メンバー3属性以上で攻撃力を40%UP",
+			"Skill": "青を全て消し、黄を青に変換す���"
+		}
+	},
+	"349": {
+		"Before": {
+			"LSkill": "メンバー3属性以上でHPを20%UP",
+			"Skill": "回復力に応じ���HPを回復 中"
+		},
+		"Sun": {
+			"LSkill": "メンバー3属性以上でHPを25%UP",
+			"Skill": "回復力に応じてHPを回復 大"
+		},
+		"Moon": {
+			"LSkill": "メンバー3属性以上でHPを25%UP",
+			"Skill": "回復力に応じてHPを回復 大"
+		}
 	}
 }
