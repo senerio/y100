@@ -71,7 +71,7 @@ function getSkillsFromSheets(callback) {
 	}
 	fs = require('fs');
 	https = require('https');
-	https.get('https://sheets.googleapis.com/v4/spreadsheets/' + sheets.spreadsheetId + '/values/A:G?key=' + sheets.key, (res) => {
+	var req = https.get('https://sheets.googleapis.com/v4/spreadsheets/' + sheets.spreadsheetId + '/values/A:G?key=' + sheets.key, (res) => {
 		var data = "";
 		res.on('data', (chunk) => { data += chunk; });
 		res.on('end', () => {
@@ -79,7 +79,7 @@ function getSkillsFromSheets(callback) {
 			var skills = {};
 			for(var row of json) {
 				(function (i) {
-			        if(skills[i[0]] == null) {
+			        if(skills[i[0]] == undefined) {
 			            skills[i[0]] = {};
 			        }
 			        skills[i[0]][i[2]] = {};
@@ -87,9 +87,11 @@ function getSkillsFromSheets(callback) {
 			        skills[i[0]][i[2]].Skill = i[6];
 			    })(row);
 			}
-			fs.writeFile('./public/skills.json', JSON.stringify(skills,null,'\t'), callback);
+			fs.writeFileSync('./public/skills.json', JSON.stringify(skills,null,'\t'));
+			callback();
 		});
 	});
+	req.setTimeout(30000);
 }
 
 module.exports = {

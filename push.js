@@ -1,7 +1,7 @@
 function check() {
 	var pass = true;
 		console.log("✔ Skill sheet translated");
-	if(require('./pull.js').listNew() > 0) {
+	if(require('./pull.js').listNew().length > 0) {
 		pass = false;
 		console.log("✘ List romanization: " + require('./pull.js').listNew());
 	} else {
@@ -19,22 +19,36 @@ function check() {
 
 function start() {
 	require('./skill.js').getSkillsFromSheets(post);
+	// post();
 }
 
 function post() {
+	var idList = process.argv[2].split(',');
+	var eventName = process.argv[3];
 	var wikia = require('./wikia.js');
-	for(var id of process.argv[2].split(',')) {
+	for(var id of idList) {
 		var title = require('./y.js').getTitle(id);
 		wikia.createPage(
 			title,
-			require('./profile.js').wikiaCharacterPage(id, process.argv[3])
+			require('./profile.js').wikiaCharacterPage(id, eventName)
 		);
 		wikia.createPage(
 			title + '/Quotes',
 			require('./voice.js').wikiaQuotePage(id)
 		);
 	}
+	// wikia.createPage(
+	// 	'Skills/All',
+	// 	require('./profile.js').wikiaSkillsPage(idList)
+	// );
+	// wikia.createPage(
+	// 	'List',
+	// 	require('./profile.js').wikiaListPage(idList)
+	// );
+	// wikia.createPage(
+	// 	'Event_Versions',
+	// 	require('./profile.js').wikiaEventVersionsPage(idList, eventName)
+	// );
 }
 
-var pass = check();
-if(pass == true) { start(); }
+if(check() == true) { start(); }

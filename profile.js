@@ -85,10 +85,9 @@ function wikiaCharacterPage (id, eventName) {
 		+ '\n|name_jp = ' + mCard[id].name
 		+ '\n|attribute = ' + attribute(mCard[id].attr)
 		+ wikiaRouteStats(id)
-		+ wikiaRouteStats(y.getSunId(id)
-		+ wikiaRouteStats(y.getMoonId(id)
+		+ wikiaRouteStats(y.getSunId(id))
+		+ wikiaRouteStats(y.getMoonId(id))
 		+ '\n}}'
-
 		+ '\n== Profile =='
 		+ '\n{{Profile'
 		+ '\n|desc = ' + mCard[id].detail
@@ -107,7 +106,7 @@ function wikiaCharacterPage (id, eventName) {
 				+ '\n|birth = '
 				+ '\n|policy = '
 				+ '\n|likes = '
-				+ '\n|dislikes = '
+				+ '\n|dislikes = ';
 			}
 		})()
 		+ '\n}}'
