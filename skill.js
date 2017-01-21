@@ -29,19 +29,22 @@ function getSkillActivationMin (id) {
 	return level[skillIds(id).main +',10'].activeConditionNum;
 }
 
-function getMiscSkillDetails (id) {
+function getHiddenSkill (id) {
 	skillId = skillIds(id);
-	r = "";
-	if(skillId.main != undefined) {
-		r += detail[skillId.main].classificationId;
-	}
-	r += '\t';
 	if(skillId.hidden != undefined) {
-		r += detail[skillId.hidden].skillDetail;
+		return detail[skillId.hidden].skillDetail;
 	} else {
-		r += 'None';
+		return 'None';
 	}
-	return r;
+}
+
+function getSkillClassification (id) {
+	skillId = skillIds(id);
+	if(skillId.main != undefined) {
+		return detail[skillId.main].classificationId;
+	} else {
+		return 0;
+	}
 }
 
 function getDetails (id) {
@@ -97,7 +100,8 @@ function getSkillsFromSheets(callback) {
 module.exports = {
 	activationMin: getSkillActivationMin,
 	activationMax: getSkillActivationMax,
-	misc: getMiscSkillDetails,
+	hidden: getHiddenSkill,
+	classification: getSkillClassification,
 	details: getDetails,
 	getSkillsToSheets : getSkillsToSheets,
 	getSkillsFromSheets: getSkillsFromSheets

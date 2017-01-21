@@ -119,9 +119,9 @@ function getNewData () {
 	y = require('./y.js');
 	list = require('./public/list.json');
 
-	console.log("* Misc Info:");
+	console.log("* Hidden Skill:");
 	for(var id of newChars) {
-		console.log( mCard[id].name + '\t' + skill.misc(id) );
+		console.log( mCard[id].name + '\t' + skill.hidden(id) );
 	}
 
 	console.log("* Skills:");

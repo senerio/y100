@@ -23,10 +23,19 @@ function start() {
 }
 
 function post() {
+
 	var idList = process.argv[2].split(',');
 	var eventName = process.argv[3];
 	var wikia = require('./wikia.js');
+
+	var updates = {};
+	var updatePages = ['princeList', 'eventVersions', 'skillsAll', 'skillsAttr', 'skillClassification'];
+	for(var i of updatePages) {
+		updates[i] = '';
+	}
+
 	for(var id of idList) {
+
 		var title = require('./y.js').getTitle(id);
 		wikia.createPage(
 			title,
@@ -36,7 +45,15 @@ function post() {
 			title + '/Quotes',
 			require('./voice.js').wikiaQuotePage(id)
 		);
+
+		for(var i of updatePages) {
+			updates[i] += require('./profile.js').wikiaUpdatePages(id, eventName)[i];
+		}
+		
 	}
+
+	fs.writeFile('./public/updates.json', JSON.stringify(updates));
+
 	// wikia.createPage(
 	// 	'Skills/All',
 	// 	require('./profile.js').wikiaSkillsPage(idList)
