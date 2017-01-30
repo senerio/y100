@@ -4884,5 +4884,61 @@
 			"LSkill": "Increase HP by 25% when Party consists of 3 colors or more",
 			"Skill": "Recover HP in accordance to RP (S)"
 		}
+	},
+	"350": {
+		"Before": {
+			"LSkill": "HP50%以上で攻撃/以下で回復30%UP",
+			"Skill": "右側を赤に変換し、赤に回復効果付与　"
+		},
+		"Sun": {
+			"LSkill": "HP50%以上で攻撃/以下で回復40%UP",
+			"Skill": "右側を赤に変換し、赤に回復効果付与"
+		},
+		"Moon": {
+			"LSkill": "HP50%以上で攻撃/以下で回復40%UP",
+			"Skill": "右側を赤に変換し、赤に回復効果付与"
+		}
+	},
+	"351": {
+		"Before": {
+			"LSkill": "紫属性の攻撃力を35%UP",
+			"Skill": "3chainの間、紫の出現率UP　大"
+		},
+		"Sun": {
+			"LSkill": "紫属性の攻撃力を50%UP",
+			"Skill": "3chainの間、紫の出現率UP　大"
+		},
+		"Moon": {
+			"LSkill": "紫属性の攻撃力を50%UP",
+			"Skill": "3chainの間、紫の出現率UP　大"
+		}
+	},
+	"352": {
+		"Before": {
+			"LSkill": "青属性の攻撃力を50%UP",
+			"Skill": "右を紫、左を青に変換"
+		},
+		"Sun": {
+			"LSkill": "青・紫属性の攻撃力を50%UP",
+			"Skill": "右を紫、左を青に変換"
+		},
+		"Moon": {
+			"LSkill": "青・緑属性の攻撃力を50%UP",
+			"Skill": "右を緑、左を青に変換"
+		}
+	},
+	"353": {
+		"Before": {
+			"LSkill": "赤属性のHPと回復力を20%UP",
+			"Skill": "強化爆弾を追加　1～2個"
+		},
+		"Sun": {
+			"LSkill": "赤属性のHPと回復力を25%UP",
+			"Skill": "強化爆弾を追加　1～3個"
+		},
+		"Moon": {
+			"LSkill": "赤属性のHPと回復力を25%UP",
+			"Skill": "強化爆弾を追加　1～3個"
+		}
 	}
 }
