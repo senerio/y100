@@ -4846,15 +4846,15 @@
 	"347": {
 		"Before": {
 			"LSkill": "Increase all Red stats by 15%",
-			"Skill": "Turn middle collumn beads into Red (B)"
+			"Skill": "Turn middle column beads into Red (B)"
 		},
 		"Sun": {
 			"LSkill": "Increase all Red stats by 20%",
-			"Skill": "Turn middle collumn beads into Red (A)"
+			"Skill": "Turn middle column beads into Red (A)"
 		},
 		"Moon": {
 			"LSkill": "Increase all Red stats by 20%",
-			"Skill": "Turn middle collumn beads into Red (A)"
+			"Skill": "Turn middle column beads into Red (A)"
 		}
 	},
 	"348": {
@@ -4887,58 +4887,58 @@
 	},
 	"350": {
 		"Before": {
-			"LSkill": "HP50%以上で攻撃/以下で回復30%UP",
-			"Skill": "右側を赤に変換し、赤に回復効果付与　"
+			"LSkill": "Increase ATK by 30% when HP is above 50% and RP by 30% when HP is below 50%",
+			"Skill": "Turn right side beads Red and attach healing properties to Red beads"
 		},
 		"Sun": {
-			"LSkill": "HP50%以上で攻撃/以下で回復40%UP",
-			"Skill": "右側を赤に変換し、赤に回復効果付与"
+			"LSkill": "Increase ATK by 40% when HP is above 50% and RP by 40% when HP is below 50%",
+			"Skill": "Turn right side beads Red and attach healing properties to Red beads"
 		},
 		"Moon": {
-			"LSkill": "HP50%以上で攻撃/以下で回復40%UP",
-			"Skill": "右側を赤に変換し、赤に回復効果付与"
+			"LSkill": "Increase ATK by 40% when HP is above 50% and RP by 40% when HP is below 50%",
+			"Skill": "Turn right side beads Red and attach healing properties to Red beads"
 		}
 	},
 	"351": {
 		"Before": {
-			"LSkill": "紫属性の攻撃力を35%UP",
-			"Skill": "3chainの間、紫の出現率UP　大"
+			"LSkill": "Increase Purple ATK by 35%",
+			"Skill": "Increase Purple beads appearance rate for 3 chains (S)"
 		},
 		"Sun": {
-			"LSkill": "紫属性の攻撃力を50%UP",
-			"Skill": "3chainの間、紫の出現率UP　大"
+			"LSkill": "Increase Purple ATK by 50%",
+			"Skill": "Increase Purple beads appearance rate for 3 chains (S)"
 		},
 		"Moon": {
-			"LSkill": "紫属性の攻撃力を50%UP",
-			"Skill": "3chainの間、紫の出現率UP　大"
+			"LSkill": "Increase Purple ATK by 50%",
+			"Skill": "Increase Purple beads appearance rate for 3 chains (S)"
 		}
 	},
 	"352": {
 		"Before": {
-			"LSkill": "青属性の攻撃力を50%UP",
-			"Skill": "右を紫、左を青に変換"
+			"LSkill": "Increase Blue ATK by 50%",
+			"Skill": "Turn right side beads Purple and left side beads Blue"
 		},
 		"Sun": {
-			"LSkill": "青・紫属性の攻撃力を50%UP",
-			"Skill": "右を紫、左を青に変換"
+			"LSkill": "Increase Blue & Purple ATK by 50%",
+			"Skill": "Turn right side beads Purple and left side beads Blue"
 		},
 		"Moon": {
-			"LSkill": "青・緑属性の攻撃力を50%UP",
-			"Skill": "右を緑、左を青に変換"
+			"LSkill": "Increase Blue & Green ATK by 50%",
+			"Skill": "Turn right side beads Green and left side beads Blue"
 		}
 	},
 	"353": {
 		"Before": {
-			"LSkill": "赤属性のHPと回復力を20%UP",
-			"Skill": "強化爆弾を追加　1～2個"
+			"LSkill": "Increase Red HP & RP by 20%",
+			"Skill": "Insert gold bombs (1-2)"
 		},
 		"Sun": {
-			"LSkill": "赤属性のHPと回復力を25%UP",
-			"Skill": "強化爆弾を追加　1～3個"
+			"LSkill": "Increase Red HP & RP by 25%",
+			"Skill": "Insert gold bombs (1-3)"
 		},
 		"Moon": {
-			"LSkill": "赤属性のHPと回復力を25%UP",
-			"Skill": "強化爆弾を追加　1～3個"
+			"LSkill": "Increase Red HP & RP by 25%",
+			"Skill": "Insert gold bombs (1-3)"
 		}
 	}
 }
