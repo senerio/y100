@@ -4943,44 +4943,58 @@
 	},
 	"354": {
 		"Before": {
-			"LSkill": "緑のHP20%/HPMAXで全員の攻40%UP",
-			"Skill": "全ピースを緑・青・黄に変換"
+			"LSkill": "Increase Green HP by 20%, increase Party ATK by 40% when Max HP",
+			"Skill": "Turn all beads into Green, Blue and Yellow"
 		},
 		"Sun": {
-			"LSkill": "緑のHP20%/HPMAXで全員の攻50%UP",
-			"Skill": "全ピースを緑・青・黄に変換"
+			"LSkill": "Increase Green HP by 20%, increase Party ATK by 50% when Max HP",
+			"Skill": "Turn all beads into Green, Blue and Yellow"
 		},
 		"Moon": {
-			"LSkill": "緑のHP30%/HPMAXで全員の攻40%UP",
-			"Skill": "全ピースを緑・黄・紫に変換"
+			"LSkill": "Increase Green HP by 30%, increase Party ATK by 40% when Max HP",
+			"Skill": "Turn all beads into Green, Yellow and Purple"
 		}
 	},
 	"355": {
 		"Before": {
-			"LSkill": "出現する爆弾を全て強化爆弾にする",
-			"Skill": "回復力に応じて回復　大"
+			"LSkill": "Turn all bombs into gold bombs",
+			"Skill": "Recover HP in accordance to RP (S)"
 		},
 		"Sun": {
-			"LSkill": "出現する爆弾を全て強化爆弾にする",
-			"Skill": "回復力に応じて回復　特大"
+			"LSkill": "Turn all bombs into gold bombs",
+			"Skill": "Recover HP in accordance to RP (SS)"
 		},
 		"Moon": {
-			"LSkill": "出現する爆弾を全て強化爆弾にする",
-			"Skill": "回復力に応じて回復　特大"
+			"LSkill": "Turn all bombs into gold bombs",
+			"Skill": "Recover HP in accordance to RP (SS)"
 		}
 	},
 	"356": {
 		"Before": {
-			"LSkill": "メンバーが5属性で攻撃力を35%UP",
-			"Skill": "1ターン赤の攻撃力をUP　大"
+			"LSkill": "Increase ATK by 35% when Party consists of all 5 colors",
+			"Skill": "Increase Red ATK for 1 turn (S)"
 		},
 		"Sun": {
-			"LSkill": "メンバーが5属性で攻40%/HP15%UP",
-			"Skill": "1ターン赤の攻撃力をUP　特大"
+			"LSkill": "Increase ATK by 40% and HP by 15% when Party consists of all 5 colors",
+			"Skill": "Increase Red ATK for 1 turn (SS)"
 		},
 		"Moon": {
-			"LSkill": "メンバーが5属性で攻撃力を50%UP",
-			"Skill": "2ターン赤の攻撃力をUP 大"
+			"LSkill": "Increase ATK by 50% when Party consists of all 5 colors",
+			"Skill": "Increase Red ATK for 2 turn (S)"
+		}
+	},
+	"357": {
+		"Before": {
+			"LSkill": "Increase HP by 30% when Party consists of all 5 colors",
+			"Skill": "Insert gold bombs (3)"
+		},
+		"Sun": {
+			"LSkill": "Increase HP by 35% when Party consists of all 5 colors",
+			"Skill": "Insert gold bombs (4)"
+		},
+		"Moon": {
+			"LSkill": "Increase HP by 35% when Party consists of all 5 colors",
+			"Skill": "Insert gold bombs (4)"
 		}
 	}
 }
