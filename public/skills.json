@@ -4940,5 +4940,47 @@
 			"LSkill": "Increase Red HP & RP by 25%",
 			"Skill": "Insert gold bombs (1-3)"
 		}
+	},
+	"354": {
+		"Before": {
+			"LSkill": "緑のHP20%/HPMAXで全員の攻40%UP",
+			"Skill": "全ピースを緑・青・黄に変換"
+		},
+		"Sun": {
+			"LSkill": "緑のHP20%/HPMAXで全員の攻50%UP",
+			"Skill": "全ピースを緑・青・黄に変換"
+		},
+		"Moon": {
+			"LSkill": "緑のHP30%/HPMAXで全員の攻40%UP",
+			"Skill": "全ピースを緑・黄・紫に変換"
+		}
+	},
+	"355": {
+		"Before": {
+			"LSkill": "出現する爆弾を全て強化爆弾にする",
+			"Skill": "回復力に応じて回復　大"
+		},
+		"Sun": {
+			"LSkill": "出現する爆弾を全て強化爆弾にする",
+			"Skill": "回復力に応じて回復　特大"
+		},
+		"Moon": {
+			"LSkill": "出現する爆弾を全て強化爆弾にする",
+			"Skill": "回復力に応じて回復　特大"
+		}
+	},
+	"356": {
+		"Before": {
+			"LSkill": "メンバーが5属性で攻撃力を35%UP",
+			"Skill": "1ターン赤の攻撃力をUP　大"
+		},
+		"Sun": {
+			"LSkill": "メンバーが5属性で攻40%/HP15%UP",
+			"Skill": "1ターン赤の攻撃力をUP　特大"
+		},
+		"Moon": {
+			"LSkill": "メンバーが5属性で攻撃力を50%UP",
+			"Skill": "2ターン赤の攻撃力をUP 大"
+		}
 	}
 }
