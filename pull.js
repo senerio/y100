@@ -59,7 +59,7 @@ function appendNew(newIds, callback1, callback2, callback3) {
 
 function listNew() {
 	list = JSON.parse(fs.readFileSync('./public/list.json'));
-	var regex = /[\u3000-\u303F]|[\u3040-\u309F]|[\u30A0-\u30FF]|[\uFF00-\uFFEF]|[\u4E00-\u9FAF]|[\u2605-\u2606]|[\u2190-\u2195]|\u203B/g; 
+	var regex = /[\u3000-\u303F]|[\u3040-\u309F]|[\u30A0-\u30FF]|[\uFF00-\uFFEF]|[\u4E00-\u9FAF]|[\u2605-\u2606]|[\u2190-\u2195]|\u203B/; 
 	arr = [];
 	for(var id of Object.keys(list)) {
 		if(regex.test(list[id].name)) {
