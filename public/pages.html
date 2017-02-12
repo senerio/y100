@@ -44,13 +44,12 @@
 	        if(xhr.readyState == 4) {
 	        	json = JSON.parse(xhr.responseText);
 	        	for(var i in updatePages) {
-	        		console.log(json[updatePages[i]])
 	        		document.getElementById('text'+i).innerHTML = json[updatePages[i]];
 	        		document.getElementById('copy'+i).addEventListener('click', function (event) {
-						document.querySelector('#text'+i).select();
-						document.execCommand('Copy');
-					});
-	        	}
+					document.querySelector('#text'+this).select();
+					document.execCommand('Copy');
+				}.bind(i));
+	        	};
 	        }
 	    }
 	    xhr.open('GET', './updates.json', true);
