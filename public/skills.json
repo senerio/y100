@@ -4996,5 +4996,89 @@
 			"LSkill": "Increase HP by 35% when Party consists of all 5 colors",
 			"Skill": "Insert gold bombs (4)"
 		}
+	},
+	"358": {
+		"Before": {
+			"LSkill": "攻撃時に追加でダメージ　特大",
+			"Skill": "縦中央のピースを消す　特大"
+		},
+		"Sun": {
+			"LSkill": "攻撃時に追加でダメージ　極大",
+			"Skill": "縦中央のピースを消す　極大"
+		},
+		"Moon": {
+			"LSkill": "攻撃時に追加でダメージ　極大",
+			"Skill": "縦中央のピースを消し、回復"
+		}
+	},
+	"359": {
+		"Before": {
+			"LSkill": "HP50%以上で攻撃力50%UP",
+			"Skill": "青を緑に変換/緑に回復効果付与"
+		},
+		"Sun": {
+			"LSkill": "HP50%以上で攻撃力60%UP",
+			"Skill": "青を緑に変換/緑に回復効果付与"
+		},
+		"Moon": {
+			"LSkill": "HP50%以上で攻撃力60%UP",
+			"Skill": "赤を緑に変換/緑に回復効果付与"
+		}
+	},
+	"360": {
+		"Before": {
+			"LSkill": "赤属性の攻撃力を50%UP",
+			"Skill": "3chain繋いだピースの周りも消す"
+		},
+		"Sun": {
+			"LSkill": "赤属性の攻撃力を65%UP",
+			"Skill": "5chain繋いだピースの周りも消す"
+		},
+		"Moon": {
+			"LSkill": "赤属性の攻撃力50%/HP10%UP",
+			"Skill": "5chain繋いだピースの周りも消す"
+		}
+	},
+	"361": {
+		"Before": {
+			"LSkill": "青・紫属性の攻撃力を25%UP",
+			"Skill": "両側のピースを消す　大"
+		},
+		"Sun": {
+			"LSkill": "青・紫属性の攻撃力を35%UP",
+			"Skill": "両側のピースを消す　特大"
+		},
+		"Moon": {
+			"LSkill": "青・紫属性の攻撃力を35%UP",
+			"Skill": "両側のピースを消す　特大"
+		}
+	},
+	"362": {
+		"Before": {
+			"LSkill": "紫属性のHPと回復力を25％UP",
+			"Skill": "3ターンHPを回復する　特大"
+		},
+		"Sun": {
+			"LSkill": "紫属性のHPと回復力を30％UP",
+			"Skill": "HPを回復し、さらに3ターンHP回復"
+		},
+		"Moon": {
+			"LSkill": "紫のHPと回復力を25%/攻撃力を15%UP",
+			"Skill": "3ターンHPを回復する　極大"
+		}
+	},
+	"363": {
+		"Before": {
+			"LSkill": "黄属性の全能力を15%UP",
+			"Skill": "右列を黄ピースに変換する 小"
+		},
+		"Sun": {
+			"LSkill": "黄属性の全能力を20%UP",
+			"Skill": "右列を黄ピースに変換する 中"
+		},
+		"Moon": {
+			"LSkill": "黄属性の全能力を20%UP",
+			"Skill": "右列を黄ピースに変換する 中"
+		}
 	}
 }
