@@ -4999,72 +4999,72 @@
 	},
 	"358": {
 		"Before": {
-			"LSkill": "Additional damage after attack (SS)",
-			"Skill": "Erase middle column beads (SS)"
+			"LSkill": "赤の攻撃力を80%UP/他能力を下げる",
+			"Skill": "次のchainで赤ピースが100%出現"
 		},
 		"Sun": {
-			"LSkill": "Additional damage after attack (SSS)",
-			"Skill": "Erase middle column beads (SSS)"
+			"LSkill": "赤の攻撃力を80%UP/他能力を少し下げる",
+			"Skill": "次のchainで赤ピースが100%出現"
 		},
 		"Moon": {
-			"LSkill": "Additional damage after attack (SSS)",
-			"Skill": "Erase middle column beads and recover HP"
+			"LSkill": "赤の攻撃力を100%UP/他能力を下げる",
+			"Skill": "次のchainで赤ピースが100%出現"
 		}
 	},
 	"359": {
 		"Before": {
-			"LSkill": "Increase ATK by 50% when HP is above 50%",
-			"Skill": "Turn Blue beads into Green and attach healing properties on Green beads"
+			"LSkill": "出現する爆弾を全て強化爆弾にする",
+			"Skill": "10chainの間、紫の出現率UP 小"
 		},
 		"Sun": {
-			"LSkill": "Increase ATK by 60% when HP is above 50%",
-			"Skill": "Turn Blue beads into Green and attach healing properties on Green beads"
+			"LSkill": "出現する爆弾を強化爆弾にし、HP15%UP",
+			"Skill": "10chainの間、紫の出現率UP 中"
 		},
 		"Moon": {
-			"LSkill": "Increase ATK by 60% when HP is above 50%",
-			"Skill": "Turn Red beads into Green and attach healing properties on Green beads"
+			"LSkill": "出現する爆弾を強化爆弾にし、攻20%UP",
+			"Skill": "10chainの間、紫の出現率UP 中"
 		}
 	},
 	"360": {
 		"Before": {
-			"LSkill": "Increase Red ATK by 50%",
-			"Skill": "Erases beads around a chain (3 chains)"
+			"LSkill": "確率で防御力を無視して攻撃",
+			"Skill": "下部を緑ピースに変換　小"
 		},
 		"Sun": {
-			"LSkill": "Increase Red ATK by 65%",
-			"Skill": "Erases beads around a chain (5 chains)"
+			"LSkill": "確率で防御力を無視して攻撃",
+			"Skill": "下部を緑ピースに変換　中"
 		},
 		"Moon": {
-			"LSkill": "Increase Red ATK by 50% and HP 10%",
-			"Skill": "Erases beads around a chain (5 chains)"
+			"LSkill": "確率で防御力を無視して攻撃",
+			"Skill": "下部を緑ピースに変換　中"
 		}
 	},
 	"361": {
 		"Before": {
-			"LSkill": "Increase Blue & Purple ATK by 25%",
-			"Skill": "Erase right and left column beads (S)"
+			"LSkill": "青属性の攻撃力を50％UP",
+			"Skill": "右を黄、左を青に変換"
 		},
 		"Sun": {
-			"LSkill": "Increase Blue & Purple ATK by 35%",
-			"Skill": "Erase right and left column beads (SS)"
+			"LSkill": "青属性の攻撃力を50％/回復力15％UP",
+			"Skill": "右を黄、左を青に変換"
 		},
 		"Moon": {
-			"LSkill": "Increase Blue & Purple ATK by 35%",
-			"Skill": "Erase right and left column beads (SS)"
+			"LSkill": "青属性の攻撃力を65％UP",
+			"Skill": "右を紫、左を青に変換"
 		}
 	},
 	"362": {
 		"Before": {
-			"LSkill": "Increase Purple HP & RP by 25%",
-			"Skill": "Recover HP for 3 turns (SS)"
+			"LSkill": "ランク獲得EXPを10%UP",
+			"Skill": "ランダムでピースを消す 大"
 		},
 		"Sun": {
-			"LSkill": "Increase Purple HP & RP by 30%",
-			"Skill": "Recover HP instantly and recover HP for 3 turns"
+			"LSkill": "ランク獲得EXPを15%UP",
+			"Skill": "ランダムでピースを消す 特大"
 		},
 		"Moon": {
-			"LSkill": "Increase Purple HP & RP by 25% and ATK by 15%",
-			"Skill": "Recover HP for 3 turns (SSS)"
+			"LSkill": "ランク獲得EXPを15%UP",
+			"Skill": "ランダムでピースを消す 特大"
 		}
 	},
 	"363": {
