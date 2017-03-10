@@ -4999,72 +4999,72 @@
 	},
 	"358": {
 		"Before": {
-			"LSkill": "Additional damage after attack (SS)",
-			"Skill": "Erase middle column beads (SS)"
+			"LSkill": "5属性で攻80%UP/他能力を下げる",
+			"Skill": "十字方向にピースを消す　特大"
 		},
 		"Sun": {
-			"LSkill": "Additional damage after attack (SSS)",
-			"Skill": "Erase middle column beads (SSS)"
+			"LSkill": "5属性で攻80%UP/他能力を少し下げる",
+			"Skill": "十字方向にピースを消す　極大"
 		},
 		"Moon": {
-			"LSkill": "Additional damage after attack (SSS)",
-			"Skill": "Erase middle column beads and recover HP"
+			"LSkill": "5属性で攻100%UP/他能力を下げる",
+			"Skill": "十字にピースを消し、ハートを追加"
 		}
 	},
 	"359": {
 		"Before": {
-			"LSkill": "Increase ATK by 50% when HP is above 50%",
-			"Skill": "Turn Blue beads into Green and attach healing properties on Green beads"
+			"LSkill": "紫属性の攻撃力を50%UP",
+			"Skill": "下部を紫ピースに変換　中"
 		},
 		"Sun": {
-			"LSkill": "Increase ATK by 60% when HP is above 50%",
-			"Skill": "Turn Blue beads into Green and attach healing properties on Green beads"
+			"LSkill": "紫属性の攻撃力を65%UP",
+			"Skill": "下部を紫ピースに変換　大"
 		},
 		"Moon": {
-			"LSkill": "Increase ATK by 60% when HP is above 50%",
-			"Skill": "Turn Red beads into Green and attach healing properties on Green beads"
+			"LSkill": "紫の攻50%UP/3属性以上で攻30%UP",
+			"Skill": "下部を紫ピースに変換し、回復"
 		}
 	},
 	"360": {
 		"Before": {
-			"LSkill": "Increase Red ATK by 50%",
-			"Skill": "Erases beads around a chain (3 chains)"
+			"LSkill": "HPMAX時に全員の攻撃力50%UP",
+			"Skill": "緑ピースを追加 6個"
 		},
 		"Sun": {
-			"LSkill": "Increase Red ATK by 65%",
-			"Skill": "Erases beads around a chain (5 chains)"
+			"LSkill": "HPMAX時に全員の攻撃力65%UP",
+			"Skill": "緑ピースを追加 8個"
 		},
 		"Moon": {
-			"LSkill": "Increase Red ATK by 50% and HP 10%",
-			"Skill": "Erases beads around a chain (5 chains)"
+			"LSkill": "HPMAX時に全員の攻撃力65%UP",
+			"Skill": "緑ピースを追加 8個"
 		}
 	},
 	"361": {
 		"Before": {
-			"LSkill": "Increase Blue & Purple ATK by 25%",
-			"Skill": "Erase right and left column beads (S)"
+			"LSkill": "4chain毎に攻撃力10%UP 最大60%",
+			"Skill": "11chainでラ���ダムにピースを消す"
 		},
 		"Sun": {
-			"LSkill": "Increase Blue & Purple ATK by 35%",
-			"Skill": "Erase right and left column beads (SS)"
+			"LSkill": "4chain毎に攻撃力12%UP 最大60%",
+			"Skill": "13chainでランダムにピースを消す"
 		},
 		"Moon": {
-			"LSkill": "Increase Blue & Purple ATK by 35%",
-			"Skill": "Erase right and left column beads (SS)"
+			"LSkill": "3chain毎に攻撃力10%UP 最大60%",
+			"Skill": "13chainでランダムにピースを消す"
 		}
 	},
 	"362": {
 		"Before": {
-			"LSkill": "Increase Purple HP & RP by 25%",
-			"Skill": "Recover HP for 3 turns (SS)"
+			"LSkill": "王子獲得EXPを10%UP",
+			"Skill": "青ピースを紫ピースに変換する"
 		},
 		"Sun": {
-			"LSkill": "Increase Purple HP & RP by 30%",
-			"Skill": "Recover HP instantly and recover HP for 3 turns"
+			"LSkill": "王子獲得EXPを15%UP",
+			"Skill": "青ピースを紫ピースに変換する"
 		},
 		"Moon": {
-			"LSkill": "Increase Purple HP & RP by 25% and ATK by 15%",
-			"Skill": "Recover HP for 3 turns (SSS)"
+			"LSkill": "王子獲得EXPを15%UP",
+			"Skill": "青ピースを紫ピースに変換する"
 		}
 	},
 	"363": {
