@@ -38,8 +38,10 @@ function updateList() {
 function appendNew(newIds, callback1, callback2, callback3) {
 	fs.readFile('./public/list.json', (err, data) => {
 		list = JSON.parse(data);
-		lastId = Math.max.apply(null, Object.keys(list).filter(x => x < 1000));
-		lastNo = list[lastId].no;
+		var lastNo = 0;
+		for(var i of Object.keys(list)) {
+			if(list[i].no > lastNo && list[i].no < 1000) lastNo = list[i].no;
+		}
 		mCard = JSON.parse(fs.readFileSync('./api/MCard'));
 		for(var id of newIds) {
 			list[id] = {};
@@ -49,7 +51,7 @@ function appendNew(newIds, callback1, callback2, callback3) {
 				} else {
 					return ++lastNo;
 				}
-			})().toString();
+			})();
 			list[id].name = mCard[id].name;
 		}
 		fs.writeFileSync('./public/list.json', JSON.stringify(list,null,'\t'));

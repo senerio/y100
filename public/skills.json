@@ -5150,5 +5150,75 @@
 			"LSkill": "Increase Player EXP obtained by 15%",
 			"Skill": "Erase random beads (SS)"
 		}
+	},
+	"369": {
+		"Before": {
+			"LSkill": "5属性で攻80%UP/他能力を下げる",
+			"Skill": "十字方向にピースを消す　特大"
+		},
+		"Sun": {
+			"LSkill": "5属性で攻80%UP/他能力を少し下げる",
+			"Skill": "十字方向にピースを消す　極大"
+		},
+		"Moon": {
+			"LSkill": "5属性で攻100%UP/他能力を下げる",
+			"Skill": "十字にピースを消し、ハートを追加"
+		}
+	},
+	"370": {
+		"Before": {
+			"LSkill": "紫属性の攻撃力を50%UP",
+			"Skill": "下部を紫ピースに変換　中"
+		},
+		"Sun": {
+			"LSkill": "紫属性の攻撃力を65%UP",
+			"Skill": "下部を紫ピースに変換　大"
+		},
+		"Moon": {
+			"LSkill": "紫の攻50%UP/3属性以上で攻30%UP",
+			"Skill": "下部を紫ピースに変換し、回復"
+		}
+	},
+	"371": {
+		"Before": {
+			"LSkill": "HPMAX時に全員の攻撃力50%UP",
+			"Skill": "緑ピースを追加 6個"
+		},
+		"Sun": {
+			"LSkill": "HPMAX時に全員の攻撃力65%UP",
+			"Skill": "緑ピースを追加 8個"
+		},
+		"Moon": {
+			"LSkill": "HPMAX時に全員の攻撃力65%UP",
+			"Skill": "緑ピースを追加 8個"
+		}
+	},
+	"372": {
+		"Before": {
+			"LSkill": "4chain毎に攻撃力10%UP 最大60%",
+			"Skill": "11chainでランダムにピースを消す"
+		},
+		"Sun": {
+			"LSkill": "4chain毎に攻撃力12%UP 最大60%",
+			"Skill": "13chainでランダムにピースを消す"
+		},
+		"Moon": {
+			"LSkill": "3chain毎に攻撃力10%UP 最大60%",
+			"Skill": "13chainでランダムにピースを消す"
+		}
+	},
+	"373": {
+		"Before": {
+			"LSkill": "王子獲得EXPを10%UP",
+			"Skill": "青ピースを紫ピースに変換する"
+		},
+		"Sun": {
+			"LSkill": "王子獲得EXPを15%UP",
+			"Skill": "青ピースを紫ピースに変換する"
+		},
+		"Moon": {
+			"LSkill": "王子獲得EXPを15%UP",
+			"Skill": "青ピースを紫ピースに変換する"
+		}
 	}
 }
