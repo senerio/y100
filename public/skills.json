@@ -5223,58 +5223,58 @@
 	},
 	"374": {
 		"Before": {
-			"LSkill": "青属性のHPを35%UP",
-			"Skill": "3chain繋いだピースの周りも消す"
+			"LSkill": "Increase Blue HP by 35%",
+			"Skill": "Erases bead around a chain (3 chains)"
 		},
 		"Sun": {
-			"LSkill": "青属性のHPを40%UP",
-			"Skill": "5chain繋いだピースの周りも消す"
+			"LSkill": "Increase Blue HP by 40%",
+			"Skill": "Erase beads around a chain (5 chains)"
 		},
 		"Moon": {
-			"LSkill": "青属性のHP35%UP/攻撃力15%UP",
-			"Skill": "4chain周りも消し、青ピースを追加"
+			"LSkill": "Increase Blue HP by 35% and ATK by 15%",
+			"Skill": "Erase beads around a chain (4 chains) and insert Blue beads"
 		}
 	},
 	"375": {
 		"Before": {
-			"LSkill": "12chainで全員の攻撃力40%UP",
-			"Skill": "黄の出現率UP、1ターン全員の攻UP"
+			"LSkill": "Increase Party ATK by 40% when reach 12 chains",
+			"Skill": "Increase Yellow beads appearance rate and Increase Party ATK for 1 turn"
 		},
 		"Sun": {
-			"LSkill": "12chainで全員の攻撃力50%UP",
-			"Skill": "黄の出現率UP、1ターン全員の攻UP"
+			"LSkill": "Increase Party ATK by 50% when reach 12 chains",
+			"Skill": "Increase Yellow beads appearance rate and Increase Party ATK for 1 turn"
 		},
 		"Moon": {
-			"LSkill": "12chainで全員の攻撃力50%UP",
-			"Skill": "黄の出現率UP、1ターン全員の攻UP"
+			"LSkill": "Increase Party ATK by 50% when reach 12 chains",
+			"Skill": "Increase Yellow beads appearance rate and Increase Party ATK for 1 turn"
 		}
 	},
 	"376": {
 		"Before": {
-			"LSkill": "全員のHPを下げ、攻と回35%UP",
-			"Skill": "緑の出現率UP、1ターンダメージ減少"
+			"LSkill": "Reduce Party HP and increase ATK by 35%",
+			"Skill": "Increase Green beads appearance rate and reduce damage for 1 turn"
 		},
 		"Sun": {
-			"LSkill": "全員のHPを下げ、攻と回40%UP",
-			"Skill": "緑の出現率UP、1ターンダメージ減少"
+			"LSkill": "Reduce Party HP and increase ATK by 40%",
+			"Skill": "Increase Green beads appearance rate and reduce damage for 1 turn"
 		},
 		"Moon": {
-			"LSkill": "全員のHPを下げ、攻と回40%UP",
-			"Skill": "緑の出現率UP、1ターンダメージ減少"
+			"LSkill": "Reduce Party HP and increase ATK by 40%",
+			"Skill": "Increase Green beads appearance rate and reduce damage for 1 turn"
 		}
 	},
 	"377": {
 		"Before": {
-			"LSkill": "青・黄属性のHPを25%UP",
-			"Skill": "右を青に変換"
+			"LSkill": "Increase Blue and Yellow HP by 25%",
+			"Skill": "Turn right side beads Blue "
 		},
 		"Sun": {
-			"LSkill": "青・黄属性のHPを30%UP",
-			"Skill": "右を青、左を黄に変換"
+			"LSkill": "Increase Blue and Yellow HP by 30%",
+			"Skill": "Turn right side beads Blue and left side beads Yellow"
 		},
 		"Moon": {
-			"LSkill": "青・黄属性のHPを30%UP",
-			"Skill": "右を青、左を黄に変換"
+			"LSkill": "Increase Blue and Yellow HP by 30%",
+			"Skill": "Turn right side beads Blue and left side beads Yellow"
 		}
 	}
 }
