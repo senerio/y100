@@ -5220,5 +5220,61 @@
 			"LSkill": "Increase prince EXP gain by 15%",
 			"Skill": "Turn Blue beads into Purple"
 		}
+	},
+	"374": {
+		"Before": {
+			"LSkill": "青属性のHPを35%UP",
+			"Skill": "3chain繋いだピースの周りも消す"
+		},
+		"Sun": {
+			"LSkill": "青属性のHPを40%UP",
+			"Skill": "5chain繋いだピースの周りも消す"
+		},
+		"Moon": {
+			"LSkill": "青属性のHP35%UP/攻撃力15%UP",
+			"Skill": "4chain周りも消し、青ピースを追加"
+		}
+	},
+	"375": {
+		"Before": {
+			"LSkill": "12chainで全員の攻撃力40%UP",
+			"Skill": "黄の出現率UP、1ターン全員の攻UP"
+		},
+		"Sun": {
+			"LSkill": "12chainで全員の攻撃力50%UP",
+			"Skill": "黄の出現率UP、1ターン全員の攻UP"
+		},
+		"Moon": {
+			"LSkill": "12chainで全員の攻撃力50%UP",
+			"Skill": "黄の出現率UP、1ターン全員の攻UP"
+		}
+	},
+	"376": {
+		"Before": {
+			"LSkill": "全員のHPを下げ、攻と回35%UP",
+			"Skill": "緑の出現率UP、1ターンダメージ減少"
+		},
+		"Sun": {
+			"LSkill": "全員のHPを下げ、攻と回40%UP",
+			"Skill": "緑の出現率UP、1ターンダメージ減少"
+		},
+		"Moon": {
+			"LSkill": "全員のHPを下げ、攻と回40%UP",
+			"Skill": "緑の出現率UP、1ターンダメージ減少"
+		}
+	},
+	"377": {
+		"Before": {
+			"LSkill": "青・黄属性のHPを25%UP",
+			"Skill": "右を青に変換"
+		},
+		"Sun": {
+			"LSkill": "青・黄属性のHPを30%UP",
+			"Skill": "右を青、左を黄に変換"
+		},
+		"Moon": {
+			"LSkill": "青・黄属性のHPを30%UP",
+			"Skill": "右を青、左を黄に変換"
+		}
 	}
 }
