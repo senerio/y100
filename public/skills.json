@@ -5279,86 +5279,86 @@
 	},
 	"378": {
 		"Before": {
-			"LSkill": "戦いでの獲得ゴールドを10%UP",
-			"Skill": "ハートピースを追加する　1～2個"
+			"LSkill": "Increase Gold by 10%",
+			"Skill": "Insert hearts (1-2)"
 		},
 		"Sun": {
-			"LSkill": "戦いの獲得ゴールド/RANK獲得EXP10%UP",
-			"Skill": "毎ターンスキルゲージを回復する"
+			"LSkill": "Increase Gold & Rank Exp by 10%",
+			"Skill": "Recover skill gauge every turn"
 		},
 		"Moon": {
-			"LSkill": "戦いの獲得ゴールド/王子獲得EXP10%UP",
-			"Skill": "一つ前に発動したバトルスキルを使う"
+			"LSkill": "Increase Gold & Prince Exp by 10%",
+			"Skill": "Reuse battle skills used in previous turn"
 		}
 	},
 	"379": {
 		"Before": {
-			"LSkill": "HPMAX時に全員の攻撃力65%UP",
-			"Skill": "上部を赤ピースに変換　中"
+			"LSkill": "Increase Party ATK by 65% when Max HP",
+			"Skill": "Turn top beads into Red (A)"
 		},
 		"Sun": {
-			"LSkill": "HPMAX時に全員の攻撃力75%UP",
-			"Skill": "上部を赤ピ���スに変換　大"
+			"LSkill": "Increase Party ATK by 75% when Max HP",
+			"Skill": "Turn top beads into Red (S)"
 		},
 		"Moon": {
-			"LSkill": "HPMAX時に全員の攻撃力75%UP",
-			"Skill": "上部を赤ピースに変換し、回復"
+			"LSkill": "Increase Party ATK by 75% when Max HP",
+			"Skill": "Turn top beads into Red and recover HP"
 		}
 	},
 	"380": {
 		"Before": {
-			"LSkill": "黄属性の攻撃力を50%UP",
-			"Skill": "3chain黄出現率UP、黄ピースを追加"
+			"LSkill": "Increase Yellow ATK by 50%",
+			"Skill": "Increase Yellow beads appearance rate for 3 chains and insert Yellow beads"
 		},
 		"Sun": {
-			"LSkill": "黄属性の攻撃力を65%UP",
-			"Skill": "3chain黄出現率UP、黄ピースを追加"
+			"LSkill": "Increase Yellow ATK by 65%",
+			"Skill": "Increase Yellow beads appearance rate for 3 chains and insert Yellow beads"
 		},
 		"Moon": {
-			"LSkill": "黄属性の攻撃力を50%/HP10%UP",
-			"Skill": "3chain黄出現率UP、黄ピースを追加"
+			"LSkill": "Increase Yellow ATK by 50% and HP by 10%",
+			"Skill": "Increase Yellow beads appearance rate for 3 chains and insert Yellow beads"
 		}
 	},
 	"381": {
 		"Before": {
-			"LSkill": "青属性の全能力を15%UP",
-			"Skill": "青ピースを追加 6個"
+			"LSkill": "Increase all Blue stats by 15%",
+			"Skill": "Insert Blue beads (6)"
 		},
 		"Sun": {
-			"LSkill": "青属性の全能力を20%UP",
-			"Skill": "青ピースを追加 8個"
+			"LSkill": "Increase all Blue stats by 20%",
+			"Skill": "Insert Blue beads (8)"
 		},
 		"Moon": {
-			"LSkill": "青属性の全能力を20%UP",
-			"Skill": "青ピースを追加 8個"
+			"LSkill": "Increase all Blue stats by 20%",
+			"Skill": "Insert Blue beads (8)"
 		}
 	},
 	"382": {
 		"Before": {
-			"LSkill": "紫属性のHPと回復力を25%UP",
-			"Skill": "紫を全て消し、黄を紫に変換する"
+			"LSkill": "Increase Purple HP & RP by 25%",
+			"Skill": "Erase all Purple beads and turn Yellow beads to Purple"
 		},
 		"Sun": {
-			"LSkill": "紫属性のHPと回復力を30%UP",
-			"Skill": "紫を全て消し、黄を紫に変換する"
+			"LSkill": "Increase Purple HP & RP by 30%",
+			"Skill": "Erase all Purple beads and turn Yellow beads to Purple"
 		},
 		"Moon": {
-			"LSkill": "紫のHPと回復力25%/攻撃力15%UP",
-			"Skill": "紫を全て消し、緑を紫に変換する"
+			"LSkill": "Increase Purple HP & RP by 25% and ATK by 15%",
+			"Skill": "Erase all Purple beads and turn Green beads to Purple"
 		}
 	},
 	"383": {
 		"Before": {
-			"LSkill": "緑属性のHPと回復力を20%UP",
-			"Skill": "HPを回復/ハートに変換"
+			"LSkill": "Increase Green HP & RP by 20%",
+			"Skill": "Recover HP and insert heart"
 		},
 		"Sun": {
-			"LSkill": "緑属性のHPと回復力を25%UP",
-			"Skill": "HPを回復/ハートに変換"
+			"LSkill": "Increase Green HP & RP by 25%",
+			"Skill": "Recover HP and insert heart"
 		},
 		"Moon": {
-			"LSkill": "緑属性のHPと回復力を25%UP",
-			"Skill": "HPを回復/ハートに変換"
+			"LSkill": "Increase Green HP & RP by 25%",
+			"Skill": "Recover HP and insert heart"
 		}
 	}
 }
