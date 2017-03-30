@@ -7,7 +7,7 @@ function post(title, section, content, summary) {
 		'action': 'edit',
 		'title': title,
 		'section': section,
-		'summary': '[[User:Senelio|bot]]: ' + summary,
+		'summary': '[[User:Senelio|bot]]' + summary,
 		'text': content,
 		'format': 'json',
 		'token': '+\\'

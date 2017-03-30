@@ -58,10 +58,13 @@ function getTypeList (id) {
 function getQuote (id, func) { // passes voiceType, voiceFileId, voiceText to func
 	typeList = getTypeList(id);
 	for (var voiceId in typeList) {
+		var voiceFileId = (text[voiceId]==undefined)? null : text[voiceId].voiceFileId
+		var voiceText = (text[voiceId]==undefined)? null : text[voiceId].voiceText
+
 		func(
 			typeList[voiceId],
-			text[voiceId].voiceFileId,
-			text[voiceId].voiceText
+			voiceFileId,
+			voiceText
 		)
 	}
 }

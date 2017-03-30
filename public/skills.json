@@ -5276,5 +5276,89 @@
 			"LSkill": "Increase Blue and Yellow HP by 30%",
 			"Skill": "Turn right side beads Blue and left side beads Yellow"
 		}
+	},
+	"378": {
+		"Before": {
+			"LSkill": "戦いでの獲得ゴールドを10%UP",
+			"Skill": "ハートピースを追加する　1～2個"
+		},
+		"Sun": {
+			"LSkill": "戦いの獲得ゴールド/RANK獲得EXP10%UP",
+			"Skill": "毎ターンスキルゲージを回復する"
+		},
+		"Moon": {
+			"LSkill": "戦いの獲得ゴールド/王子獲得EXP10%UP",
+			"Skill": "一つ前に発動したバトルスキルを使う"
+		}
+	},
+	"379": {
+		"Before": {
+			"LSkill": "HPMAX時に全員の攻撃力65%UP",
+			"Skill": "上部を赤ピースに変換　中"
+		},
+		"Sun": {
+			"LSkill": "HPMAX時に全員の攻撃力75%UP",
+			"Skill": "上部を赤ピ���スに変換　大"
+		},
+		"Moon": {
+			"LSkill": "HPMAX時に全員の攻撃力75%UP",
+			"Skill": "上部を赤ピースに変換し、回復"
+		}
+	},
+	"380": {
+		"Before": {
+			"LSkill": "黄属性の攻撃力を50%UP",
+			"Skill": "3chain黄出現率UP、黄ピースを追加"
+		},
+		"Sun": {
+			"LSkill": "黄属性の攻撃力を65%UP",
+			"Skill": "3chain黄出現率UP、黄ピースを追加"
+		},
+		"Moon": {
+			"LSkill": "黄属性の攻撃力を50%/HP10%UP",
+			"Skill": "3chain黄出現率UP、黄ピースを追加"
+		}
+	},
+	"381": {
+		"Before": {
+			"LSkill": "青属性の全能力を15%UP",
+			"Skill": "青ピースを追加 6個"
+		},
+		"Sun": {
+			"LSkill": "青属性の全能力を20%UP",
+			"Skill": "青ピースを追加 8個"
+		},
+		"Moon": {
+			"LSkill": "青属性の全能力を20%UP",
+			"Skill": "青ピースを追加 8個"
+		}
+	},
+	"382": {
+		"Before": {
+			"LSkill": "紫属性のHPと回復力を25%UP",
+			"Skill": "紫を全て消し、黄を紫に変換する"
+		},
+		"Sun": {
+			"LSkill": "紫属性のHPと回復力を30%UP",
+			"Skill": "紫を全て消し、黄を紫に変換する"
+		},
+		"Moon": {
+			"LSkill": "紫のHPと回復力25%/攻撃力15%UP",
+			"Skill": "紫を全て消し、緑を紫に変換する"
+		}
+	},
+	"383": {
+		"Before": {
+			"LSkill": "緑属性のHPと回復力を20%UP",
+			"Skill": "HPを回復/ハートに変換"
+		},
+		"Sun": {
+			"LSkill": "緑属性のHPと回復力を25%UP",
+			"Skill": "HPを回復/ハートに変換"
+		},
+		"Moon": {
+			"LSkill": "緑属性のHPと回復力を25%UP",
+			"Skill": "HPを回復/ハートに変換"
+		}
 	}
 }
