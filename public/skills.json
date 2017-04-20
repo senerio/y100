@@ -5416,5 +5416,61 @@
 			"LSkill": "Increase Red & Yellow ATK by 35%",
 			"Skill": "Turn right side beads Red and left side beads Yellow"
 		}
+	},
+	"388": {
+		"Before": {
+			"LSkill": "HP50%以上で攻撃力50%UP",
+			"Skill": "緑を青に変換/青に回復効果付与"
+		},
+		"Sun": {
+			"LSkill": "HP50%以上で攻撃力60%UP",
+			"Skill": "緑を青に変換/青に回復効果付与"
+		},
+		"Moon": {
+			"LSkill": "HP50%以上で攻撃力60%UP",
+			"Skill": "黄を青に変換/青に回復効果付与"
+		}
+	},
+	"389": {
+		"Before": {
+			"LSkill": "赤属性のHPを30%UP",
+			"Skill": "横中央を赤ピースに変換　小"
+		},
+		"Sun": {
+			"LSkill": "赤属性のHPを35%UP",
+			"Skill": "横中央を赤ピースに変換　中"
+		},
+		"Moon": {
+			"LSkill": "赤属性のHPを35%UP",
+			"Skill": "横中央を赤ピースに変換　中"
+		}
+	},
+	"390": {
+		"Before": {
+			"LSkill": "緑属性の攻撃力を50%UP",
+			"Skill": "右を青、左を緑に変換"
+		},
+		"Sun": {
+			"LSkill": "緑の攻撃力50%/回復力10%UP",
+			"Skill": "右を青、左を緑に変換"
+		},
+		"Moon": {
+			"LSkill": "緑属性の攻撃力を65%UP",
+			"Skill": "右を黄、左を緑に変換"
+		}
+	},
+	"391": {
+		"Before": {
+			"LSkill": "黄・緑属性のHPを25%UP",
+			"Skill": "爆弾を追加し、爆弾を一斉に爆発する"
+		},
+		"Sun": {
+			"LSkill": "黄・緑属性のHPを30%UP",
+			"Skill": "爆弾を追加し、爆弾を一斉に爆発する"
+		},
+		"Moon": {
+			"LSkill": "黄・緑属性のHPを30%UP",
+			"Skill": "爆弾を追加し、爆弾を一斉に爆発する"
+		}
 	}
 }
