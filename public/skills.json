@@ -5419,58 +5419,58 @@
 	},
 	"388": {
 		"Before": {
-			"LSkill": "HP50%以上で攻撃力50%UP",
-			"Skill": "緑を青に変換/青に回復効果付与"
+			"LSkill": "Increase ATK by 50% when HP over 50%",
+			"Skill": "Turn Green beads into Blue and attach heal properties on Blue beads "
 		},
 		"Sun": {
-			"LSkill": "HP50%以上で攻撃力60%UP",
-			"Skill": "緑を青に変換/青に回復効果付与"
+			"LSkill": "Increase ATK by 60% when HP over 50%",
+			"Skill": "Turn Green beads into Blue and attach heal properties on Blue beads "
 		},
 		"Moon": {
-			"LSkill": "HP50%以上で攻撃力60%UP",
-			"Skill": "黄を青に変換/青に回復効果付与"
+			"LSkill": "Increase ATK by 60% when HP over 50%",
+			"Skill": "Turn Yellow beads into Blue and attach heal properties on Blue beads "
 		}
 	},
 	"389": {
 		"Before": {
-			"LSkill": "赤属性のHPを30%UP",
-			"Skill": "横中央を赤ピースに変換　小"
+			"LSkill": "Increase Red HP by 30%",
+			"Skill": "Turn middle column beads Red (B)"
 		},
 		"Sun": {
-			"LSkill": "赤属性のHPを35%UP",
-			"Skill": "横中央を赤ピースに変換　中"
+			"LSkill": "Increase Red HP by 35%",
+			"Skill": "Turn middle column beads Red (A)"
 		},
 		"Moon": {
-			"LSkill": "赤属性のHPを35%UP",
-			"Skill": "横中央を赤ピースに変換　中"
+			"LSkill": "Increase Red HP by 35%",
+			"Skill": "Turn middle column beads Red (A)"
 		}
 	},
 	"390": {
 		"Before": {
-			"LSkill": "緑属性の攻撃力を50%UP",
-			"Skill": "右を青、左を緑に変換"
+			"LSkill": "Increase Green ATK by 50%",
+			"Skill": "Turn ride side Blue and left side Green"
 		},
 		"Sun": {
-			"LSkill": "緑の攻撃力50%/回復力10%UP",
-			"Skill": "右を青、左を緑に変換"
+			"LSkill": "Increase Green ATK by 50% and RP by 10%",
+			"Skill": "Turn ride side Blue and left side Green"
 		},
 		"Moon": {
-			"LSkill": "緑属性の攻撃力を65%UP",
-			"Skill": "右を黄、左を緑に変換"
+			"LSkill": "Increase Green ATK by 65%",
+			"Skill": "Turn ride side Yellow and left side Green"
 		}
 	},
 	"391": {
 		"Before": {
-			"LSkill": "黄・緑属性のHPを25%UP",
-			"Skill": "爆弾を追加し、爆弾を一斉に爆発する"
+			"LSkill": "Increase Yellow & Green HP by 25%",
+			"Skill": "Insert bomb and ignite all bombs simultaneously "
 		},
 		"Sun": {
-			"LSkill": "黄・緑属性のHPを30%UP",
-			"Skill": "爆弾を追加し、爆弾を一斉に爆発する"
+			"LSkill": "Increase Yellow & Green HP by 30%",
+			"Skill": "Insert bomb and ignite all bombs simultaneously "
 		},
 		"Moon": {
-			"LSkill": "黄・緑属性のHPを30%UP",
-			"Skill": "爆弾を追加し、爆弾を一斉に爆発する"
+			"LSkill": "Increase Yellow & Green HP by 30%",
+			"Skill": "Insert bomb and ignite all bombs simultaneously "
 		}
 	}
 }

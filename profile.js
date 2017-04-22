@@ -114,9 +114,21 @@ function wikiaCharacterPage (id, eventName) {
 		+ '\n{{Still|text=Sun Still|img=Still_' + y.getNo(id) + 's.jpg}}'
 		+ '\n{{Still|text=Moon Still|img=Still_' + y.getNo(id) + 'm.jpg}}'
 		+ wikiaAwakeningReqs(id)
-		+ '\n\n{{:' + y.getTitle(id) + '/Quotes}}';
+		+ '\n\n{{ShowQuotes}}';
 	return t;
 
+}
+
+function wikiaCharacterStats(id) {
+	var mCard = JSON.parse(fs.readFileSync('./api/MCard'));
+	return ''
+                + '\n|no = ' + y.getNo(id)
+                + '\n|name = ' + y.getName(id)
+                + '\n|name_jp = ' + mCard[id].name
+                + '\n|attribute = ' + attribute(mCard[id].attr)
+                + wikiaRouteStats(id)
+                + wikiaRouteStats(y.getSunId(id))
+                + wikiaRouteStats(y.getMoonId(id))
 }
 
 function wikiaUpdatePages(id, eventName) {
@@ -166,5 +178,6 @@ function wikiaUpdatePages(id, eventName) {
 
 module.exports = {
 	wikiaCharacterPage: wikiaCharacterPage,
-	wikiaUpdatePages: wikiaUpdatePages
+	wikiaUpdatePages: wikiaUpdatePages,
+	wikiaCharacterStats: wikiaCharacterStats
 }
