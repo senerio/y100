@@ -5472,5 +5472,89 @@
 			"LSkill": "Increase Yellow & Green HP by 30%",
 			"Skill": "Insert bomb and ignite all bombs simultaneously "
 		}
+	},
+	"392": {
+		"Before": {
+			"LSkill": "出現する爆弾を全て強化爆弾にする",
+			"Skill": "赤を全て消し、緑を青に変換する"
+		},
+		"Sun": {
+			"LSkill": "出現する爆弾を強化爆弾にし、HP15%UP",
+			"Skill": "赤を全て消し、緑を青に変換する"
+		},
+		"Moon": {
+			"LSkill": "出現する爆弾を強化爆弾にし、攻20%UP",
+			"Skill": "紫を全て消し、緑を青に変換する"
+		}
+	},
+	"393": {
+		"Before": {
+			"LSkill": "黄のHP20%/HPMAXで全員の攻40%UP",
+			"Skill": "下部を黄ピースに変換　中"
+		},
+		"Sun": {
+			"LSkill": "黄のHP20%/HPMAXで全員の攻50%UP",
+			"Skill": "下部を黄ピースに変換　大"
+		},
+		"Moon": {
+			"LSkill": "黄のHP30%/HPMAXで全員の攻40%UP",
+			"Skill": "下部を黄ピースに変換し、回復"
+		}
+	},
+	"394": {
+		"Before": {
+			"LSkill": "全員のHPを下げ、攻撃力を60%UP",
+			"Skill": "1ターン全員の攻UP、青の出現率UP"
+		},
+		"Sun": {
+			"LSkill": "全員のHPを下げ、攻撃力を70%UP",
+			"Skill": "1ターン全員の攻UP、青の出現率UP"
+		},
+		"Moon": {
+			"LSkill": "全員のHPを下げ、攻撃力を70%UP",
+			"Skill": "1ターン全員の攻UP、青の出現率UP"
+		}
+	},
+	"395": {
+		"Before": {
+			"LSkill": "赤属性の攻撃力を35%UP",
+			"Skill": "赤ピースが出現しやすくなる　中"
+		},
+		"Sun": {
+			"LSkill": "赤属性の攻撃力を50%UP",
+			"Skill": "赤ピースが出現しやすくなる　大"
+		},
+		"Moon": {
+			"LSkill": "赤属性の攻撃力を50%UP",
+			"Skill": "赤ピースが出現しやすくなる　大"
+		}
+	},
+	"396": {
+		"Before": {
+			"LSkill": "赤・緑属性のHPと回復力を20％UP",
+			"Skill": "回復力に応じてHPを回復　大"
+		},
+		"Sun": {
+			"LSkill": "赤・緑属性のHPと回復力を25％UP",
+			"Skill": "回復力に応じてHPを回復　大"
+		},
+		"Moon": {
+			"LSkill": "赤・紫属性のHPと回復力を25％UP",
+			"Skill": "回復力に応じてHPを回復　特大"
+		}
+	},
+	"397": {
+		"Before": {
+			"LSkill": "メンバー3属性以上でHPを20%UP",
+			"Skill": "紫ピースを緑ピースに変換する"
+		},
+		"Sun": {
+			"LSkill": "メンバー3属性以上でHPを25%UP",
+			"Skill": "紫ピースを緑ピースに変換する"
+		},
+		"Moon": {
+			"LSkill": "メンバー3属性以上でHPを25%UP",
+			"Skill": "紫ピースを緑ピースに変換する"
+		}
 	}
 }
