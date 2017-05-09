@@ -136,12 +136,14 @@ function getNewData () {
 }
 
 function pull() {
-	http = require('http');
-	// http.get('http://localhost:8080/masterAll', (res) => {
-	http.get('http://api.yume-100.com/app/load/static/masterAll', (res) => {
-		var data = "";
-		res.on('data', (chunk) => data += chunk);
-		res.on('end', () => {
+	//http = require('http');
+	//http.get('http://localhost:8080/masterAll', (res) => {
+	// http.get('http://api.yume-100.com/app/load/static/masterAll', (res) => {
+	//	var data = "";
+	//	res.on('data', (chunk) => data += chunk);
+	//	res.on('end', () => {
+	fs.readFile('masterAll', 'utf-8', (err,data) => {
+			if (err) throw err;
 			var json = JSON.parse(data);
 			if (json.status == 0) {
 				if (hashChanged(json.hashCode)) {
@@ -155,7 +157,7 @@ function pull() {
 				console.log(json);
 			}
 		});
-	});
+	//});
 }
 
 if(process.argv[1].indexOf('pull.js') != -1) {

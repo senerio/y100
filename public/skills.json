@@ -5475,86 +5475,86 @@
 	},
 	"392": {
 		"Before": {
-			"LSkill": "出現する爆弾を全て強化爆弾にする",
-			"Skill": "赤を全て消し、緑を青に変換する"
+			"LSkill": "Turn all bombs into gold bombs",
+			"Skill": "Erase all Red beads and turn Green beads into Blue"
 		},
 		"Sun": {
-			"LSkill": "出現する爆弾を強化爆弾にし、HP15%UP",
-			"Skill": "赤を全て消し、緑を青に変換する"
+			"LSkill": "Turn all bombs into gold bombs and increase HP by 15%",
+			"Skill": "Erase all Red beads and turn Green beads into Blue"
 		},
 		"Moon": {
-			"LSkill": "出現する爆弾を強化爆弾にし、攻20%UP",
-			"Skill": "紫を全て消し、緑を青に変換する"
+			"LSkill": "Turn all bombs into gold bombs and increase ATK by 20%",
+			"Skill": "Erase all Purple beads and turn Green beads into Blue"
 		}
 	},
 	"393": {
 		"Before": {
-			"LSkill": "黄のHP20%/HPMAXで全員の攻40%UP",
-			"Skill": "下部を黄ピースに変換　中"
+			"LSkill": "Increase Yellow HP by 20% and Party ATK by 40% when Max HP",
+			"Skill": "Turn all bottom beads Yellow (A)"
 		},
 		"Sun": {
-			"LSkill": "黄のHP20%/HPMAXで全員の攻50%UP",
-			"Skill": "下部を黄ピースに変換　大"
+			"LSkill": "Increase Yellow HP by 20% and Party ATK by 50% when Max HP",
+			"Skill": "Turn all bottom beads Yellow (S)"
 		},
 		"Moon": {
-			"LSkill": "黄のHP30%/HPMAXで全員の攻40%UP",
-			"Skill": "下部を黄ピースに変換し、回復"
+			"LSkill": "Increase Yellow HP by 30% and Party ATK by 40% when Max HP",
+			"Skill": "Turn all bottom beads Yellow and recover HP"
 		}
 	},
 	"394": {
 		"Before": {
-			"LSkill": "全員のHPを下げ、攻撃力を60%UP",
-			"Skill": "1ターン全員の攻UP、青の出現率UP"
+			"LSkill": "Reduce Party HP and increase ATK by 60%",
+			"Skill": "Increase Party ATK and Blue beads appearance rate for 1 turn "
 		},
 		"Sun": {
-			"LSkill": "全員のHPを下げ、攻撃力を70%UP",
-			"Skill": "1ターン全員の攻UP、青の出現率UP"
+			"LSkill": "Reduce Party HP and increase ATK by 70%",
+			"Skill": "Increase Party ATK and Blue beads appearance rate for 1 turn "
 		},
 		"Moon": {
-			"LSkill": "全員のHPを下げ、攻撃力を70%UP",
-			"Skill": "1ターン全員の攻UP、青の出現率UP"
+			"LSkill": "Reduce Party HP and increase ATK by 70%",
+			"Skill": "Increase Party ATK and Blue beads appearance rate for 1 turn "
 		}
 	},
 	"395": {
 		"Before": {
-			"LSkill": "赤属性の攻撃力を35%UP",
-			"Skill": "赤ピースが出現しやすくなる　中"
+			"LSkill": "Increase Red ATK by 35%",
+			"Skill": "Increase Red beads appearance rate (A)"
 		},
 		"Sun": {
-			"LSkill": "赤属性の攻撃力を50%UP",
-			"Skill": "赤ピースが出現しやすくなる　大"
+			"LSkill": "Increase Red ATK by 50%",
+			"Skill": "Increase Red beads appearance rate (S)"
 		},
 		"Moon": {
-			"LSkill": "赤属性の攻撃力を50%UP",
-			"Skill": "赤ピースが出現しやすくなる　大"
+			"LSkill": "Increase Red ATK by 50%",
+			"Skill": "Increase Red beads appearance rate (S)"
 		}
 	},
 	"396": {
 		"Before": {
-			"LSkill": "赤・緑属性のHPと回復力を20％UP",
-			"Skill": "回復力に応じてHPを回復　大"
+			"LSkill": "Increase Red & Green HP & RP by 20%",
+			"Skill": "Recover HP in accordance to RP (S)"
 		},
 		"Sun": {
-			"LSkill": "赤・緑属性のHPと回復力を25％UP",
-			"Skill": "回復力に応じてHPを回復　大"
+			"LSkill": "Increase Red & Green HP & RP by 25%",
+			"Skill": "Recover HP in accordance to RP (S)"
 		},
 		"Moon": {
-			"LSkill": "赤・紫属性のHPと回復力を25％UP",
-			"Skill": "回復力に応じてHPを回復　特大"
+			"LSkill": "Increase Red & Green HP & RP by 25%",
+			"Skill": "Recover HP in accordance to RP (SS)"
 		}
 	},
 	"397": {
 		"Before": {
-			"LSkill": "メンバー3属性以上でHPを20%UP",
-			"Skill": "紫ピースを緑ピースに変換する"
+			"LSkill": "Increase HP by 20% when Party consists of 3 colors or more",
+			"Skill": "Turn Purple beads into Green"
 		},
 		"Sun": {
-			"LSkill": "メンバー3属性以上でHPを25%UP",
-			"Skill": "紫ピースを緑ピースに変換する"
+			"LSkill": "Increase HP by 25% when Party consists of 3 colors or more",
+			"Skill": "Turn Purple beads into Green"
 		},
 		"Moon": {
-			"LSkill": "メンバー3属性以上でHPを25%UP",
-			"Skill": "紫ピースを緑ピースに変換する"
+			"LSkill": "Increase HP by 25% when Party consists of 3 colors or more",
+			"Skill": "Turn Purple beads into Green"
 		}
 	}
 }
