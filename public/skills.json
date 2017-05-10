@@ -5556,5 +5556,75 @@
 			"LSkill": "Increase HP by 25% when Party consists of 3 colors or more",
 			"Skill": "Turn Purple beads into Green"
 		}
+	},
+	"398": {
+		"Before": {
+			"LSkill": "HP50%以上で攻撃/以下で回復30%UP",
+			"Skill": "緑ピースに回復効果付与 特大"
+		},
+		"Sun": {
+			"LSkill": "HP50%以上で攻撃/以下で回復40%UP",
+			"Skill": "緑に回復効果を付与し、スキルを回復"
+		},
+		"Moon": {
+			"LSkill": "HP50%以上で攻撃/以下で回復40%UP",
+			"Skill": "緑ピースに回復効果付与 極大"
+		}
+	},
+	"399": {
+		"Before": {
+			"LSkill": "赤のHPを40%UP/回復力を下げる",
+			"Skill": "赤を追加し、1ターン全員の攻UP"
+		},
+		"Sun": {
+			"LSkill": "赤のHPを50%UP/回復力を下げる",
+			"Skill": "赤を追加し、1ターン全員の攻UP"
+		},
+		"Moon": {
+			"LSkill": "赤のHPを40%UP/回復力を少し下げる",
+			"Skill": "赤を追加し、1ターン全員の攻UP"
+		}
+	},
+	"400": {
+		"Before": {
+			"LSkill": "HPMAX時に全員の攻撃力50％UP",
+			"Skill": "2chain繋いだピースの周りも消す"
+		},
+		"Sun": {
+			"LSkill": "HPMAX時に全員の攻撃力65％UP",
+			"Skill": "3chain繋いだピースの周りも消す"
+		},
+		"Moon": {
+			"LSkill": "HPMAX時に全員の攻撃力65％UP",
+			"Skill": "3chain繋いだピースの周りも消す"
+		}
+	},
+	"401": {
+		"Before": {
+			"LSkill": "毒ピースを無効化する",
+			"Skill": "横中央を青にし、回復"
+		},
+		"Sun": {
+			"LSkill": "毒ピースを無効化/青属性のHP15%UP",
+			"Skill": "横中央を青にし、回復"
+		},
+		"Moon": {
+			"LSkill": "毒ピースを無効化/青属性の攻撃力20%UP",
+			"Skill": "横中央を青にし、回復"
+		}
+	},
+	"402": {
+		"Before": {
+			"LSkill": "黄属性のHPと攻撃力を20%UP",
+			"Skill": "強化爆弾を追加　1～2個"
+		},
+		"Sun": {
+			"LSkill": "黄属性のHPと攻撃力を25%UP",
+			"Skill": "強化爆弾を追加　1～3個"
+		},
+		"Moon": {
+			"LSkill": "黄属性のHPと攻撃力を25%UP",
+			"Skill": "強化爆弾を追加　1～3個"
+		}
 	}
 }
