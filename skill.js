@@ -70,7 +70,7 @@ function getSkillsToSheets(id) {
 function getSkillsFromSheets(callback) {
 	var sheets = {
 		key: 'AIzaSyBFigFGRlBEAwOshi2jKsP5Ooh4R0YIk4U',
-		spreadsheetId: '1Id_h2r4wLy9r5HioGXDO68UMg4P_vXRyy99FciFvfOk'
+		spreadsheetId: '1gF78PNTX34_kvmdedVE8SSLINuQV6og_VQkOPdYX2z4'
 	}
 	fs = require('fs');
 	https = require('https');
