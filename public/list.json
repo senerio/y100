@@ -1565,7 +1565,7 @@
 	},
 	"420": {
 		"no": 403,
-		"name": "ナビ"
+		"name": "Navi"
 	},
 	"421": {
 		"no": 392,
@@ -1613,19 +1613,43 @@
 	},
 	"432": {
 		"no": 404,
-		"name": "ラス"
+		"name": "Las (Dakimakura)"
 	},
 	"434": {
 		"no": 405,
-		"name": "リエル"
+		"name": "Riel (Dakimakura)"
 	},
 	"435": {
 		"no": 406,
-		"name": "ドーマウス"
+		"name": "Dormouse (Dakimakura)"
 	},
 	"436": {
 		"no": 407,
-		"name": "トト"
+		"name": "Toto (Dakimakura)"
+	},
+	"437": {
+		"no": 408,
+		"name": "Dion (Wedding)"
+	},
+	"438": {
+		"no": 409,
+		"name": "Sefir (Wedding)"
+	},
+	"439": {
+		"no": 410,
+		"name": "Lecien (Wedding)"
+	},
+	"440": {
+		"no": 411,
+		"name": "Ira (Wedding)"
+	},
+	"441": {
+		"no": 412,
+		"name": "Vashti (Wedding)"
+	},
+	"442": {
+		"no": 413,
+		"name": "Micaela (Wedding)"
 	},
 	"70011": {
 		"no": 70011,
@@ -1917,7 +1941,11 @@
 	},
 	"81045": {
 		"no": "81045",
-		"name": "フェアリープリンセス"
+		"name": "Fairy Princess (Dakimakura)"
+	},
+	"81046": {
+		"no": "81046",
+		"name": "Fairy Princess (Wedding)"
 	},
 	"82002": {
 		"no": 82002,
@@ -2041,6 +2069,6 @@
 	},
 	"99020": {
 		"no": "99020",
-		"name": "ナビ"
+		"name": "Navi"
 	}
 }
