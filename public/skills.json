@@ -5780,5 +5780,61 @@
 			"LSkill": "Increase HP by 30% when Party consists of 3 colors or more",
 			"Skill": "Reduce own HP and erase left beads (SSS)"
 		}
+	},
+	"414": {
+		"Before": {
+			"LSkill": "黄の攻40%/HPMAXで全員の攻25%UP",
+			"Skill": "3chain繋いだピースの周りも消す"
+		},
+		"Sun": {
+			"LSkill": "黄の攻40%/HPMAXで全員の攻35%UP",
+			"Skill": "5chain繋いだピースの周りも消す"
+		},
+		"Moon": {
+			"LSkill": "黄の攻50%/HPMAXで全員の攻25%UP",
+			"Skill": "4chain周りも消し、黄ピースを追加"
+		}
+	},
+	"415": {
+		"Before": {
+			"LSkill": "12chainで全員の攻撃力40%UP",
+			"Skill": "赤ピースを紫ピースに変換"
+		},
+		"Sun": {
+			"LSkill": "10chainで全員の攻撃力40%UP",
+			"Skill": "赤を紫に変換し、回復"
+		},
+		"Moon": {
+			"LSkill": "10chainで全員の攻撃力40%UP",
+			"Skill": "赤を紫に変換し、回復"
+		}
+	},
+	"416": {
+		"Before": {
+			"LSkill": "メンバー3属性以上で攻撃力を30%UP",
+			"Skill": "右を紫、下を青に変換"
+		},
+		"Sun": {
+			"LSkill": "メンバー3属性以上で攻30%/HP10%UP",
+			"Skill": "右を紫、下を青に変換"
+		},
+		"Moon": {
+			"LSkill": "メンバー3属性以上で攻撃力を40%UP",
+			"Skill": "右を黄、下を青に変換"
+		}
+	},
+	"417": {
+		"Before": {
+			"LSkill": "低確率で防御無視/全員攻撃力10%UP",
+			"Skill": "1ターン自分の攻撃力をUP 大"
+		},
+		"Sun": {
+			"LSkill": "低確率で防御無視/全員攻撃力15%UP",
+			"Skill": "1ターン自分の攻撃力をUP 特大"
+		},
+		"Moon": {
+			"LSkill": "低確率で防御無視/全員攻撃力15%UP",
+			"Skill": "1ターン自分の攻撃力をUP 特大"
+		}
 	}
 }
