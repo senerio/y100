@@ -4644,7 +4644,7 @@
 		},
 		"Moon": {
 			"LSkill": "Increase ATK by 50% when HP is above 50%",
-			"Skill": "3chain繋いだピース���周りも消す"
+			"Skill": "3chain繋いだピースの周りも消す"
 		}
 	},
 	"333": {
@@ -4794,7 +4794,7 @@
 		},
 		"Sun": {
 			"LSkill": "Increase Party ATK by 65% when Max HP",
-			"Skill": "3chain繋い���ピースの周りも消す"
+			"Skill": "3chain繋いだピースの周りも消す"
 		},
 		"Moon": {
 			"LSkill": "Increase Party ATK by 65% when Max HP",
@@ -5783,58 +5783,58 @@
 	},
 	"414": {
 		"Before": {
-			"LSkill": "黄の攻40%/HPMAXで全員の攻25%UP",
-			"Skill": "3chain繋いだピースの周りも消す"
+			"LSkill": "Increase Yellow ATK by 40% and Party ATK by 25% when Max HP",
+			"Skill": "Erase beads around a chain (3 chains)"
 		},
 		"Sun": {
-			"LSkill": "黄の攻40%/HPMAXで全員の攻35%UP",
-			"Skill": "5chain繋いだピースの周りも消す"
+			"LSkill": "Increase Yellow ATK by 40% and Party ATK by 35% when Max HP",
+			"Skill": "Erase beads around a chain (5 chains)"
 		},
 		"Moon": {
-			"LSkill": "黄の攻50%/HPMAXで全員の攻25%UP",
-			"Skill": "4chain周りも消し、黄ピースを追加"
+			"LSkill": "Increase Yellow ATK by 50% and Party ATK by 25% when Max HP",
+			"Skill": "Erase beads around a chain (4 chains) and insert Yellow beads"
 		}
 	},
 	"415": {
 		"Before": {
-			"LSkill": "12chainで全員の攻撃力40%UP",
-			"Skill": "赤ピースを紫ピースに変換"
+			"LSkill": "Increase Party ATK by 40% when reach 12 chains",
+			"Skill": "Turn Red beads into Purple"
 		},
 		"Sun": {
-			"LSkill": "10chainで全員の攻撃力40%UP",
-			"Skill": "赤を紫に変換し、回復"
+			"LSkill": "Increase Party ATK by 40% when reach 10 chains",
+			"Skill": "Turn Red beads into Purple and recover HP"
 		},
 		"Moon": {
-			"LSkill": "10chainで全員の攻撃力40%UP",
-			"Skill": "赤を紫に変換し、回復"
+			"LSkill": "Increase Party ATK by 40% when reach 10 chains",
+			"Skill": "Turn Red beads into Purple and recover HP"
 		}
 	},
 	"416": {
 		"Before": {
-			"LSkill": "メンバー3属性以上で攻撃力を30%UP",
-			"Skill": "右を紫、下を青に変換"
+			"LSkill": "Increase ATK by 30% when party consists of more than 3 colors",
+			"Skill": "Turn right beads into Purple and bottom beads into Blue"
 		},
 		"Sun": {
-			"LSkill": "メンバー3属性以上で攻30%/HP10%UP",
-			"Skill": "右を紫、下を青に変換"
+			"LSkill": "Increase ATK by 30% and HP by 10% when party consists of more than 3 colors",
+			"Skill": "Turn right beads into Purple and bottom beads into Blue"
 		},
 		"Moon": {
-			"LSkill": "メンバー3属性以上で攻撃力を40%UP",
-			"Skill": "右を黄、下を青に変換"
+			"LSkill": "Increase ATK by 40% when party consists of more than 3 colors",
+			"Skill": "Turn right beads into Yellow and bottom beads into Blue"
 		}
 	},
 	"417": {
 		"Before": {
-			"LSkill": "低確率で防御無視/全員攻撃力10%UP",
-			"Skill": "1ターン自分の攻撃力をUP 大"
+			"LSkill": "Low chance of ignoring defence and increase Party ATK by 10%",
+			"Skill": "Increase own ATK for 1 turn (S)"
 		},
 		"Sun": {
-			"LSkill": "低確率で防御無視/全員攻撃力15%UP",
-			"Skill": "1ターン自分の攻撃力をUP 特大"
+			"LSkill": "Low chance of ignoring defence and increase Party ATK by 15%",
+			"Skill": "Increase own ATK for 1 turn (SS)"
 		},
 		"Moon": {
-			"LSkill": "低確率で防御無視/全員攻撃力15%UP",
-			"Skill": "1ターン自分の攻撃力をUP 特大"
+			"LSkill": "Low chance of ignoring defence and increase Party ATK by 15%",
+			"Skill": "Increase own ATK for 1 turn (SS)"
 		}
 	}
 }
