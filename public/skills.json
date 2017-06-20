@@ -5836,5 +5836,61 @@
 			"LSkill": "Low chance of ignoring defence and increase Party ATK by 15%",
 			"Skill": "Increase own ATK for 1 turn (SS)"
 		}
+	},
+	"418": {
+		"Before": {
+			"LSkill": "青のHP20%/HPMAXで全員の攻40%UP",
+			"Skill": "6chainの間、青の出現率UP　大"
+		},
+		"Sun": {
+			"LSkill": "青のHP20%/HPMAXで全員の攻50%UP",
+			"Skill": "7chainの間、青の出現率UP　大"
+		},
+		"Moon": {
+			"LSkill": "青のHP30%/HPMAXで全員の攻40%UP",
+			"Skill": "7chainの間、青の出現率UP　大"
+		}
+	},
+	"419": {
+		"Before": {
+			"LSkill": "全員のHPを下げ、攻撃力を50%UP",
+			"Skill": "黄ピースを赤ピースに変換"
+		},
+		"Sun": {
+			"LSkill": "全員のHPを下げ、攻撃力を60%UP",
+			"Skill": "黄を赤に変換し、爆弾を追加"
+		},
+		"Moon": {
+			"LSkill": "全員のHPを下げ、攻撃力を60%UP",
+			"Skill": "黄を赤に変換し、爆弾を追加"
+		}
+	},
+	"420": {
+		"Before": {
+			"LSkill": "緑・青属性のダメージを15%減",
+			"Skill": "中央を緑ピースに変換し、消去"
+		},
+		"Sun": {
+			"LSkill": "緑・青属性のダメージを20%減",
+			"Skill": "中央を緑ピースに変換し、消去"
+		},
+		"Moon": {
+			"LSkill": "緑・青属性のダメージを20%減",
+			"Skill": "中央を緑ピースに変換し、消去"
+		}
+	},
+	"421": {
+		"Before": {
+			"LSkill": "戦いでの獲得ゴールドを20%UP",
+			"Skill": "黄ピースに回復効果付与 大"
+		},
+		"Sun": {
+			"LSkill": "戦いの獲得ゴールド20%/全攻10%UP",
+			"Skill": "黄ピースに回復効果付与 特大"
+		},
+		"Moon": {
+			"LSkill": "戦いでの獲得ゴールドを25%UP",
+			"Skill": "黄ピースに回復効果付与 特大"
+		}
 	}
 }
