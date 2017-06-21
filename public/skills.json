@@ -5839,58 +5839,58 @@
 	},
 	"418": {
 		"Before": {
-			"LSkill": "青のHP20%/HPMAXで全員の攻40%UP",
-			"Skill": "6chainの間、青の出現率UP　大"
+			"LSkill": "Increase Blue HP by 20%, increase Party ATK by 40% when Max HP",
+			"Skill": "Increase Blue beads appearance rate for 6 chains (S)"
 		},
 		"Sun": {
-			"LSkill": "青のHP20%/HPMAXで全員の攻50%UP",
-			"Skill": "7chainの間、青の出現率UP　大"
+			"LSkill": "Increase Blue HP by 20%, increase Party ATK by 50% when Max HP",
+			"Skill": "Increase Blue beads appearance rate for 7 chains (S)"
 		},
 		"Moon": {
-			"LSkill": "青のHP30%/HPMAXで全員の攻40%UP",
-			"Skill": "7chainの間、青の出現率UP　大"
+			"LSkill": "Increase Blue HP by 30%, increase Party ATK by 40% when Max HP",
+			"Skill": "Increase Blue beads appearance rate for 7 chains (S)"
 		}
 	},
 	"419": {
 		"Before": {
-			"LSkill": "全員のHPを下げ、攻撃力を50%UP",
-			"Skill": "黄ピースを赤ピースに変換"
+			"LSkill": "Reduce Party HP and increase ATK by 50%",
+			"Skill": "Turn Yellow beads into Red"
 		},
 		"Sun": {
-			"LSkill": "全員のHPを下げ、攻撃力を60%UP",
-			"Skill": "黄を赤に変換し、爆弾を追加"
+			"LSkill": "Reduce Party HP and increase ATK by 60%",
+			"Skill": "Turn Yellow beads into Red and insert bombs"
 		},
 		"Moon": {
-			"LSkill": "全員のHPを下げ、攻撃力を60%UP",
-			"Skill": "黄を赤に変換し、爆弾を追加"
+			"LSkill": "Reduce Party HP and increase ATK by 60%",
+			"Skill": "Turn Yellow beads into Red and insert bombs"
 		}
 	},
 	"420": {
 		"Before": {
-			"LSkill": "緑・青属性のダメージを15%減",
-			"Skill": "中央を緑ピースに変換し、消去"
+			"LSkill": "Reduce Green & Blue damage by 15%",
+			"Skill": "Turn middle rows beads Green and Erase"
 		},
 		"Sun": {
-			"LSkill": "緑・青属性のダメージを20%減",
-			"Skill": "中央を緑ピースに変換し、消去"
+			"LSkill": "Reduce Green & Blue damage by 20%",
+			"Skill": "Turn middle rows beads Green and Erase"
 		},
 		"Moon": {
-			"LSkill": "緑・青属性のダメージを20%減",
-			"Skill": "中央を緑ピースに変換し、消去"
+			"LSkill": "Reduce Green & Blue damage by 20%",
+			"Skill": "Turn middle rows beads Green and Erase"
 		}
 	},
 	"421": {
 		"Before": {
-			"LSkill": "戦いでの獲得ゴールドを20%UP",
-			"Skill": "黄ピースに回復効果付与 大"
+			"LSkill": "Increase Gold by 20%",
+			"Skill": "Attach heal properties to Yellow beads (S)"
 		},
 		"Sun": {
-			"LSkill": "戦いの獲得ゴールド20%/全攻10%UP",
-			"Skill": "黄ピースに回復効果付与 特大"
+			"LSkill": "Increase Gold by 20% and Party ATK by 10%",
+			"Skill": "Attach heal properties to Yellow beads (SS)"
 		},
 		"Moon": {
-			"LSkill": "戦いでの獲得ゴールドを25%UP",
-			"Skill": "黄ピースに回復効果付与 特大"
+			"LSkill": "Increase Gold by 25%",
+			"Skill": "Attach heal properties to Yellow beads (SS)"
 		}
 	}
 }
