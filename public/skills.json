@@ -5892,5 +5892,75 @@
 			"LSkill": "Increase Gold by 25%",
 			"Skill": "Attach heal properties to Yellow beads (SS)"
 		}
+	},
+	"422": {
+		"Before": {
+			"LSkill": "紫の回30%UP/HPMAXで全員の攻40%UP",
+			"Skill": "回復力に応じてHPを回復　特大"
+		},
+		"Sun": {
+			"LSkill": "紫の回40%UP/HPMAXで全員の攻40%UP",
+			"Skill": "回復力に応じてHPを回復　極大"
+		},
+		"Moon": {
+			"LSkill": "紫の回30%UP/HPMAXで全員の攻50%UP",
+			"Skill": "HPを回復/ハートに変換"
+		}
+	},
+	"423": {
+		"Before": {
+			"LSkill": "紫属性のHPを35%UP",
+			"Skill": "黄ピースを全て消し、紫ピースを追加"
+		},
+		"Sun": {
+			"LSkill": "紫属性のHPを40%UP",
+			"Skill": "黄ピースを全て消し、紫ピースを追加"
+		},
+		"Moon": {
+			"LSkill": "紫属性のHPを35%/攻撃力を15%UP",
+			"Skill": "緑ピースを全て消し、紫ピースを追加"
+		}
+	},
+	"424": {
+		"Before": {
+			"LSkill": "毎ターンスキルゲージ回復　大",
+			"Skill": "下部のピースを消す　特大"
+		},
+		"Sun": {
+			"LSkill": "毎ターンスキルゲージ回復　特大",
+			"Skill": "下部のピースを消す　極大"
+		},
+		"Moon": {
+			"LSkill": "毎ターンスキル回復し、赤の攻15%UP",
+			"Skill": "下部のピースを消し、HPを回復"
+		}
+	},
+	"425": {
+		"Before": {
+			"LSkill": "赤・青属性の攻撃力を25%UP",
+			"Skill": "上部を青ピースに変換　小"
+		},
+		"Sun": {
+			"LSkill": "赤・青属性の攻撃力を35%UP",
+			"Skill": "上部を青ピースに変換　中"
+		},
+		"Moon": {
+			"LSkill": "赤・青属性の攻撃力を35%UP",
+			"Skill": "上部を青ピースに変換　中"
+		}
+	},
+	"426": {
+		"Before": {
+			"LSkill": "HP50%以上で攻撃力40%UP",
+			"Skill": "赤ピースを黄ピースに変換する"
+		},
+		"Sun": {
+			"LSkill": "HP50%以上で攻撃力50%UP",
+			"Skill": "赤を黄に変換し、HPを回復"
+		},
+		"Moon": {
+			"LSkill": "HP50%以上で攻撃力50%UP",
+			"Skill": "赤を黄に変換し、HPを回復"
+		}
 	}
 }
