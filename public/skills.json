@@ -5895,72 +5895,72 @@
 	},
 	"422": {
 		"Before": {
-			"LSkill": "紫の回30%UP/HPMAXで全員の攻40%UP",
-			"Skill": "回復力に応じてHPを回復　特大"
+			"LSkill": "Increase Purple RP by 30% and Party ATK by 40% when Max HP",
+			"Skill": "Recover HP in accordance to RP (SS)"
 		},
 		"Sun": {
-			"LSkill": "紫の回40%UP/HPMAXで全員の攻40%UP",
-			"Skill": "回復力に応じてHPを回復　極大"
+			"LSkill": "Increase Purple RP by 40% and Party ATK by 40% when Max HP",
+			"Skill": "Recover HP in accordance to RP (SSS)"
 		},
 		"Moon": {
-			"LSkill": "紫の回30%UP/HPMAXで全員の攻50%UP",
-			"Skill": "HPを回復/ハートに変換"
+			"LSkill": "Increase Purple RP by 30% and Party ATK by 50% when Max HP",
+			"Skill": "Recover HP and insert heart"
 		}
 	},
 	"423": {
 		"Before": {
-			"LSkill": "紫属性のHPを35%UP",
-			"Skill": "黄ピースを全て消し、紫ピースを追加"
+			"LSkill": "Increase Purple HP by 35%",
+			"Skill": "Erase all Yellow beads and insert Purple beads"
 		},
 		"Sun": {
-			"LSkill": "紫属性のHPを40%UP",
-			"Skill": "黄ピースを全て消し、紫ピースを追加"
+			"LSkill": "Increase Purple HP by 40%",
+			"Skill": "Erase all Yellow beads and insert Purple beads"
 		},
 		"Moon": {
-			"LSkill": "紫属性のHPを35%/攻撃力を15%UP",
-			"Skill": "緑ピースを全て消し、紫ピースを追加"
+			"LSkill": "Increase Purple HP by 35% and ATK by 15%",
+			"Skill": "Erase all Green beads and insert Purple beads"
 		}
 	},
 	"424": {
 		"Before": {
-			"LSkill": "毎ターンスキルゲージ回復　大",
-			"Skill": "下部のピースを消す　特大"
+			"LSkill": "Recover skill gauge every turn (S)",
+			"Skill": "Erase lower beads (SS)"
 		},
 		"Sun": {
-			"LSkill": "毎ターンスキルゲージ回復　特大",
-			"Skill": "下部のピースを消す　極大"
+			"LSkill": "Recover skill gauge every turn (SS)",
+			"Skill": "Erase lower beads (SSS)"
 		},
 		"Moon": {
-			"LSkill": "毎ターンスキル回復し、赤の攻15%UP",
-			"Skill": "下部のピースを消し、HPを回復"
+			"LSkill": "Recover skill gauge every turn and increase Red ATK by 15%",
+			"Skill": "Erase lower beads and recover HP"
 		}
 	},
 	"425": {
 		"Before": {
-			"LSkill": "赤・青属性の攻撃力を25%UP",
-			"Skill": "上部を青ピースに変換　小"
+			"LSkill": "Increase Red & Blue ATK by 25%",
+			"Skill": "Turn upper beads Blue (B)"
 		},
 		"Sun": {
-			"LSkill": "赤・青属性の攻撃力を35%UP",
-			"Skill": "上部を青ピースに変換　中"
+			"LSkill": "Increase Red & Blue ATK by 35%",
+			"Skill": "Turn upper beads Blue (A)"
 		},
 		"Moon": {
-			"LSkill": "赤・青属性の攻撃力を35%UP",
-			"Skill": "上部を青ピースに変換　中"
+			"LSkill": "Increase Red & Blue ATK by 35%",
+			"Skill": "Turn upper beads Blue (A)"
 		}
 	},
 	"426": {
 		"Before": {
-			"LSkill": "HP50%以上で攻撃力40%UP",
-			"Skill": "赤ピースを黄ピースに変換する"
+			"LSkill": "Increase ATK by 40% when HP over 50%",
+			"Skill": "Turn Red beads into Yellow"
 		},
 		"Sun": {
-			"LSkill": "HP50%以上で攻撃力50%UP",
-			"Skill": "赤を黄に変換し、HPを回復"
+			"LSkill": "Increase ATK by 50% when HP over 50%",
+			"Skill": "Turn Red beads into Yellow and recover HP"
 		},
 		"Moon": {
-			"LSkill": "HP50%以上で攻撃力50%UP",
-			"Skill": "赤を黄に変換し、HPを回復"
+			"LSkill": "Increase ATK by 50% when HP over 50%",
+			"Skill": "Turn Red beads into Yellow and recover HP"
 		}
 	}
 }
