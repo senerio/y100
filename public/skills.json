@@ -4790,7 +4790,7 @@
 	"343": {
 		"Before": {
 			"LSkill": "Increase Party ATK by 50% when Max HP",
-			"Skill": "2chain繋いだピースの周りも消す"
+			"Skill": "2chain繋���だピースの周りも消す"
 		},
 		"Sun": {
 			"LSkill": "Increase Party ATK by 65% when Max HP",
@@ -5965,58 +5965,58 @@
 	},
 	"427": {
 		"Before": {
-			"LSkill": "赤の攻40%/HPMAXで全員の攻25%UP",
-			"Skill": "横中央を赤ピースに変換　中"
+			"LSkill": "Increase Red ATK by 40% and Party ATK by 25% when Max HP",
+			"Skill": "Turn middle row beads into Red (A)"
 		},
 		"Sun": {
-			"LSkill": "赤の攻40%/HPMAXで全員の攻35%UP",
-			"Skill": "横中央を赤ピースに変換　大"
+			"LSkill": "Increase Red ATK by 40% and Party ATK by 35% when Max HP",
+			"Skill": "Turn middle row beads into Red (S)"
 		},
 		"Moon": {
-			"LSkill": "赤の攻50%/HPMAXで全員の攻25%UP",
-			"Skill": "横中央を赤ピースに変換し、回復"
+			"LSkill": "Increase Red ATK by 50% and Party ATK by 25% when Max HP",
+			"Skill": "Turn middle row beads into Red and recover HP"
 		}
 	},
 	"428": {
 		"Before": {
-			"LSkill": "HP50%以上で攻撃/以下で回復20%UP",
-			"Skill": "回復力に応じてHPを回復　大"
+			"LSkill": "Increase ATK by 20% when HP over 50% and RP by 20% when HP under 50%",
+			"Skill": "Recover HP in accordance to RP (S)"
 		},
 		"Sun": {
-			"LSkill": "HP50%以上で攻撃/以下で回復30%UP",
-			"Skill": "回復力に応じてHPを回復　特大"
+			"LSkill": "Increase ATK by 30% when HP over 50% and RP by 30% when HP under 50%",
+			"Skill": "Recover HP in accordance to RP (SS)"
 		},
 		"Moon": {
-			"LSkill": "HP50%以上で攻撃/以下で回復30%UP",
-			"Skill": "回復力に応じてHPを回復　特大"
+			"LSkill": "Increase ATK by 30% when HP over 50% and RP by 30% when HP under 50%",
+			"Skill": "Recover HP in accordance to RP (SS)"
 		}
 	},
 	"429": {
 		"Before": {
-			"LSkill": "メンバーが5属性で攻撃力を35%UP",
-			"Skill": "ピースを5色の波に変換"
+			"LSkill": "Increase ATK by 35% when Party consists of all 5 colors",
+			"Skill": "Turn beads into 5 colored waves"
 		},
 		"Sun": {
-			"LSkill": "メンバーが5属性で攻35%/HP20%UP",
-			"Skill": "ピースを5色の波に変換"
+			"LSkill": "Increase ATK by 35% and HP by 20% when Party consists of all 5 colors",
+			"Skill": "Turn beads into 5 colored waves"
 		},
 		"Moon": {
-			"LSkill": "メンバーが5属性で攻40%/HP15%UP",
-			"Skill": "ピースを5色の波に変換"
+			"LSkill": "Increase ATK by 40% and HP by 15% when Party consists of all 5 colors",
+			"Skill": "Turn beads into 5 colored waves"
 		}
 	},
 	"430": {
 		"Before": {
-			"LSkill": "出現する爆弾を全て強化爆弾にする",
-			"Skill": "上部のピースを消す　大"
+			"LSkill": "Turn all bombs that appear into gold bombs",
+			"Skill": "Erase upper beads (S)"
 		},
 		"Sun": {
-			"LSkill": "出現する爆弾を全て強化爆弾にする",
-			"Skill": "上部のピースを消す　特大"
+			"LSkill": "Turn all bombs that appear into gold bombs",
+			"Skill": "Erase upper beads (SS)"
 		},
 		"Moon": {
-			"LSkill": "出現する爆弾を全て強化爆弾にする",
-			"Skill": "上部のピースを消す　特大"
+			"LSkill": "Turn all bombs that appear into gold bombs",
+			"Skill": "Erase upper beads (SS)"
 		}
 	}
 }
