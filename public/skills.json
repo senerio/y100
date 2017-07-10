@@ -5962,5 +5962,61 @@
 			"LSkill": "Increase ATK by 50% when HP over 50%",
 			"Skill": "Turn Red beads into Yellow and recover HP"
 		}
+	},
+	"427": {
+		"Before": {
+			"LSkill": "赤の攻40%/HPMAXで全員の攻25%UP",
+			"Skill": "横中央を赤ピースに変換　中"
+		},
+		"Sun": {
+			"LSkill": "赤の攻40%/HPMAXで全員の攻35%UP",
+			"Skill": "横中央を赤ピースに変換　大"
+		},
+		"Moon": {
+			"LSkill": "赤の攻50%/HPMAXで全員の攻25%UP",
+			"Skill": "横中央を赤ピースに変換し、回復"
+		}
+	},
+	"428": {
+		"Before": {
+			"LSkill": "HP50%以上で攻撃/以下で回復20%UP",
+			"Skill": "回復力に応じてHPを回復　大"
+		},
+		"Sun": {
+			"LSkill": "HP50%以上で攻撃/以下で回復30%UP",
+			"Skill": "回復力に応じてHPを回復　特大"
+		},
+		"Moon": {
+			"LSkill": "HP50%以上で攻撃/以下で回復30%UP",
+			"Skill": "回復力に応じてHPを回復　特大"
+		}
+	},
+	"429": {
+		"Before": {
+			"LSkill": "メンバーが5属性で攻撃力を35%UP",
+			"Skill": "ピースを5色の波に変換"
+		},
+		"Sun": {
+			"LSkill": "メンバーが5属性で攻35%/HP20%UP",
+			"Skill": "ピースを5色の波に変換"
+		},
+		"Moon": {
+			"LSkill": "メンバーが5属性で攻40%/HP15%UP",
+			"Skill": "ピースを5色の波に変換"
+		}
+	},
+	"430": {
+		"Before": {
+			"LSkill": "出現する爆弾を全て強化爆弾にする",
+			"Skill": "上部のピースを消す　大"
+		},
+		"Sun": {
+			"LSkill": "出現する爆弾を全て強化爆弾にする",
+			"Skill": "上部のピースを消す　特大"
+		},
+		"Moon": {
+			"LSkill": "出現する爆弾を全て強化爆弾にする",
+			"Skill": "上部のピースを消す　特大"
+		}
 	}
 }
