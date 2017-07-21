@@ -6018,5 +6018,61 @@
 			"LSkill": "Turn all bombs that appear into gold bombs",
 			"Skill": "Erase upper beads (SS)"
 		}
+	},
+	"431": {
+		"Before": {
+			"LSkill": "HPMAX時に全員の攻撃力65%UP",
+			"Skill": "緑を全て消し、赤を青に変換する"
+		},
+		"Sun": {
+			"LSkill": "HPMAX時に全員の攻撃力75%UP",
+			"Skill": "緑を全て消し、赤を青に変換する"
+		},
+		"Moon": {
+			"LSkill": "HPMAX時に全員の攻撃力75%UP",
+			"Skill": "緑を全て消し、紫を青に変換する"
+		}
+	},
+	"432": {
+		"Before": {
+			"LSkill": "緑属性のHPと攻撃力を20%UP",
+			"Skill": "3chain緑出現率UP、緑ピースを追加"
+		},
+		"Sun": {
+			"LSkill": "緑属性のHPと攻撃力を25%UP",
+			"Skill": "3chain緑出現率UP、緑ピースを追加"
+		},
+		"Moon": {
+			"LSkill": "緑属性のHPと攻撃力を25%UP",
+			"Skill": "3chain緑出現率UP、緑ピースを追加"
+		}
+	},
+	"433": {
+		"Before": {
+			"LSkill": "紫の攻撃力と回復力を30%UP",
+			"Skill": "青を紫に変換し、爆弾を追加"
+		},
+		"Sun": {
+			"LSkill": "紫の攻撃力と回復力30%/HP5%UP",
+			"Skill": "青を紫に変換し、爆弾を追加"
+		},
+		"Moon": {
+			"LSkill": "紫の攻撃力と回復力を35%UP",
+			"Skill": "黄を紫に変換し、爆弾を追加"
+		}
+	},
+	"434": {
+		"Before": {
+			"LSkill": "緑属性の攻撃力を35%UP",
+			"Skill": "1ターン緑属性の攻撃力をUP 中"
+		},
+		"Sun": {
+			"LSkill": "緑属性の攻撃力を50%UP",
+			"Skill": "1ターン緑属性の攻撃力をUP 大"
+		},
+		"Moon": {
+			"LSkill": "緑属性の攻撃力を50%UP",
+			"Skill": "1ターン緑属性の攻撃力をUP 大"
+		}
 	}
 }
