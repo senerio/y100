@@ -6074,5 +6074,75 @@
 			"LSkill": "Increase Green ATK by 50%",
 			"Skill": "Increase Green ATK for 1 turn (S)"
 		}
+	},
+	"435": {
+		"Before": {
+			"LSkill": "HP50%以上で攻撃/以下で回復30%UP",
+			"Skill": "青ピースに回復効果付与 特大"
+		},
+		"Sun": {
+			"LSkill": "HP50%以上で攻撃/以下で回復40%UP",
+			"Skill": "ランダムなピースに回復効果付与　特大"
+		},
+		"Moon": {
+			"LSkill": "HP50%以上で攻撃/以下で回復40%UP",
+			"Skill": "青ピースに回復効果付与 極大"
+		}
+	},
+	"436": {
+		"Before": {
+			"LSkill": "王子獲得EXPを20%UP",
+			"Skill": "黄を全て消し、緑を黄に変換する"
+		},
+		"Sun": {
+			"LSkill": "王子獲得EXPを25%UP",
+			"Skill": "黄を全て消し、緑を黄に変換する"
+		},
+		"Moon": {
+			"LSkill": "王子獲得EXPを20%/全員の攻を15%UP",
+			"Skill": "黄を全て消し、青を黄に変換する"
+		}
+	},
+	"437": {
+		"Before": {
+			"LSkill": "紫の攻撃力を80%UP/他能力を下げる",
+			"Skill": "緑を紫に変換し、紫の出現率UP"
+		},
+		"Sun": {
+			"LSkill": "紫の攻撃力を80%UP/他能力を少し下げる",
+			"Skill": "緑を紫に変換し、紫の出現率UP"
+		},
+		"Moon": {
+			"LSkill": "紫の攻撃力を100%UP/他能力を下げる",
+			"Skill": "赤を紫に変換し、紫の出現率UP"
+		}
+	},
+	"438": {
+		"Before": {
+			"LSkill": "HPMAX時に全員の攻撃力50％UP",
+			"Skill": "2chain繋いだピースの周りも消す"
+		},
+		"Sun": {
+			"LSkill": "HPMAX時に全員の攻撃力65％UP",
+			"Skill": "3chain繋いだピースの周りも消す"
+		},
+		"Moon": {
+			"LSkill": "HPMAX時に全員の攻撃力65％UP",
+			"Skill": "3chain繋いだピースの周りも消す"
+		}
+	},
+	"439": {
+		"Before": {
+			"LSkill": "メンバーが5属性で攻撃力を25%UP",
+			"Skill": "爆弾を追加し、爆弾を一斉に爆発する"
+		},
+		"Sun": {
+			"LSkill": "メンバーが5属性で攻撃力を35%UP",
+			"Skill": "爆弾を追加し、爆弾を一斉に爆発する"
+		},
+		"Moon": {
+			"LSkill": "メンバーが5属性で攻撃力を35%UP",
+			"Skill": "爆弾を追加し、爆弾を一斉に爆発する"
+		}
 	}
 }
