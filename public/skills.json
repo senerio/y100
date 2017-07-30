@@ -6077,72 +6077,72 @@
 	},
 	"435": {
 		"Before": {
-			"LSkill": "HP50%以上で攻撃/以下で回復30%UP",
-			"Skill": "青ピースに回復効果付与 特大"
+			"LSkill": "Increase ATK by 30% when HP over 50% and RP by 30% when HP under 50%",
+			"Skill": "Attach heal properties on Blue beads (SS)"
 		},
 		"Sun": {
-			"LSkill": "HP50%以上で攻撃/以下で回復40%UP",
-			"Skill": "ランダムなピースに回復効果付与　特大"
+			"LSkill": "Increase ATK by 40% when HP over 50% and RP by 40% when HP under 50%",
+			"Skill": "Attach heal properties on random beads (SS)"
 		},
 		"Moon": {
-			"LSkill": "HP50%以上で攻撃/以下で回復40%UP",
-			"Skill": "青ピースに回復効果付与 極大"
+			"LSkill": "Increase ATK by 40% when HP over 50% and RP by 40% when HP under 50%",
+			"Skill": "Attach heal properties on Blue beads (SSS)"
 		}
 	},
 	"436": {
 		"Before": {
-			"LSkill": "王子獲得EXPを20%UP",
-			"Skill": "黄を全て消し、緑を黄に変換する"
+			"LSkill": "Increase Prince EXP by 20%",
+			"Skill": "Erase all Yellow beads and turn Green beads into Yellow"
 		},
 		"Sun": {
-			"LSkill": "王子獲得EXPを25%UP",
-			"Skill": "黄を全て消し、緑を黄に変換する"
+			"LSkill": "Increase Prince EXP by 25%",
+			"Skill": "Erase all Yellow beads and turn Green beads into Yellow"
 		},
 		"Moon": {
-			"LSkill": "王子獲得EXPを20%/全員の攻を15%UP",
-			"Skill": "黄を全て消し、青を黄に変換する"
+			"LSkill": "Increase Prince EXP by 20% and ATK by 15%",
+			"Skill": "Erase all Yellow beads and turn Blue beads into Yellow"
 		}
 	},
 	"437": {
 		"Before": {
-			"LSkill": "紫の攻撃力を80%UP/他能力を下げる",
-			"Skill": "緑を紫に変換し、紫の出現率UP"
+			"LSkill": "Increase Purple ATK by 80% but reduce all other stats",
+			"Skill": "Turn Green beads into Purple and increase Purple appearance rate"
 		},
 		"Sun": {
-			"LSkill": "紫の攻撃力を80%UP/他能力を少し下げる",
-			"Skill": "緑を紫に変換し、紫の出現率UP"
+			"LSkill": "Increase Purple ATK by 80% but slightly reduces all other stats",
+			"Skill": "Turn Green beads into Purple and increase Purple appearance rate"
 		},
 		"Moon": {
-			"LSkill": "紫の攻撃力を100%UP/他能力を下げる",
-			"Skill": "赤を紫に変換し、紫の出現率UP"
+			"LSkill": "Increase Purple ATK by 100% but reduce all other stats",
+			"Skill": "Turn Red beads into Purple and increase Purple appearance rate"
 		}
 	},
 	"438": {
 		"Before": {
-			"LSkill": "HPMAX時に全員の攻撃力50％UP",
-			"Skill": "2chain繋いだピースの周りも消す"
+			"LSkill": "Increase Party ATK by 50% when Max HP",
+			"Skill": "Erase beads around a chain (2 chains)"
 		},
 		"Sun": {
-			"LSkill": "HPMAX時に全員の攻撃力65％UP",
-			"Skill": "3chain繋いだピースの周りも消す"
+			"LSkill": "Increase Party ATK by 65% when Max HP",
+			"Skill": "Erase beads around a chain (3 chains)"
 		},
 		"Moon": {
-			"LSkill": "HPMAX時に全員の攻撃力65％UP",
-			"Skill": "3chain繋いだピースの周りも消す"
+			"LSkill": "Increase Party ATK by 65% when Max HP",
+			"Skill": "Erase beads around a chain (3 chains)"
 		}
 	},
 	"439": {
 		"Before": {
-			"LSkill": "メンバーが5属性で攻撃力を25%UP",
-			"Skill": "爆弾を追加し、爆弾を一斉に爆発する"
+			"LSkill": "Increase ATK by 25% when members consists of all 5 colors",
+			"Skill": "Insert gold bomb and ignite all bombs together "
 		},
 		"Sun": {
-			"LSkill": "メンバーが5属性で攻撃力を35%UP",
-			"Skill": "爆弾を追加し、爆弾を一斉に爆発する"
+			"LSkill": "Increase ATK by 35% when members consists of all 5 colors",
+			"Skill": "Insert gold bomb and ignite all bombs together "
 		},
 		"Moon": {
-			"LSkill": "メンバーが5属性で攻撃力を35%UP",
-			"Skill": "爆弾を追加し、爆弾を一斉に爆発する"
+			"LSkill": "Increase ATK by 35% when members consists of all 5 colors",
+			"Skill": "Insert gold bomb and ignite all bombs together "
 		}
 	}
 }
