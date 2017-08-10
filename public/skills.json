@@ -6058,7 +6058,7 @@
 		},
 		"Moon": {
 			"LSkill": "Increase Purple ATK & RP by 35%",
-			"Skill": "Turn Blue beads into Purple and insert gold bombs"
+			"Skill": "Turn Yellow beads into Purple and insert gold bombs"
 		}
 	},
 	"434": {
@@ -6147,86 +6147,78 @@
 	},
 	"440": {
 		"Before": {
-			"LSkill": "HP50%以上で攻撃/以下で回復40%UP",
-			"Skill": "赤ピースとハートを追加する"
+			"LSkill": "Increase ATK by 40% when HP is above 50% and RP by 40% when HP is below 50%",
+			"Skill": "Insert Red beads and hearts"
 		},
 		"Sun": {
-			"LSkill": "HP50%以上で攻撃/以下で回復50%UP",
-			"Skill": "赤ピースとハートを追加する"
+			"LSkill": "Increase ATK by 50% when HP is above 50% and RP by 50% when HP is below 50%",
+			"Skill": "Insert Red beads and hearts"
 		},
 		"Moon": {
-			"LSkill": "HP50%以上で攻撃/以下で回復50%UP",
-			"Skill": "赤ピースとハートを追加する"
+			"LSkill": "Increase ATK by 50% when HP is above 50% and RP by 50% when HP is below 50%",
+			"Skill": "Insert Red beads and hearts"
 		}
 	},
 	"441": {
 		"Before": {
-			"LSkill": "緑属性の攻撃力を50%UP",
-			"Skill": "6chainの間、緑の出現率UP　大"
+			"LSkill": "Increase Green ATK by 50%",
+			"Skill": "Increase Green beads appearance rate for 6 chains (S)"
 		},
 		"Sun": {
-			"LSkill": "緑属性の攻撃力を50%/HP10%UP",
-			"Skill": "7chainの間、緑の出現率UP　大"
+			"LSkill": "Increase Green ATK by 50% and HP by 10%",
+			"Skill": "Increase Green beads appearance rate for 7 chains (S)"
 		},
 		"Moon": {
-			"LSkill": "緑属性の攻撃力を65%UP",
-			"Skill": "7chainの間、緑の出現率UP　大"
+			"LSkill": "Increase Green ATK by 65%",
+			"Skill": "Increase Green beads appearance rate for 7 chains (S)"
 		}
 	},
 	"442": {
 		"Before": {
-			"LSkill": "赤属性の攻撃力とHPを20%UP",
-			"Skill": "下部を赤ピースに変換　小"
+			"LSkill": "Increase Red ATK & HP by 20%",
+			"Skill": "Turn lower beads into Red (B)"
 		},
 		"Sun": {
-			"LSkill": "赤属性の攻撃力とHPを25%UP",
-			"Skill": "下部を赤ピースに変換　中"
+			"LSkill": "Increase Red ATK & HP by 25%",
+			"Skill": "Turn lower beads into Red (A)"
 		},
 		"Moon": {
-			"LSkill": "赤属性の攻撃力とHPを25%UP",
-			"Skill": "下部を赤ピースに変換　中"
+			"LSkill": "Increase Red ATK & HP by 25%",
+			"Skill": "Turn lower beads into Red (A)"
 		}
 	},
 	"443": {
 		"Before": {
-			"LSkill": "赤・緑・黄属性の攻撃力を30%UP",
-			"Skill": "3chainの間、赤・緑・黄ピースが出現\n"
+			"LSkill": "Increase Red, Green & Yellow ATK by 30%",
+			"Skill": "Only Red, Green & Yellow beads appear for 3 chains"
 		},
 		"Sun": {
-			"LSkill": "赤・緑・黄属性の攻撃力を40%UP",
-			"Skill": "3chainの間、赤・緑・黄ピースが出現\n"
+			"LSkill": "Increase Red, Green & Yellow ATK by 40%",
+			"Skill": "Only Red, Green & Yellow beads appear for 3 chains"
 		},
 		"Moon": {
-			"LSkill": "青・黄・紫属性の攻撃力を40%UP",
-			"Skill": "3chainの間、青・黄・紫ピースが出現"
+			"LSkill": "Increase Blue, Yellow & Purple ATK by 40%",
+			"Skill": "Only Blue, Yellow & Purple beads appear for 3 chains"
 		}
 	},
 	"444": {
 		"Before": {
-			"LSkill": "ランク獲得EXPを10%UP",
-			"Skill": "自分のHPを消費し、強化爆弾を2個追加"
+			"LSkill": "Increase Player EXP obtained by 10%",
+			"Skill": "Cut down own HP to insert 2 gold bombs"
 		},
 		"Sun": {
-			"LSkill": "ランク獲得EXPを15%UP",
-			"Skill": "自分のHPを消費し、強化爆弾を3個追加"
+			"LSkill": "Increase Player EXP obtained by 15%",
+			"Skill": "Cut down own HP to insert 2 gold bombs"
 		},
 		"Moon": {
-			"LSkill": "ランク獲得EXPを15%UP",
-			"Skill": "自分のHPを消費し、強化爆弾を3個追加"
+			"LSkill": "Increase Player EXP obtained by 15%",
+			"Skill": "Cut down own HP to insert 3 gold bombs"
 		}
 	},
 	"445": {
 		"Before": {
-			"LSkill": "自分の全能力を100%UP/スキル発動数を10減らす",
-			"Skill": "赤ピースに変換する　Y字型"
-		},
-		"Sun": {
-			"LSkill": "N/A",
-			"Skill": "N/A"
-		},
-		"Moon": {
-			"LSkill": "N/A",
-			"Skill": "N/A"
+			"LSkill": "Increase all own stats by 100% and reduce skill activation count by 10",
+			"Skill": "Insert Red beads (Y shaped)"
 		}
 	}
 }
