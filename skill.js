@@ -51,12 +51,12 @@ function getDetails (id) {
 	skillId = skillIds(id);
 	return {
 		main : {
-			name : detail[skillId.main].skillName,
-			desc : detail[skillId.main].skillDetail
+			name : (detail[skillId.main] != undefined ? detail[skillId.main].skillName : "N/A"),
+			desc : (detail[skillId.main] != undefined ? detail[skillId.main].skillDetail : "N/A")
 		},
 		leader : {
-			name : detail[skillId.leader].skillName,
-			desc : detail[skillId.leader].skillDetail
+			name : (detail[skillId.leader] != undefined ? detail[skillId.leader].skillName : "N/A"),
+			desc : (detail[skillId.leader] != undefined ? detail[skillId.leader].skillDetail : "N/A")
 		}
 	};
 }
