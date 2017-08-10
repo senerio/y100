@@ -6144,5 +6144,89 @@
 			"LSkill": "Increase ATK by 35% when members consists of all 5 colors",
 			"Skill": "Insert gold bomb and ignite all bombs together "
 		}
+	},
+	"440": {
+		"Before": {
+			"LSkill": "HP50%以上で攻撃/以下で回復40%UP",
+			"Skill": "赤ピースとハートを追加する"
+		},
+		"Sun": {
+			"LSkill": "HP50%以上で攻撃/以下で回復50%UP",
+			"Skill": "赤ピースとハートを追加する"
+		},
+		"Moon": {
+			"LSkill": "HP50%以上で攻撃/以下で回復50%UP",
+			"Skill": "赤ピースとハートを追加する"
+		}
+	},
+	"441": {
+		"Before": {
+			"LSkill": "緑属性の攻撃力を50%UP",
+			"Skill": "6chainの間、緑の出現率UP　大"
+		},
+		"Sun": {
+			"LSkill": "緑属性の攻撃力を50%/HP10%UP",
+			"Skill": "7chainの間、緑の出現率UP　大"
+		},
+		"Moon": {
+			"LSkill": "緑属性の攻撃力を65%UP",
+			"Skill": "7chainの間、緑の出現率UP　大"
+		}
+	},
+	"442": {
+		"Before": {
+			"LSkill": "赤属性の攻撃力とHPを20%UP",
+			"Skill": "下部を赤ピースに変換　小"
+		},
+		"Sun": {
+			"LSkill": "赤属性の攻撃力とHPを25%UP",
+			"Skill": "下部を赤ピースに変換　中"
+		},
+		"Moon": {
+			"LSkill": "赤属性の攻撃力とHPを25%UP",
+			"Skill": "下部を赤ピースに変換　中"
+		}
+	},
+	"443": {
+		"Before": {
+			"LSkill": "赤・緑・黄属性の攻撃力を30%UP",
+			"Skill": "3chainの間、赤・緑・黄ピースが出現\n"
+		},
+		"Sun": {
+			"LSkill": "赤・緑・黄属性の攻撃力を40%UP",
+			"Skill": "3chainの間、赤・緑・黄ピースが出現\n"
+		},
+		"Moon": {
+			"LSkill": "青・黄・紫属性の攻撃力を40%UP",
+			"Skill": "3chainの間、青・黄・紫ピースが出現"
+		}
+	},
+	"444": {
+		"Before": {
+			"LSkill": "ランク獲得EXPを10%UP",
+			"Skill": "自分のHPを消費し、強化爆弾を2個追加"
+		},
+		"Sun": {
+			"LSkill": "ランク獲得EXPを15%UP",
+			"Skill": "自分のHPを消費し、強化爆弾を3個追加"
+		},
+		"Moon": {
+			"LSkill": "ランク獲得EXPを15%UP",
+			"Skill": "自分のHPを消費し、強化爆弾を3個追加"
+		}
+	},
+	"445": {
+		"Before": {
+			"LSkill": "自分の全能力を100%UP/スキル発動数を10減らす",
+			"Skill": "赤ピースに変換する　Y字型"
+		},
+		"Sun": {
+			"LSkill": "N/A",
+			"Skill": "N/A"
+		},
+		"Moon": {
+			"LSkill": "N/A",
+			"Skill": "N/A"
+		}
 	}
 }
