@@ -1775,6 +1775,22 @@
 		"no": 444,
 		"name": "Kalt (Sentai)"
 	},
+	"476": {
+		"no": 446,
+		"name": "Akito (Oath)"
+	},
+	"477": {
+		"no": 447,
+		"name": "Synny (Oath)"
+	},
+	"478": {
+		"no": 448,
+		"name": "Perla (Oath)"
+	},
+	"479": {
+		"no": 449,
+		"name": "Lyon (Oath)"
+	},
 	"521": {
 		"no": 445,
 		"name": "Yatterman-1"
@@ -2086,6 +2102,10 @@
 	"81049": {
 		"no": "81049",
 		"name": "Fairy Princess (Raiment)"
+	},
+	"81050": {
+		"no": "81050",
+		"name": "Fairy Princess (Oath)"
 	},
 	"82002": {
 		"no": 82002,

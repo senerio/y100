@@ -85,8 +85,8 @@ function wikiaCharacterPage (id, eventName) {
 		+ '\n|name_jp = ' + mCard[id].name
 		+ '\n|attribute = ' + attribute(mCard[id].attr)
 		+ wikiaRouteStats(id)
-		+ wikiaRouteStats(y.getSunId(id))
-		+ wikiaRouteStats(y.getMoonId(id))
+		+ ( mCard[y.getSunId(id)] ? wikiaRouteStats(y.getSunId(id)) : '' )
+		+ ( mCard[y.getMoonId(id)] ? wikiaRouteStats(y.getMoonId(id)) : '' )
 		+ '\n}}'
 		+ '\n== Profile =='
 		+ '\n{{Profile'
@@ -109,14 +109,16 @@ function wikiaCharacterPage (id, eventName) {
 				+ '\n|dislikes = ';
 			}
 		})()
-		+ '\n}}'
+		+ '\n}}';
+	if(mCard[y.getSunId(id)]) {
+		t += ''
 		+ '\n== Story =='
 		+ '\n{{Still|text=Sun Still|img=Still_' + y.getNo(id) + 's.jpg}}'
 		+ '\n{{Still|text=Moon Still|img=Still_' + y.getNo(id) + 'm.jpg}}'
 		+ wikiaAwakeningReqs(id)
-		+ '\n\n{{ShowQuotes}}';
+	}
+	t += '\n\n{{ShowQuotes}}';
 	return t;
-
 }
 
 function wikiaCharacterStats(id) {
@@ -127,8 +129,8 @@ function wikiaCharacterStats(id) {
                 + '\n|name_jp = ' + mCard[id].name
                 + '\n|attribute = ' + attribute(mCard[id].attr)
                 + wikiaRouteStats(id)
-                + wikiaRouteStats(y.getSunId(id))
-                + wikiaRouteStats(y.getMoonId(id))
+                + ( mCard[y.getSunId(id)] ? wikiaRouteStats(y.getSunId(id)) : '' )
+                + ( mCard[y.getMoonId(id)] ? wikiaRouteStats(y.getMoonId(id)) : '' )
 }
 
 function wikiaUpdatePages(id, eventName) {
@@ -136,15 +138,20 @@ function wikiaUpdatePages(id, eventName) {
 	var skills = require('./public/skills.json');
 
 	function skillsSet(route, all, affix) {
-		return ''
-		+ '\n|-'
-		+ '\n|' + y.getNo(id)
-		+ (all==false ? '\n|[[File:' + y.getNo(id) + affix + '_t.png|65px]]' : '')
-		+ '\n|[[' + y.getTitle(id) + ']]<br /><p class=\"jp\">' + mCard[id].name + '</p>'
-		+ (all==true ? '\n|' + attribute(mCard[id].attr) : '')
-		+ '\n|' + route
-		+ '\n|' + skills[y.getNo(id)][route].LSkill
-		+ '\n|' + skills[y.getNo(id)][route].Skill;
+		if( skills[y.getNo(id)][route] != undefined ) {
+			return ''
+			+ '\n|-'
+			+ '\n|' + y.getNo(id)
+			+ (all==false ? '\n|[[File:' + y.getNo(id) + affix + '_t.png|65px]]' : '')
+			+ '\n|[[' + y.getTitle(id) + ']]<br /><p class=\"jp\">' + mCard[id].name + '</p>'
+			+ (all==true ? '\n|' + attribute(mCard[id].attr) : '')
+			+ '\n|' + route
+			+ '\n|' + skills[y.getNo(id)][route].LSkill
+			+ '\n|' + skills[y.getNo(id)][route].Skill;
+		}
+		else {
+			return '';
+		}
 	}
 
 	var princeList = ''

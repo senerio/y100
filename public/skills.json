@@ -6220,5 +6220,61 @@
 			"LSkill": "Increase all own stats by 100% and reduce skill activation count by 10",
 			"Skill": "Insert Red beads (Y shaped)"
 		}
+	},
+	"446": {
+		"Before": {
+			"LSkill": "Increase Red ATK by 40% and Party ATK by 25% when Max HP",
+			"Skill": "Turn Blue beads into Red"
+		},
+		"Sun": {
+			"LSkill": "Increase Red ATK by 40% and Party ATK by 35% when Max HP",
+			"Skill": "Turn Blue beads into Red"
+		},
+		"Moon": {
+			"LSkill": "Increase Red ATK by 50% and Party ATK by 25% when Max HP",
+			"Skill": "Turn Green beads into Red"
+		}
+	},
+	"447": {
+		"Before": {
+			"LSkill": "Reduce Party HP and increase ATK by 50%",
+			"Skill": "Insert Yellow beads (6)"
+		},
+		"Sun": {
+			"LSkill": "Reduce Party HP and increase ATK by 60%",
+			"Skill": "Insert Yellow beads (8)"
+		},
+		"Moon": {
+			"LSkill": "Reduce Party HP and increase ATK by 60%",
+			"Skill": "Insert Yellow beads (8)"
+		}
+	},
+	"448": {
+		"Before": {
+			"LSkill": "Increase ATK by 10% for every 4 chains (Max is 60%)",
+			"Skill": "Erase random beads for 8 chains"
+		},
+		"Sun": {
+			"LSkill": "Increase ATK by 12% for every 4 chains (Max is 60%)",
+			"Skill": "Erase random beads for 11 chains"
+		},
+		"Moon": {
+			"LSkill": "Increase ATK by 10% for every 3 chains (Max is 60%)",
+			"Skill": "Erase random beads for 8 chains"
+		}
+	},
+	"449": {
+		"Before": {
+			"LSkill": "Increase prince EXP gain by 10%",
+			"Skill": "Increase ATK of Yellow for 1 turn (A)"
+		},
+		"Sun": {
+			"LSkill": "Increase prince EXP gain by 15%",
+			"Skill": "Increase ATK of Yellow for 1 turn (S)"
+		},
+		"Moon": {
+			"LSkill": "Increase prince EXP gain by 15%",
+			"Skill": "Increase ATK of Yellow for 1 turn (S)"
+		}
 	}
 }
