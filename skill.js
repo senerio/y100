@@ -7,7 +7,8 @@ function skillIds (id) {
 	var main, leader, hidden;
 	for(var i in map) {
 		if(id == map[i].cardId) {
-			switch(map[i].seqNo) {
+			switch(parseInt(map[i].skillDivision))
+			{
 				case 1: main = map[i].skillId; break;
 				case 2: leader = map[i].skillId; break;
 				case 3: hidden = map[i].skillId; break;
