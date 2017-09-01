@@ -6276,5 +6276,75 @@
 			"LSkill": "Increase prince EXP gain by 15%",
 			"Skill": "Increase ATK of Yellow for 1 turn (S)"
 		}
+	},
+	"450": {
+		"Before": {
+			"LSkill": "Turn all bombs that appear into gold bombs",
+			"Skill": "Turn all beads into Blue, Yellow and Purple waves"
+		},
+		"Sun": {
+			"LSkill": "Turn all bombs that appear into gold bombs and increase HP by 15%",
+			"Skill": "Turn all beads into Blue, Yellow and Purple waves"
+		},
+		"Moon": {
+			"LSkill": "Turn all bombs that appear into gold bombs and increase ATK by 20%",
+			"Skill": "Turn all beads into Red, Blue and Green waves"
+		}
+	},
+	"451": {
+		"Before": {
+			"LSkill": "Increase ATK by 80% and reduce other stats when party consists of all 5 colours",
+			"Skill": "Erase beads around a chain (3 chains)"
+		},
+		"Sun": {
+			"LSkill": "Increase ATK by 80% and reduce other stats a little when party consists of all 5 colours",
+			"Skill": "Erase beads around a chain (5 chains)"
+		},
+		"Moon": {
+			"LSkill": "Increase ATK by 100% and reduce other stats when party consists of all 5 colours",
+			"Skill": "Erase beads around a chain (5 chains)"
+		}
+	},
+	"452": {
+		"Before": {
+			"LSkill": "Additional attack will occur when attacking with 5 colors",
+			"Skill": "Recover party HP in accordance to RP (S)"
+		},
+		"Sun": {
+			"LSkill": "Additional attack will occur when attacking with 5 colors",
+			"Skill": "Recover party HP in accordance to RP (SS)"
+		},
+		"Moon": {
+			"LSkill": "Additional attack will occur when attacking with 5 colors",
+			"Skill": "Recover party HP in accordance to RP (SS)"
+		}
+	},
+	"453": {
+		"Before": {
+			"LSkill": "Increase Green HP & RP by 25%",
+			"Skill": "Recover HP and recover skill gauge of others "
+		},
+		"Sun": {
+			"LSkill": "Increase Green HP & RP by 30%",
+			"Skill": "Recover HP and recover skill gauge of others "
+		},
+		"Moon": {
+			"LSkill": "Increase Green HP & RP by 25% and ATK by 15%",
+			"Skill": "Recover HP and recover skill gauge of others "
+		}
+	},
+	"454": {
+		"Before": {
+			"LSkill": "Increase Gold, Rank and Prince EXP by 8%",
+			"Skill": "Turn upper beads into Red beads (B)"
+		},
+		"Sun": {
+			"LSkill": "Increase Gold, Rank and Prince EXP by 10%",
+			"Skill": "Turn upper beads into Red beads (A)"
+		},
+		"Moon": {
+			"LSkill": "Increase Gold, Rank and Prince EXP by 10%",
+			"Skill": "Turn upper beads into Red beads (A)"
+		}
 	}
 }
