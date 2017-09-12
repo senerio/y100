@@ -1811,6 +1811,26 @@
 		"no": 454,
 		"name": "Sharon (Desert)"
 	},
+	"485": {
+		"no": 455,
+		"name": "Kagetora (Moonlit Night)"
+	},
+	"486": {
+		"no": 456,
+		"name": "Oka (Moonlit Night)"
+	},
+	"487": {
+		"no": 457,
+		"name": "Toya (Moonlit Night)"
+	},
+	"488": {
+		"no": 458,
+		"name": "Fujime (Moonlit Night)"
+	},
+	"489": {
+		"no": 459,
+		"name": "Saiga (Moonlit Night)"
+	},
 	"521": {
 		"no": 445,
 		"name": "Yatterman-1"
@@ -2126,6 +2146,10 @@
 	"81050": {
 		"no": "81050",
 		"name": "Fairy Princess (Oath)"
+	},
+	"81052": {
+		"no": "81052",
+		"name": "Fairy Princess (Moonlit Night)"
 	},
 	"82002": {
 		"no": 82002,

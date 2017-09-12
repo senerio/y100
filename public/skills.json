@@ -6346,5 +6346,75 @@
 			"LSkill": "Increase Gold, Rank and Prince EXP by 10%",
 			"Skill": "Turn upper beads into Red beads (A)"
 		}
+	},
+	"455": {
+		"Before": {
+			"LSkill": "Increase HP by 25% when Party consists of 3 colors or more",
+			"Skill": "Reduce Red beads appearance rate and increase Blue beads appearance rate for 5 chains"
+		},
+		"Sun": {
+			"LSkill": "Increase HP by 30% when Party consists of 3 colors or more",
+			"Skill": "Reduce Red beads appearance rate and increase Blue beads appearance rate for 5 chains"
+		},
+		"Moon": {
+			"LSkill": "Increase HP by 25% and ATK by 10% when Party consists of 3 colors or more",
+			"Skill": "Reduce Purple beads appearance rate and increase Blue beads appearance rate for 5 chains"
+		}
+	},
+	"456": {
+		"Before": {
+			"LSkill": "Increase Green RP by 30%, increase Party ATK by 40% when Max HP",
+			"Skill": "Recover HP and insert Green beads"
+		},
+		"Sun": {
+			"LSkill": "Increase Green RP by 40%, increase Party ATK by 40% when Max HP",
+			"Skill": "Recover HP and insert Green beads"
+		},
+		"Moon": {
+			"LSkill": "Increase Green RP by 30%, increase Party ATK by 50% when Max HP",
+			"Skill": "Recover HP and insert Green beads"
+		}
+	},
+	"457": {
+		"Before": {
+			"LSkill": "Increase Blue HP by 30%",
+			"Skill": "For 1 chain, only Blue and Green beads appear"
+		},
+		"Sun": {
+			"LSkill": "Increase Blue HP by 35%",
+			"Skill": "For 1 chain, only Blue and Green beads appear"
+		},
+		"Moon": {
+			"LSkill": "Increase Blue HP by 35%",
+			"Skill": "For 1 chain, only Blue and Green beads appear"
+		}
+	},
+	"458": {
+		"Before": {
+			"LSkill": "Increase Green HP & RP by 20%",
+			"Skill": "Erase left side beads and recover time"
+		},
+		"Sun": {
+			"LSkill": "Increase Green HP & RP by 25%",
+			"Skill": "Erase left side beads and recover time"
+		},
+		"Moon": {
+			"LSkill": "Increase Green HP & RP by 25%",
+			"Skill": "Erase left side beads and recover time"
+		}
+	},
+	"459": {
+		"Before": {
+			"LSkill": "Reduce Party HP and increase ATK by 60%",
+			"Skill": "Turn middle row beads into Green and increase Green ATK for 1 turn"
+		},
+		"Sun": {
+			"LSkill": "Reduce Party HP and increase ATK by 70%",
+			"Skill": "Turn middle row beads into Green and increase Green ATK for 1 turn"
+		},
+		"Moon": {
+			"LSkill": "Reduce Party HP and increase ATK by 60% and RP by 15%",
+			"Skill": "Turn middle row beads into Green and increase Green ATK for 1 turn"
+		}
 	}
 }
