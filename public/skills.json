@@ -6416,5 +6416,75 @@
 			"LSkill": "Reduce Party HP and increase ATK by 60% and RP by 15%",
 			"Skill": "Turn middle row beads into Green and increase Green ATK for 1 turn"
 		}
+	},
+	"460": {
+		"Before": {
+			"LSkill": "全員の攻撃力を60%UP/他能力を少し下げる",
+			"Skill": "青を全て消し、黄を紫に変換する"
+		},
+		"Sun": {
+			"LSkill": "全員の攻撃力を70%UP/他能力を少し下げる",
+			"Skill": "青を全て消し、黄を紫に変換する"
+		},
+		"Moon": {
+			"LSkill": "全員の攻撃力を70%UP/他能力を少し下げる",
+			"Skill": "緑を全て消し、赤を紫に変換する"
+		}
+	},
+	"461": {
+		"Before": {
+			"LSkill": "緑属性の攻撃力を50%UP",
+			"Skill": "3chainの間、緑の出現率UP 特大"
+		},
+		"Sun": {
+			"LSkill": "緑属性の攻撃力を65%UP",
+			"Skill": "4chainの間、緑の出現率UP 特大"
+		},
+		"Moon": {
+			"LSkill": "緑の攻50%UP/3属性以上で攻30%UP",
+			"Skill": "4chainの間、緑の出現率UP 特大"
+		}
+	},
+	"462": {
+		"Before": {
+			"LSkill": "5属性で攻撃すると、追加攻撃を行う　大",
+			"Skill": "左列を赤ピースに変換する 小"
+		},
+		"Sun": {
+			"LSkill": "5属性で攻撃すると、追加攻撃を行う　特大",
+			"Skill": "左列を赤ピースに変換する 中"
+		},
+		"Moon": {
+			"LSkill": "5属性で攻撃すると、追加攻撃を行う　特大",
+			"Skill": "左列を赤ピースに変換する 中"
+		}
+	},
+	"463": {
+		"Before": {
+			"LSkill": "メンバー3属性以上で攻撃力を30%UP",
+			"Skill": "1ターン黄・紫の攻撃力と出現率UP"
+		},
+		"Sun": {
+			"LSkill": "メンバー3属性以上で攻撃30%/HP10%UP",
+			"Skill": "1ターン黄・紫の攻撃力と出現率UP"
+		},
+		"Moon": {
+			"LSkill": "メンバー3属性以上で攻撃力を40%UP",
+			"Skill": "1ターン青・黄の攻撃力と出現率UP"
+		}
+	},
+	"464": {
+		"Before": {
+			"LSkill": "青属性のHPと回復力を20%UP",
+			"Skill": "ハートピースを追加 1～2個"
+		},
+		"Sun": {
+			"LSkill": "青属性のHPと回復力を25%UP",
+			"Skill": "ハートピースを追加 1～3個"
+		},
+		"Moon": {
+			"LSkill": "青属性のHPと回復力を25%UP",
+			"Skill": "ハートピースを追加 1～3個"
+		}
 	}
 }
