@@ -45,7 +45,10 @@ function post() {
 			title + '/Quotes',
 			require('./voice.js').wikiaQuotePage(id)
 		);
-
+		
+		// fs.writeFile('./update/' + title + '.txt', require('./profile.js').wikiaCharacterPage(id, eventName))
+		// fs.writeFile('./update/' + title + ' Quotes.txt', require('./voice.js').wikiaQuotePage(id))
+		
 		for(var i of updatePages) {
 			updates[i] += require('./profile.js').wikiaUpdatePages(id, eventName)[i];
 		}

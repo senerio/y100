@@ -84,6 +84,7 @@ function wikiaCharacterPage (id, eventName) {
 		+ '\n|name = ' + y.getName(id)
 		+ '\n|name_jp = ' + mCard[id].name
 		+ '\n|attribute = ' + attribute(mCard[id].attr)
+		+ '\n|skill_class = ' + require('./skill.js').classification(id)
 		+ wikiaRouteStats(id)
 		+ ( mCard[y.getSunId(id)] ? wikiaRouteStats(y.getSunId(id)) : '' )
 		+ ( mCard[y.getMoonId(id)] ? wikiaRouteStats(y.getMoonId(id)) : '' )
