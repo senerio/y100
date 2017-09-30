@@ -1833,23 +1833,51 @@
 	},
 	"490": {
 		"no": 460,
-		"name": "ウィル"
+		"name": "Will (Casino)"
 	},
 	"491": {
 		"no": 461,
-		"name": "オズワルド"
+		"name": "Oswald (Casino)"
 	},
 	"492": {
 		"no": 462,
-		"name": "エルフェン"
+		"name": "Elfen (Casino)"
 	},
 	"493": {
 		"no": 463,
-		"name": "ドロワット"
+		"name": "Droite (Casino)"
 	},
 	"494": {
 		"no": 464,
-		"name": "テオドール"
+		"name": "Theodor (Casino)"
+	},
+	"495": {
+		"no": 465,
+		"name": "Cheshire Cat (Trick or Tea)"
+	},
+	"496": {
+		"no": 466,
+		"name": "Edmond (Trick or Tea)"
+	},
+	"497": {
+		"no": 467,
+		"name": "Leonie (Trick or Tea)"
+	},
+	"498": {
+		"no": 468,
+		"name": "Leeya (Trick or Tea)"
+	},
+	"499": {
+		"no": 469,
+		"name": "Peco (Trick or Tea)"
+	},
+	"500": {
+		"no": 470,
+		"name": "Mad Hatter (Trick or Tea)"
+	},
+	"501": {
+		"no": 471,
+		"name": "Thinpla (Trick or Tea)"
 	},
 	"521": {
 		"no": 445,
@@ -1883,6 +1911,10 @@
 		"no": 71005,
 		"name": "Rookie Trainer (Red)"
 	},
+	"71020": {
+		"no": "71020",
+		"name": "Love Up Trainer (Red)"
+	},
 	"72001": {
 		"no": 72001,
 		"name": "Legendary Trainer (Blue)"
@@ -1907,6 +1939,10 @@
 		"no": 72006,
 		"name": "Anniversary Trainer"
 	},
+	"72020": {
+		"no": "72020",
+		"name": "Love Up Trainer (Blue)"
+	},
 	"73001": {
 		"no": 73001,
 		"name": "Legendary Trainer (Green)"
@@ -1926,6 +1962,10 @@
 	"73005": {
 		"no": 73005,
 		"name": "Rookie Trainer (Green)"
+	},
+	"73020": {
+		"no": "73020",
+		"name": "Love Up Trainer (Green)"
 	},
 	"74001": {
 		"no": 74001,
@@ -1959,6 +1999,10 @@
 		"no": 74010,
 		"name": "Million Trainer"
 	},
+	"74020": {
+		"no": "74020",
+		"name": "Love Up Trainer (Yellow)"
+	},
 	"75001": {
 		"no": 75001,
 		"name": "Legendary Trainer (Purple)"
@@ -1986,6 +2030,10 @@
 	"75009": {
 		"no": 75009,
 		"name": "Mister WD"
+	},
+	"75020": {
+		"no": "75020",
+		"name": "Love Up Trainer (Purple)"
 	},
 	"80007": {
 		"no": 80007,
@@ -2170,6 +2218,10 @@
 	"81052": {
 		"no": "81052",
 		"name": "Fairy Princess (Moonlit Night)"
+	},
+	"81053": {
+		"no": "81053",
+		"name": "Fairy Princess (Trick or Tea)"
 	},
 	"82002": {
 		"no": 82002,

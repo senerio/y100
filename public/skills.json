@@ -1206,15 +1206,15 @@
 	"87": {
 		"Before": {
 			"LSkill": "Additional damage after attack (SS)",
-			"Skill": "Reduce appearance of Yellow beads and increase Purple"
+			"Skill": "Reduce appearance of Yellow beads and increase Purple (5 chains)"
 		},
 		"Sun": {
 			"LSkill": "Additional damage after attack (SSS)",
-			"Skill": "Reduce appearance of Yellow beads and increase Purple"
+			"Skill": "Reduce appearance of Yellow beads and increase Purple (5 chains)"
 		},
 		"Moon": {
 			"LSkill": "Additional damage after attack (SSS)",
-			"Skill": "Reduce appearance of Blue beads and increase Purple"
+			"Skill": "Reduce appearance of Blue beads and increase Purple (5 chains)"
 		}
 	},
 	"88": {
@@ -6419,72 +6419,170 @@
 	},
 	"460": {
 		"Before": {
-			"LSkill": "全員の攻撃力を60%UP/他能力を少し下げる",
-			"Skill": "青を全て消し、黄を紫に変換する"
+			"LSkill": "Incease Party ATK by 60% and reduce other stats a little",
+			"Skill": "Erase all Blue beads and turn Yellow beads into Purple"
 		},
 		"Sun": {
-			"LSkill": "全員の攻撃力を70%UP/他能力を少し下げる",
-			"Skill": "青を全て消し、黄を紫に変換する"
+			"LSkill": "Incease Party ATK by 70% and reduce other stats a little",
+			"Skill": "Erase all Blue beads and turn Yellow beads into Purple"
 		},
 		"Moon": {
-			"LSkill": "全員の攻撃力を70%UP/他能力を少し下げる",
-			"Skill": "緑を全て消し、赤を紫に変換する"
+			"LSkill": "Incease Party ATK by 70% and reduce other stats a little",
+			"Skill": "Erase all Green beads and turn Red beads into Purple"
 		}
 	},
 	"461": {
 		"Before": {
-			"LSkill": "緑属性の攻撃力を50%UP",
-			"Skill": "3chainの間、緑の出現率UP 特大"
+			"LSkill": "Increase Green ATK by 50%",
+			"Skill": "Increase Green beads appearance rate for 3 chains (S)"
 		},
 		"Sun": {
-			"LSkill": "緑属性の攻撃力を65%UP",
-			"Skill": "4chainの間、緑の出現率UP 特大"
+			"LSkill": "Increase Green ATK by 65%",
+			"Skill": "Increase Green beads appearance rate for 4 chains (S)"
 		},
 		"Moon": {
-			"LSkill": "緑の攻50%UP/3属性以上で攻30%UP",
-			"Skill": "4chainの間、緑の出現率UP 特大"
+			"LSkill": "Increase Green ATK by 50%, ATK by 30% when Party consists of 3 colors or more",
+			"Skill": "Increase Green beads appearance rate for 4 chains (SS)"
 		}
 	},
 	"462": {
 		"Before": {
-			"LSkill": "5属性で攻撃すると、追加攻撃を行う　大",
-			"Skill": "左列を赤ピースに変換する 小"
+			"LSkill": "Additional attack will occur when attacking with 5 colors (S)",
+			"Skill": "Turn left side beads Red (B)"
 		},
 		"Sun": {
-			"LSkill": "5属性で攻撃すると、追加攻撃を行う　特大",
-			"Skill": "左列を赤ピースに変換する 中"
+			"LSkill": "Additional attack will occur when attacking with 5 colors (SS)",
+			"Skill": "Turn left side beads Red (A)"
 		},
 		"Moon": {
-			"LSkill": "5属性で攻撃すると、追加攻撃を行う　特大",
-			"Skill": "左列を赤ピースに変換する 中"
+			"LSkill": "Additional attack will occur when attacking with 5 colors (SS)",
+			"Skill": "Turn left side beads Red (A)"
 		}
 	},
 	"463": {
 		"Before": {
-			"LSkill": "メンバー3属性以上で攻撃力を30%UP",
-			"Skill": "1ターン黄・紫の攻撃力と出現率UP"
+			"LSkill": "Increase ATK by 30% when Party consists of more than 3 colors",
+			"Skill": "Incease Yellow & Purple ATK and beads appearance rate for 1 turn"
 		},
 		"Sun": {
-			"LSkill": "メンバー3属性以上で攻撃30%/HP10%UP",
-			"Skill": "1ターン黄・紫の攻撃力と出現率UP"
+			"LSkill": "Increase ATK by 30% and HP by 10% when Party consists of more than 3 colors",
+			"Skill": "Incease Yellow & Purple ATK and beads appearance rate for 1 turn"
 		},
 		"Moon": {
-			"LSkill": "メンバー3属性以上で攻撃力を40%UP",
-			"Skill": "1ターン青・黄の攻撃力と出現率UP"
+			"LSkill": "Increase ATK by 40% when Party consists of more than 3 colors",
+			"Skill": "Incease Blue & Yellow ATK and beads appearance rate for 1 turn"
 		}
 	},
 	"464": {
 		"Before": {
-			"LSkill": "青属性のHPと回復力を20%UP",
-			"Skill": "ハートピースを追加 1～2個"
+			"LSkill": "Increase Blue HP & RP by 20%",
+			"Skill": "Insert hearts (1-2)"
 		},
 		"Sun": {
-			"LSkill": "青属性のHPと回復力を25%UP",
-			"Skill": "ハートピースを追加 1～3個"
+			"LSkill": "Increase Blue HP & RP by 25%",
+			"Skill": "Insert hearts (1-3)"
 		},
 		"Moon": {
-			"LSkill": "青属性のHPと回復力を25%UP",
-			"Skill": "ハートピースを追加 1～3個"
+			"LSkill": "Increase Blue HP & RP by 20%",
+			"Skill": "Insert hearts (1-3)"
+		}
+	},
+	"465": {
+		"Before": {
+			"LSkill": "黄の攻撃力を80%UP/他能力を下げる",
+			"Skill": "十字方向にピースを消す　特大"
+		},
+		"Sun": {
+			"LSkill": "黄の攻撃力を80%UP/他能力を少し下げる",
+			"Skill": "十字方向にピースを消す　極大"
+		},
+		"Moon": {
+			"LSkill": "黄の攻撃力を100%UP/他能力を下げる",
+			"Skill": "十字にピースを消し、黄を追加"
+		}
+	},
+	"466": {
+		"Before": {
+			"LSkill": "HPMAX時に全員の攻撃力65%UP",
+			"Skill": "全ピースを赤・青・黄に変換"
+		},
+		"Sun": {
+			"LSkill": "HPMAX時に全員の攻撃力75%UP",
+			"Skill": "全ピースを赤・黄・紫に変換"
+		},
+		"Moon": {
+			"LSkill": "HPMAX時に全員の攻撃力75%UP",
+			"Skill": "全ピースを赤・青・黄に変換"
+		}
+	},
+	"467": {
+		"Before": {
+			"LSkill": "HP50%以上で攻撃/以下で回復20%UP",
+			"Skill": "青ピースを黄ピースに変換する"
+		},
+		"Sun": {
+			"LSkill": "HP50%以上で攻撃/以下で回復30%UP",
+			"Skill": "青を黄に変換し、回復"
+		},
+		"Moon": {
+			"LSkill": "HP50%以上で攻撃/以下で回復30%UP",
+			"Skill": "青を黄に変換し、回復"
+		}
+	},
+	"468": {
+		"Before": {
+			"LSkill": "赤属性の攻撃力を50%UP",
+			"Skill": "10chainの間、赤の出現率UP　小"
+		},
+		"Sun": {
+			"LSkill": "赤・黄属性の攻撃力を50%UP",
+			"Skill": "10chainの間、赤の出現率UP　中"
+		},
+		"Moon": {
+			"LSkill": "赤・青属性の攻撃力を50%UP",
+			"Skill": "10chainの間、赤の出現率UP　中"
+		}
+	},
+	"469": {
+		"Before": {
+			"LSkill": "全員の攻撃力を15%UP",
+			"Skill": "爆弾を追加し、爆弾を一斉に爆発する"
+		},
+		"Sun": {
+			"LSkill": "全員の攻撃力を20%UP",
+			"Skill": "爆弾を追加し、爆弾を一斉に爆発する"
+		},
+		"Moon": {
+			"LSkill": "全員の攻撃力を20%UP",
+			"Skill": "爆弾を追加し、爆弾を一斉に爆発する"
+		}
+	},
+	"470": {
+		"Before": {
+			"LSkill": "HP50%以上で攻撃力50%UP",
+			"Skill": "紫を全て消し、赤を紫に変換する"
+		},
+		"Sun": {
+			"LSkill": "HP50%以上で攻撃力60%UP",
+			"Skill": "紫を全て消し、青を紫に変換する"
+		},
+		"Moon": {
+			"LSkill": "HP50%以上で攻撃力60%UP",
+			"Skill": "紫を全て消し、赤を紫に変換する"
+		}
+	},
+	"471": {
+		"Before": {
+			"LSkill": "青属性の攻撃力を50%UP",
+			"Skill": "青ピースと爆弾を追加する"
+		},
+		"Sun": {
+			"LSkill": "赤・青属性の攻撃力を50%UP",
+			"Skill": "青ピースと爆弾を追加する"
+		},
+		"Moon": {
+			"LSkill": "青・黄属性の攻撃力を50%UP",
+			"Skill": "青ピースと爆弾を追加する"
 		}
 	}
 }
