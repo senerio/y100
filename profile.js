@@ -184,8 +184,56 @@ function wikiaUpdatePages(id, eventName) {
 	};
 }
 
+function wikiaSkillsPage() {
+	var translatedSkills = require('./public/skills.json');
+	var mCard = JSON.parse(fs.readFileSync('./api/MCard'));
+	var t = '{|class="sortable filterable"' + 
+		'\n!style="white-space:nowrap;" class="unfilterable"|No.' + 
+		'\n!style="white-space:nowrap;" class="unfilterable"|Name' + 
+		'\n!style="white-space:nowrap;" class="unsortable"|Attribute' + 
+		'\n!style="white-space:nowrap;" class="unfilterable unsortable"|Route' + 
+		'\n!style="white-space:nowrap;" class="unfilterable"|Leader Skill' + 
+		'\n!style="white-space:nowrap;" class="unfilterable"|Skill' + 
+		'\n|-';
+	for(var i of Object.keys(translatedSkills)) {
+
+		var id = y.getId(i);
+			t += "" +
+			"\n|" + i +
+			"\n|[[" + y.getTitle(id) + "]]<br /><p class=\"jp\">" + mCard[id].name + "</p>" +
+			"\n|" + attribute(mCard[id].attr) +
+			"\n|Before" +
+			"\n|" + translatedSkills[i]["Before"].LSkill +
+			"\n|" + translatedSkills[i]["Before"].Skill +
+			"\n|-"
+		if( mCard[y.getSunId(id)] ) {
+			t += "" +
+			"\n|" + i +
+			"\n|[[" + y.getTitle(id) + "]]<br /><p class=\"jp\">" + mCard[id].name + "</p>" +
+			"\n|" + attribute(mCard[y.getSunId(id)].attr) +
+			"\n|Sun" +
+			"\n|" + translatedSkills[i]["Sun"].LSkill +
+			"\n|" + translatedSkills[i]["Sun"].Skill +
+			"\n|-"
+		}
+		if( mCard[y.getSunId(id)] ) {
+			t += "" +
+			"\n|" + i +
+			"\n|[[" + y.getTitle(id) + "]]<br /><p class=\"jp\">" + mCard[id].name + "</p>" +
+			"\n|" + attribute(mCard[y.getMoonId(id)].attr) +
+			"\n|Moon" +
+			"\n|" + translatedSkills[i]["Moon"].LSkill +
+			"\n|" + translatedSkills[i]["Moon"].Skill +
+			"\n|-"
+		}
+	}
+	t += "\n|}"
+	return t;
+}
+
 module.exports = {
 	wikiaCharacterPage: wikiaCharacterPage,
 	wikiaUpdatePages: wikiaUpdatePages,
-	wikiaCharacterStats: wikiaCharacterStats
+	wikiaCharacterStats: wikiaCharacterStats,
+	wikiaSkillsPage: wikiaSkillsPage
 }

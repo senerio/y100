@@ -3291,15 +3291,15 @@
 	},
 	"236": {
 		"Before": {
-			"LSkill": "A certain chance to attack disregarding the enemy's defense",
+			"LSkill": "A certain chance to attack disregarding the enemy's defense and increase Party ATK by 35% when Max HP",
 			"Skill": "Erase middle column beads and recover time"
 		},
 		"Sun": {
-			"LSkill": "A certain chance to attack disregarding the enemy's defense",
+			"LSkill": "A certain chance to attack disregarding the enemy's defense and increase Party ATK by 50% when Max HP",
 			"Skill": "Erase middle column beads and recover time"
 		},
 		"Moon": {
-			"LSkill": "A certain chance to attack disregarding the enemy's defense",
+			"LSkill": "A certain chance to attack disregarding the enemy's defense and increase Party ATK by 50% when Max HP",
 			"Skill": "Erase middle column beads and recover time"
 		}
 	},
@@ -4565,15 +4565,15 @@
 	},
 	"327": {
 		"Before": {
-			"LSkill": "A certain chance to attack disregarding the enemy's defense",
+			"LSkill": "A certain chance to attack disregarding the enemy's defense and increase Party ATK by 35% when Max HP",
 			"Skill": "Erase beads in cross (S)"
 		},
 		"Sun": {
-			"LSkill": "A certain chance to attack disregarding the enemy's defense",
+			"LSkill": "A certain chance to attack disregarding the enemy's defense and increase Party ATK by 50% when Max HP",
 			"Skill": "Erase beads in cross (SS)"
 		},
 		"Moon": {
-			"LSkill": "A certain chance to attack disregarding the enemy's defence",
+			"LSkill": "A certain chance to attack disregarding the enemy's defense and increase Party ATK by 50% when Max HP",
 			"Skill": "Erase beads in cross (SS)"
 		}
 	},
@@ -5111,15 +5111,15 @@
 	},
 	"366": {
 		"Before": {
-			"LSkill": "A certain chance to attack disregarding the enemy's defense",
+			"LSkill": "A certain chance to attack disregarding the enemy's defense and increase Party ATK by 35% when Max HP",
 			"Skill": "Turn bottom rows into Green beads (B)"
 		},
 		"Sun": {
-			"LSkill": "A certain chance to attack disregarding the enemy's defense",
+			"LSkill": "A certain chance to attack disregarding the enemy's defense and increase Party ATK by 50% when Max HP",
 			"Skill": "Turn bottom rows into Green beads (A)"
 		},
 		"Moon": {
-			"LSkill": "A certain chance to attack disregarding the enemy's defense",
+			"LSkill": "A certain chance to attack disregarding the enemy's defense and increase Party ATK by 50% when Max HP",
 			"Skill": "Turn bottom rows into Green beads (A)"
 		}
 	},
@@ -6489,100 +6489,100 @@
 	},
 	"465": {
 		"Before": {
-			"LSkill": "黄の攻撃力を80%UP/他能力を下げる",
-			"Skill": "十字方向にピースを消す　特大"
+			"LSkill": "Increase Yellow ATK by 80% and reduce all other stats",
+			"Skill": "Erase beads in cross (SS)"
 		},
 		"Sun": {
-			"LSkill": "黄の攻撃力を80%UP/他能力を少し下げる",
-			"Skill": "十字方向にピースを消す　極大"
+			"LSkill": "Increase Yellow ATK by 80% and reduce all other stats a little",
+			"Skill": "Erase beads in cross (SSS)"
 		},
 		"Moon": {
-			"LSkill": "黄の攻撃力を100%UP/他能力を下げる",
-			"Skill": "十字にピースを消し、黄を追加"
+			"LSkill": "Increase Yellow ATK by 100% and reduce all other stats",
+			"Skill": "Erase beads in cross and insert Yellow beads"
 		}
 	},
 	"466": {
 		"Before": {
-			"LSkill": "HPMAX時に全員の攻撃力65%UP",
-			"Skill": "全ピースを赤・青・黄に変換"
+			"LSkill": "Increase Party ATK by 65% when Max HP",
+			"Skill": "Turn all beads into Red, Blue and Yellow beads"
 		},
 		"Sun": {
-			"LSkill": "HPMAX時に全員の攻撃力75%UP",
-			"Skill": "全ピースを赤・黄・紫に変換"
+			"LSkill": "Increase Party ATK by 75% when Max HP",
+			"Skill": "Turn all beads into Red, Yellow and Purple beads"
 		},
 		"Moon": {
-			"LSkill": "HPMAX時に全員の攻撃力75%UP",
-			"Skill": "全ピースを赤・青・黄に変換"
+			"LSkill": "Increase Party ATK by 75% when Max HP",
+			"Skill": "Turn all beads into Red, Blue and Yellow beads"
 		}
 	},
 	"467": {
 		"Before": {
-			"LSkill": "HP50%以上で攻撃/以下で回復20%UP",
-			"Skill": "青ピースを黄ピースに変換する"
+			"LSkill": "Increase ATK by 20% when HP over 50% and RP by 20% when HP under 50%",
+			"Skill": "Turn Blue beads into Yellow"
 		},
 		"Sun": {
-			"LSkill": "HP50%以上で攻撃/以下で回復30%UP",
-			"Skill": "青を黄に変換し、回復"
+			"LSkill": "Increase ATK by 30% when HP over 50% and RP by 30% when HP under 50%",
+			"Skill": "Turn Blue beads into Yellow and recover HP"
 		},
 		"Moon": {
-			"LSkill": "HP50%以上で攻撃/以下で回復30%UP",
-			"Skill": "青を黄に変換し、回復"
+			"LSkill": "Increase ATK by 30% when HP over 50% and RP by 30% when HP under 50%",
+			"Skill": "Turn Blue beads into Yellow and recover HP"
 		}
 	},
 	"468": {
 		"Before": {
-			"LSkill": "赤属性の攻撃力を50%UP",
-			"Skill": "10chainの間、赤の出現率UP　小"
+			"LSkill": "Increase Red ATK by 50%",
+			"Skill": "Increase Red beads appearance rate for 10 chains (B)"
 		},
 		"Sun": {
-			"LSkill": "赤・黄属性の攻撃力を50%UP",
-			"Skill": "10chainの間、赤の出現率UP　中"
+			"LSkill": "Increase Red & Yellow ATK by 50%",
+			"Skill": "Increase Red beads appearance rate for 10 chains (A)"
 		},
 		"Moon": {
-			"LSkill": "赤・青属性の攻撃力を50%UP",
-			"Skill": "10chainの間、赤の出現率UP　中"
+			"LSkill": "Increase Red & Blue ATK by 50%",
+			"Skill": "Increase Red beads appearance rate for 10 chains (A)"
 		}
 	},
 	"469": {
 		"Before": {
-			"LSkill": "全員の攻撃力を15%UP",
-			"Skill": "爆弾を追加し、爆弾を一斉に爆発する"
+			"LSkill": "Increase Party ATK by 15%",
+			"Skill": "Insert bombs and ignite them all together"
 		},
 		"Sun": {
-			"LSkill": "全員の攻撃力を20%UP",
-			"Skill": "爆弾を追加し、爆弾を一斉に爆発する"
+			"LSkill": "Increase Party ATK by 20%",
+			"Skill": "Insert bombs and ignite them all together"
 		},
 		"Moon": {
-			"LSkill": "全員の攻撃力を20%UP",
-			"Skill": "爆弾を追加し、爆弾を一斉に爆発する"
+			"LSkill": "Increase Party ATK by 20%",
+			"Skill": "Insert bombs and ignite them all together"
 		}
 	},
 	"470": {
 		"Before": {
-			"LSkill": "HP50%以上で攻撃力50%UP",
-			"Skill": "紫を全て消し、赤を紫に変換する"
+			"LSkill": "Increase ATK by 50% when HP over 50%",
+			"Skill": "For 2 chains, only Yellow & Purple beads appear"
 		},
 		"Sun": {
-			"LSkill": "HP50%以上で攻撃力60%UP",
-			"Skill": "紫を全て消し、青を紫に変換する"
+			"LSkill": "Increase ATK by 60% when HP over 50%",
+			"Skill": "For 2 chains, only Blue & Purple beads appear"
 		},
 		"Moon": {
-			"LSkill": "HP50%以上で攻撃力60%UP",
-			"Skill": "紫を全て消し、赤を紫に変換する"
+			"LSkill": "Increase ATK by 60% when HP over 50%",
+			"Skill": "For 2 chains, only Yellow & Purple beads appear"
 		}
 	},
 	"471": {
 		"Before": {
-			"LSkill": "青属性の攻撃力を50%UP",
-			"Skill": "青ピースと爆弾を追加する"
+			"LSkill": "Increase Blue ATK by 50%",
+			"Skill": "Insert Blue beads and bombs"
 		},
 		"Sun": {
-			"LSkill": "赤・青属性の攻撃力を50%UP",
-			"Skill": "青ピースと爆弾を追加する"
+			"LSkill": "Increase Red & Blue ATK by 50%",
+			"Skill": "Insert Blue beads and bombs"
 		},
 		"Moon": {
-			"LSkill": "青・黄属性の攻撃力を50%UP",
-			"Skill": "青ピースと爆弾を追加する"
+			"LSkill": "Increase Blue & Yellow ATK by 50%",
+			"Skill": "Insert Blue beads and bombs"
 		}
 	}
 }

@@ -120,7 +120,3 @@ module.exports = {
 	toSheets: toSheets,
 	wikiaQuotePage: wikiaQuotePage
 }
-
-//for(var id of process.argv[2].split(',')) {
-//	renameScript(id);
-//}

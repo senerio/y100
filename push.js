@@ -57,10 +57,13 @@ function post() {
 
 	fs.writeFile('./public/updates.json', JSON.stringify(updates));
 
-	// wikia.createPage(
-	// 	'Skills/All',
-	// 	require('./profile.js').wikiaSkillsPage(idList)
-	// );
+	wikia.editPage(
+		'Skills/All',
+		0,
+		require('./profile.js').wikiaSkillsPage(),
+		'update'
+	);
+	
 	// wikia.createPage(
 	// 	'List',
 	// 	require('./profile.js').wikiaListPage(idList)
