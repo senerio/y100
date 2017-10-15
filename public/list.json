@@ -1879,6 +1879,34 @@
 		"no": 471,
 		"name": "Thinpla (Trick or Tea)"
 	},
+	"502": {
+		"no": 472,
+		"name": "Heldt ()"
+	},
+	"503": {
+		"no": 473,
+		"name": "Julius (Records)"
+	},
+	"504": {
+		"no": 474,
+		"name": "Patir (Records)"
+	},
+	"505": {
+		"no": 475,
+		"name": "Roie (Records)"
+	},
+	"506": {
+		"no": 476,
+		"name": "Legrange (Records)"
+	},
+	"507": {
+		"no": 477,
+		"name": "Superbia (Records)"
+	},
+	"508": {
+		"no": 478,
+		"name": "Million (Records)"
+	},
 	"521": {
 		"no": 445,
 		"name": "Yatterman-1"
@@ -2222,6 +2250,10 @@
 	"81053": {
 		"no": "81053",
 		"name": "Fairy Princess (Trick or Tea)"
+	},
+	"81054": {
+		"no": "81054",
+		"name": "Fairy Princess (Records)"
 	},
 	"82002": {
 		"no": 82002,
