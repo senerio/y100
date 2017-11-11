@@ -1187,6 +1187,10 @@
 		"no": 296,
 		"name": "Apis (Hero)"
 	},
+	"323": {
+		"no": 479,
+		"name": "Rege (Hero)"
+	},
 	"324": {
 		"no": 297,
 		"name": "Azuma (Hero)"
@@ -1907,6 +1911,30 @@
 		"no": 478,
 		"name": "Million (Records)"
 	},
+	"509": {
+		"no": 480,
+		"name": "Frost (Maple Leaf)"
+	},
+	"510": {
+		"no": 481,
+		"name": "Haldine (Maple Leaf)"
+	},
+	"511": {
+		"no": 482,
+		"name": "Koga (Maple Leaf)"
+	},
+	"512": {
+		"no": 483,
+		"name": "Nayuta (Maple Leaf)"
+	},
+	"513": {
+		"no": 484,
+		"name": "Beul (Maple Leaf)"
+	},
+	"514": {
+		"no": 485,
+		"name": "Amano (Maple Leaf)"
+	},
 	"521": {
 		"no": 445,
 		"name": "Yatterman-1"
@@ -2254,6 +2282,10 @@
 	"81054": {
 		"no": "81054",
 		"name": "Fairy Princess (Records)"
+	},
+	"81055": {
+		"no": "81055",
+		"name": "Fairy Princess (Maple Leaf)"
 	},
 	"82002": {
 		"no": 82002,
