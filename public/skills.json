@@ -6683,88 +6683,186 @@
 			"Skill": "Recover HP for 3 turns (SSS)"
 		}
 	},
-	"486": {
+	"479": {
 		"Before": {
-			"LSkill": "メンバーが5属性で攻撃25%/回復15%UP",
-			"Skill": "自分の攻撃力をUP　特大"
+			"LSkill": "Increase Green ATK & RP by 30%",
+			"Skill": "Turn Blue beads into Green and recover HP"
 		},
 		"Sun": {
-			"LSkill": "メンバーが5属性で攻撃35%/回復20%UP",
-			"Skill": "全員の攻UP　大、自分の攻UP　特大"
+			"LSkill": "Increase Green ATK & RP by 30% and HP by 5%",
+			"Skill": "Turn Purple beads into Green and recover HP"
 		},
 		"Moon": {
-			"LSkill": "メンバーが5属性で攻撃40%/回復15%UP",
-			"Skill": "自分の攻撃力をUP　極大"
+			"LSkill": "Increase Green ATK & RP by 35%",
+			"Skill": "Turn Blue beads into Green and recover HP"
+		}
+	},
+	"480": {
+		"Before": {
+			"LSkill": "Increase ATK by 50% when HP over 50%",
+			"Skill": "Increase Blue beads appearance for 3 chains (SS)"
+		},
+		"Sun": {
+			"LSkill": "Increase ATK by 60% when HP over 50%",
+			"Skill": "Increase Blue beads appearance for 4 chains (SS)"
+		},
+		"Moon": {
+			"LSkill": "Increase ATK by 60% when HP over 50%",
+			"Skill": "Increase Blue beads appearance for 3 chains (SS)"
+		}
+	},
+	"481": {
+		"Before": {
+			"LSkill": "Increase Red HP by 20%, increase Party ATK by 40% when Max HP",
+			"Skill": "Turn bottom beads into Red and insert heart"
+		},
+		"Sun": {
+			"LSkill": "Increase Red HP by 20%, increase Party ATK by 50% when Max HP",
+			"Skill": "Turn bottom beads into Red and insert heart"
+		},
+		"Moon": {
+			"LSkill": "Increase Red HP by 30%, increase Party ATK by 40% when Max HP",
+			"Skill": "Turn bottom beads into Red and insert heart"
+		}
+	},
+	"482": {
+		"Before": {
+			"LSkill": "Increase Green HP & RP by 20%",
+			"Skill": "Recover HP in accordance to RP (S)"
+		},
+		"Sun": {
+			"LSkill": "Increase Green HP & RP by 25%",
+			"Skill": "Recover HP in accordance to RP (SS)"
+		},
+		"Moon": {
+			"LSkill": "Increase Green HP & RP by 25%",
+			"Skill": "Recover HP in accordance to RP (SS)"
+		}
+	},
+	"483": {
+		"Before": {
+			"LSkill": "Reduce Party HP and increase ATK & RP by 35%",
+			"Skill": "Increase Party RP up for 1 turn and insert heart"
+		},
+		"Sun": {
+			"LSkill": "Reduce Party HP and increase ATK & RP by 40%",
+			"Skill": "Increase Party RP up for 1 turn and insert heart"
+		},
+		"Moon": {
+			"LSkill": "Reduce Party HP and increase ATK & RP by 40%",
+			"Skill": "Increase Party RP up for 1 turn and insert heart"
+		}
+	},
+	"484": {
+		"Before": {
+			"LSkill": "Increase ATK by 10% for every 5 chains (Max 50%)",
+			"Skill": "Erase random beads for 9 chains"
+		},
+		"Sun": {
+			"LSkill": "Increase ATK by 10% for every 4 chains (Max 50%)",
+			"Skill": "Erase random beads for 11 chains"
+		},
+		"Moon": {
+			"LSkill": "Increase ATK by 10% for every 4 chains (Max 50%)",
+			"Skill": "Erase random beads for 11 chains"
+		}
+	},
+	"485": {
+		"Before": {
+			"LSkill": "Recover skill gauge every turn (S)",
+			"Skill": "Turn middle row beads Yellow and increase Party ATK for 1 turn"
+		},
+		"Sun": {
+			"LSkill": "Recover skill gauge every turn (SS)",
+			"Skill": "Turn middle row beads Yellow and increase Party ATK for 1 turn"
+		},
+		"Moon": {
+			"LSkill": "Recover skill gauge every turn and increase Party ATK by 10%",
+			"Skill": "Turn middle row beads Yellow and increase Party ATK for 1 turn"
+		}
+	},
+	"486": {
+		"Before": {
+			"LSkill": "Increase ATK by 25% and RP by 15% when party consists of all 5 colors",
+			"Skill": "Increase own ATK (SS)"
+		},
+		"Sun": {
+			"LSkill": "Increase ATK by 35% and RP by 20% when party consists of all 5 colors",
+			"Skill": "Increase Party ATK (S) and own ATK (SS)"
+		},
+		"Moon": {
+			"LSkill": "Increase ATK by 40% and RP by 15% when party consists of all 5 colors",
+			"Skill": "Increase own ATK (SSS)"
 		}
 	},
 	"487": {
 		"Before": {
-			"LSkill": "全員のHPを下げ、攻と回35%UP",
-			"Skill": "ハート2個と赤ピース3個を追加する"
+			"LSkill": "Reduce Party HP and increase ATK & RP by 35%",
+			"Skill": "Insert 2 hearts and 3 Red beads"
 		},
 		"Sun": {
-			"LSkill": "全員のHPを下げ、攻と回40%UP",
-			"Skill": "ハート2個と赤ピース5個を追加する"
+			"LSkill": "Reduce Party HP and increase ATK & RP by 40%",
+			"Skill": "Insert 2 hearts and 5 Red beads"
 		},
 		"Moon": {
-			"LSkill": "全員のHPを下げ、攻と回40%UP",
-			"Skill": "ハート1～3個と赤ピース5個を追加する"
+			"LSkill": "Reduce Party HP and increase ATK & RP by 40%",
+			"Skill": "Insert 1-3 hearts and 5 Red beads"
 		}
 	},
 	"488": {
 		"Before": {
-			"LSkill": "青の攻35%UP/スキル発動数を2減らす",
-			"Skill": "縦中央を青ピースに変換する 中"
+			"LSkill": "Increase Blue ATK by 35% and reduce skill activation bead count by 2",
+			"Skill": "Turn middle collumn beads Blue (A)"
 		},
 		"Sun": {
-			"LSkill": "青の攻35%UP/スキル発動数を3減らす",
-			"Skill": "縦中央を青ピースに変換し、回復"
+			"LSkill": "Increase Blue ATK by 35% and reduce skill activation bead count by 3",
+			"Skill": "Turn middle collumn beads Blue and recover HP"
 		},
 		"Moon": {
-			"LSkill": "青の攻50%UP/スキル発動数を2減らす",
-			"Skill": "縦中央を青ピースに変換する 大"
+			"LSkill": "Increase Blue ATK by 50% and reduce skill activation bead count by 2",
+			"Skill": "Turn middle collumn beads Blue (S)"
 		}
 	},
 	"489": {
 		"Before": {
-			"LSkill": "戦いでの獲得ゴールドを30%UP/HPと回復力を下げる",
-			"Skill": "青の出現率UP、1ターン全員の攻UP"
+			"LSkill": "Increase Gold by 30% and reduce HP & RP",
+			"Skill": "Increase Blue beads appearance rate, and increase Party ATK for 1 turn"
 		},
 		"Sun": {
-			"LSkill": "戦いでの獲得ゴールドを40%UP/HPと回復力を下げる",
-			"Skill": "青の出現率UP、1ターン全員の攻UP"
+			"LSkill": "Increase Gold by 40% and reduce HP & RP",
+			"Skill": "Increase Blue beads appearance rate, and increase Party ATK for 1 turn"
 		},
 		"Moon": {
-			"LSkill": "戦いでの獲得ゴールドを40%UP/HPと回復力を下げる",
-			"Skill": "青の出現率UP、1ターン全員の攻UP"
+			"LSkill": "Increase Gold by 40% and reduce HP & RP",
+			"Skill": "Increase Blue beads appearance rate, and increase Party ATK for 1 turn"
 		}
 	},
 	"490": {
 		"Before": {
-			"LSkill": "メンバー3属性以上で攻撃力を20%UP",
-			"Skill": "自分以外のスキルゲージを回復"
+			"LSkill": "Increase ATK by 20% when party consists of more than 3 colors",
+			"Skill": "Recover the skill gauge of all party members except own"
 		},
 		"Sun": {
-			"LSkill": "メンバー3属性以上で攻撃力を30%UP",
-			"Skill": "自分以外のスキルゲージを回復"
+			"LSkill": "Increase ATK by 30% when party consists of more than 3 colors",
+			"Skill": "Recover the skill gauge of all party members except own"
 		},
 		"Moon": {
-			"LSkill": "メンバー3属性以上で攻撃力を30%UP",
-			"Skill": "自分以外のスキルゲージを回復"
+			"LSkill": "Increase ATK by 30% when party consists of more than 3 colors",
+			"Skill": "Recover the skill gauge of all party members except own"
 		}
 	},
 	"491": {
 		"Before": {
-			"LSkill": "青属性の攻撃力を35%/HP10%UP",
-			"Skill": "青以外のピースを消し、青を追加"
+			"LSkill": "Increase Blue ATK by 35% and HP by 10%",
+			"Skill": "Erase beads that are not Blue and insert Blue beads"
 		},
 		"Sun": {
-			"LSkill": "青属性の攻撃力を35%/HP20%UP",
-			"Skill": "青以外のピースを消し、青を追加"
+			"LSkill": "Increase Blue ATK by 35% and HP by 20%",
+			"Skill": "Erase beads that are not Blue and insert Blue beads"
 		},
 		"Moon": {
-			"LSkill": "青属性の攻撃力を50%/HP10%UP",
-			"Skill": "青以外のピースを消し、青を追加"
+			"LSkill": "Increase Blue ATK by 50% and HP by 10%",
+			"Skill": "Erase beads that are not Blue and insert Blue beads"
 		}
 	}
 }
