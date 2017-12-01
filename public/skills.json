@@ -6864,5 +6864,103 @@
 			"LSkill": "Increase Blue ATK by 50% and HP by 10%",
 			"Skill": "Erase beads that are not Blue and insert Blue beads"
 		}
+	},
+	"492": {
+		"Before": {
+			"LSkill": "Reduce Party HP and increase ATK by 60%",
+			"Skill": "Turn all beads into a 5 color snowflake shape"
+		},
+		"Sun": {
+			"LSkill": "Reduce Party HP and increase ATK by 70%",
+			"Skill": "Turn all beads into a 5 color snowflake shape"
+		},
+		"Moon": {
+			"LSkill": "Reduce Party HP and increase ATK by 70%",
+			"Skill": "Turn all beads into a 5 color snowflake shape"
+		}
+	},
+	"493": {
+		"Before": {
+			"LSkill": "Increase all Purple stats by 20%",
+			"Skill": "Increase Purple beads appearance rate for 3 chains (SS)"
+		},
+		"Sun": {
+			"LSkill": "Increase all Purple stats by 25%",
+			"Skill": "Increase Purple beads appearance rate for 4 chains (SS)"
+		},
+		"Moon": {
+			"LSkill": "Increase all Purple stats by 25%",
+			"Skill": "Increase Purple beads appearance rate for 3 chains (SS)"
+		}
+	},
+	"494": {
+		"Before": {
+			"LSkill": "Increase Party ATK by 15%",
+			"Skill": "Erase beads that are not Red (S)"
+		},
+		"Sun": {
+			"LSkill": "Increase Party ATK by 20%",
+			"Skill": "Erase beads that are not Red (SS)"
+		},
+		"Moon": {
+			"LSkill": "Increase Party ATK by 20%",
+			"Skill": "Erase beads that are not Red (SS)"
+		}
+	},
+	"495": {
+		"Before": {
+			"LSkill": "Increase Party HP & RP by 15%",
+			"Skill": "Turn Red beads into Purple and recover HP"
+		},
+		"Sun": {
+			"LSkill": "Increase Party HP & RP by 20%",
+			"Skill": "Turn Red beads into Purple and recover HP"
+		},
+		"Moon": {
+			"LSkill": "Increase Party HP & RP by 15% and ATK by 10%",
+			"Skill": "Turn Red beads into Purple and recover HP"
+		}
+	},
+	"496": {
+		"Before": {
+			"LSkill": "Increase Red HP by 30%",
+			"Skill": "Recover the skill gauge of all party members except own and insert heart"
+		},
+		"Sun": {
+			"LSkill": "Increase Red HP by 35%",
+			"Skill": "Recover the skill gauge of all party members except own and insert heart"
+		},
+		"Moon": {
+			"LSkill": "Increase Red HP by 35%",
+			"Skill": "Recover the skill gauge of all party members except own and insert heart"
+		}
+	},
+	"497": {
+		"Before": {
+			"LSkill": "Increase Blue ATK by 35% and ATK by 30% when party consists of more than 3 colors",
+			"Skill": "Erase all Red beads and turn Yellow beads into Blue"
+		},
+		"Sun": {
+			"LSkill": "Increase Blue ATK by 50% and ATK by 30% when party consists of more than 3 colors",
+			"Skill": "Erase all Red beads and turn Yellow beads into Blue"
+		},
+		"Moon": {
+			"LSkill": "Increase Blue ATK by 35% and ATK by 50% when party consists of more than 3 colors",
+			"Skill": "Erase all Red beads and turn Purple beads into Blue"
+		}
+	},
+	"498": {
+		"Before": {
+			"LSkill": "Increase Red & Blue ATK & RP by 20%",
+			"Skill": "Turn right beads Blue and left beads Red"
+		},
+		"Sun": {
+			"LSkill": "Increase Red & Blue ATK & RP by 20% and HP by 5%",
+			"Skill": "Turn right beads Blue and left beads Red"
+		},
+		"Moon": {
+			"LSkill": "Increase Red & Blue ATK & RP by 25%",
+			"Skill": "Turn right beads Red and left beads Blue"
+		}
 	}
 }

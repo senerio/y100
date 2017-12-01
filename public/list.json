@@ -1947,6 +1947,34 @@
 		"no": 487,
 		"name": "Vairy (After Story)"
 	},
+	"524": {
+		"no": 492,
+		"name": "Rica (Xmas Circus)"
+	},
+	"525": {
+		"no": 493,
+		"name": "Drole (Xmas Circus)"
+	},
+	"526": {
+		"no": 494,
+		"name": "Welger (Xmas Circus)"
+	},
+	"527": {
+		"no": 495,
+		"name": "Colorer (Xmas Circus)"
+	},
+	"528": {
+		"no": 496,
+		"name": "Creto (Xmas Circus)"
+	},
+	"529": {
+		"no": 497,
+		"name": "Lecien (Xmas Circus)"
+	},
+	"530": {
+		"no": 498,
+		"name": "Adiel (Xmas Circus)"
+	},
 	"531": {
 		"no": 488,
 		"name": "Vim (After Story)"
@@ -1990,6 +2018,14 @@
 	"71005": {
 		"no": 71005,
 		"name": "Rookie Trainer (Red)"
+	},
+	"71006": {
+		"no": "71006",
+		"name": "Dars Trainer"
+	},
+	"71007": {
+		"no": "71007",
+		"name": "Bake Trainer"
 	},
 	"71020": {
 		"no": "71020",
@@ -2310,6 +2346,10 @@
 	"81055": {
 		"no": "81055",
 		"name": "Fairy Princess (Maple Leaf)"
+	},
+	"81056": {
+		"no": "81056",
+		"name": "Fairy Princess (Xmas Circus)"
 	},
 	"82002": {
 		"no": 82002,
