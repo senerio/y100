@@ -6918,7 +6918,7 @@
 		},
 		"Moon": {
 			"LSkill": "Increase Party HP & RP by 15% and ATK by 10%",
-			"Skill": "Turn Red beads into Purple and recover HP"
+			"Skill": "Turn Green beads into Purple and recover HP"
 		}
 	},
 	"496": {
@@ -6961,6 +6961,90 @@
 		"Moon": {
 			"LSkill": "Increase Red & Blue ATK & RP by 25%",
 			"Skill": "Turn right beads Red and left beads Blue"
+		}
+	},
+	"499": {
+		"Before": {
+			"LSkill": "Reduce Party HP and increase ATK & RP by 35%",
+			"Skill": "Only Blue & Yellow beads appears (2 chains)"
+		},
+		"Sun": {
+			"LSkill": "Reduce Party HP and increase ATK & RP by 40%",
+			"Skill": "Only Blue & Yellow beads appears (2 chains)"
+		},
+		"Moon": {
+			"LSkill": "Reduce Party HP and increase ATK & RP by 40%",
+			"Skill": "Only Yellow & Purple beads appears (2 chains)"
+		}
+	},
+	"500": {
+		"Before": {
+			"LSkill": "Increase Green ATK by 25% and Party ATK by 25% when Max HP",
+			"Skill": "Erase the row of beads you point at for 4 chains"
+		},
+		"Sun": {
+			"LSkill": "Increase Green ATK by 40% and Party ATK by 25% when Max HP",
+			"Skill": "Erase the row of beads you point at for 5 chains"
+		},
+		"Moon": {
+			"LSkill": "Increase Green ATK by 40% and Party ATK by 25% when Max HP",
+			"Skill": "Erase the row of beads you point at for 5 chains"
+		}
+	},
+	"501": {
+		"Before": {
+			"LSkill": "Increase ATK by 30% when HP over 50% and RP by 30% when HP under 50%",
+			"Skill": "Attach heal properties to Purple beads (10-20)"
+		},
+		"Sun": {
+			"LSkill": "Increase ATK by 30% when HP over 40% and RP by 30% when HP under 40%",
+			"Skill": "Attach heal properties to Purple beads (15-25)"
+		},
+		"Moon": {
+			"LSkill": "Increase ATK by 40% when HP over 50% and RP by 40% when HP under 50%",
+			"Skill": "Attach heal properties to Purple beads (10-30)"
+		}
+	},
+	"502": {
+		"Before": {
+			"LSkill": "Increase Green & Purple HP & RP by 15%",
+			"Skill": "Increase Purple beads appearance rate for 10 chains (B)"
+		},
+		"Sun": {
+			"LSkill": "Increase Green & Purple HP & RP by 20%",
+			"Skill": "Increase Purple beads appearance rate for 10 chains (B)"
+		},
+		"Moon": {
+			"LSkill": "Increase Green & Purple HP & RP by 20%",
+			"Skill": "Increase Purple beads appearance rate for 10 chains (B)"
+		}
+	},
+	"503": {
+		"Before": {
+			"LSkill": "Increase Green HP by 35%",
+			"Skill": "Turn Red beads into Green and increase Green ATK for 1 turn"
+		},
+		"Sun": {
+			"LSkill": "Increase Green HP by 40%",
+			"Skill": "Turn Red beads into Green and increase Green ATK for 1 turn"
+		},
+		"Moon": {
+			"LSkill": "Increase Green HP by 35% and ATK by 15%",
+			"Skill": "Turn Yellow beads into Green and increase Green ATK for 1 turn"
+		}
+	},
+	"504": {
+		"Before": {
+			"LSkill": "Increase Green & Purple ATK by 35%",
+			"Skill": "Insert 2 bombs and 4 Green beads"
+		},
+		"Sun": {
+			"LSkill": "Increase Green & Purple ATK by 50%",
+			"Skill": "Insert 2 bombs and 6 Green beads"
+		},
+		"Moon": {
+			"LSkill": "Increase Green & Yellow ATK by 50%",
+			"Skill": "Insert 3 bombs and 5 Green beads"
 		}
 	}
 }
