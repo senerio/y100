@@ -7046,5 +7046,33 @@
 			"LSkill": "Increase Green & Yellow ATK by 50%",
 			"Skill": "Insert 3 bombs and 5 Green beads"
 		}
+	},
+	"505": {
+		"Before": {
+			"LSkill": "Increase Yellow ATK by 35% and Party ATK by 30% when Max HP",
+			"Skill": "Turn middle row beads into Yellow, Blue and Green"
+		},
+		"Sun": {
+			"LSkill": "Increase Yellow ATK by 50% and Party ATK by 30% when Max HP",
+			"Skill": "Turn middle row beads into Yellow, Blue and Green"
+		},
+		"Moon": {
+			"LSkill": "Increase Yellow ATK by 35% and Party ATK by 50% when Max HP",
+			"Skill": "Turn middle row beads into Yellow, Red and Purple"
+		}
+	},
+	"506": {
+		"Before": {
+			"LSkill": "Incease Party ATK by 20%",
+			"Skill": "Increase Blue appearance rate for 3 chains erase middle column beads"
+		},
+		"Sun": {
+			"LSkill": "Incease Party ATK by 20% and HP by 5%",
+			"Skill": "Increase Blue appearance rate for 3 chains erase middle column beads"
+		},
+		"Moon": {
+			"LSkill": "Incease Party ATK by 25%",
+			"Skill": "Increase Blue appearance rate for 3 chains erase middle column beads"
+		}
 	}
 }
