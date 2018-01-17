@@ -1885,7 +1885,7 @@
 	},
 	"502": {
 		"no": 472,
-		"name": "Heldt ()"
+		"name": "Heldt (After Story)"
 	},
 	"503": {
 		"no": 473,
@@ -2050,6 +2050,34 @@
 	"549": {
 		"no": 513,
 		"name": "Inami"
+	},
+	"550": {
+		"no": 514,
+		"name": "Vashti (After Story)"
+	},
+	"552": {
+		"no": 515,
+		"name": "Lullus (Clock)"
+	},
+	"553": {
+		"no": 516,
+		"name": "Eins (Clock)"
+	},
+	"554": {
+		"no": 517,
+		"name": "Zant (Clock)"
+	},
+	"555": {
+		"no": 518,
+		"name": "Zero (Clock)"
+	},
+	"556": {
+		"no": 519,
+		"name": "Sakia (Clock)"
+	},
+	"557": {
+		"no": 520,
+		"name": "Apis (Clock)"
 	},
 	"70011": {
 		"no": 70011,
