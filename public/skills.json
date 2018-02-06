@@ -7273,100 +7273,100 @@
 	},
 	"521": {
 		"Before": {
-			"LSkill": "全員の攻撃力を60%UP/他能力を少し下げる",
-			"Skill": "一定の値でHPを回復し、1ターン全員の攻UP"
+			"LSkill": "Increase Party ATK by 60% and reduce other stats a little",
+			"Skill": "Recover a certain amount of HP (2000) and increase Party ATK for 2 turns"
 		},
 		"Sun": {
-			"LSkill": "全員の攻撃力を70%UP/他能力を少し下げる",
-			"Skill": "一定の値でHPを回復し、1ターン全員の攻UP"
+			"LSkill": "Increase Party ATK by 70% and reduce other stats a little",
+			"Skill": "Recover a certain amount of HP (2000) and increase Party ATK for 2 turns"
 		},
 		"Moon": {
-			"LSkill": "全員の攻撃力を70%UP/他能力を少し下げる",
-			"Skill": "一定の値でHPを回復し、1ターン全員の攻UP"
+			"LSkill": "Increase Party ATK by 70% and reduce other stats a little",
+			"Skill": "Recover a certain amount of HP (3000) and increase Party ATK for 2 turns"
 		}
 	},
 	"522": {
 		"Before": {
-			"LSkill": "青の回30%UP/HPMAXで全員の攻40%UP",
-			"Skill": "全ピースを青・赤・黄に変換"
+			"LSkill": "Increase Blue RP by 30% and ATK by 40% when Max HP",
+			"Skill": "Turn all beads into Blue, Red and Yellow"
 		},
 		"Sun": {
-			"LSkill": "青の回40%UP/HPMAXで全員の攻40%UP",
-			"Skill": "全ピースを青・赤・黄に変換"
+			"LSkill": "Increase Blue RP by 40% and ATK by 40% when Max HP",
+			"Skill": "Turn all beads into Blue, Red and Yellow"
 		},
 		"Moon": {
-			"LSkill": "青の回30%UP/HPMAXで全員の攻50%UP",
-			"Skill": "全ピースを青・緑・紫に変換"
+			"LSkill": "Increase Blue RP by 30% and ATK by 50% when Max HP",
+			"Skill": "Turn all beads into Blue, Green and Purple"
 		}
 	},
 	"523": {
 		"Before": {
-			"LSkill": "HP50%以上で攻撃力・回復力25%UP",
-			"Skill": "2chain繋いだピースの周りも消す"
+			"LSkill": "Increase ATK & RP by 25% when HP over 50%",
+			"Skill": "Erase surrounding beads of 2 chains"
 		},
 		"Sun": {
-			"LSkill": "HP50%以上で攻撃力・回復力30%UP",
-			"Skill": "3chain繋いだピースの周りも消す"
+			"LSkill": "Increase ATK & RP by 30% when HP over 50%",
+			"Skill": "Erase surrounding beads of 3 chains"
 		},
 		"Moon": {
-			"LSkill": "HP50%以上で攻撃力・回復力30%UP",
-			"Skill": "3chain繋いだピースの周りも消す"
+			"LSkill": "Increase ATK & RP by 30% when HP over 50%",
+			"Skill": "Erase surrounding beads of 3 chains"
 		}
 	},
 	"524": {
 		"Before": {
-			"LSkill": "赤・黄属性のHPを30%UP",
-			"Skill": "緑を黄に変換し、爆弾を追加"
+			"LSkill": "Increase Red & Yellow HP by 30%",
+			"Skill": "Turn Green beads into Yellow and insert bombs"
 		},
 		"Sun": {
-			"LSkill": "赤・黄属性のHPを35%UP",
-			"Skill": "緑を黄に変換し、爆弾を追加"
+			"LSkill": "Increase Red & Yellow HP by 35%",
+			"Skill": "Turn Green beads into Yellow and insert bombs"
 		},
 		"Moon": {
-			"LSkill": "青・黄属性のHPを35%UP",
-			"Skill": "紫を黄に変換し、爆弾を追加"
+			"LSkill": "Increase Blue & Yellow HP by 35%",
+			"Skill": "Turn Purple beads into Yellow and insert bombs"
 		}
 	},
 	"525": {
 		"Before": {
-			"LSkill": "赤・青・黄属性の攻撃力を20%UP",
-			"Skill": "緑・黄・紫ピースを消す　大"
+			"LSkill": "Increase Red, Blue & Yellow ATK by 20%",
+			"Skill": "Erase Green, Yellow and Purple beads (S)"
 		},
 		"Sun": {
-			"LSkill": "赤・青・黄属性の攻撃力を30%UP",
-			"Skill": "緑・黄・紫ピースを消す　特大"
+			"LSkill": "Increase Red, Blue & Yellow ATK by 30%",
+			"Skill": "Erase Green, Yellow and Purple beads (SS)"
 		},
 		"Moon": {
-			"LSkill": "赤・青・黄属性の攻撃力を30%UP",
-			"Skill": "緑・黄・紫ピースを消す　特大"
+			"LSkill": "Increase Red, Blue & Yellow ATK by 30%",
+			"Skill": "Erase Green, Yellow and Purple beads (SS)"
 		}
 	},
 	"526": {
 		"Before": {
-			"LSkill": "赤属性の攻撃力を35%/HP10%UP",
-			"Skill": "3chainの間、赤の出現率UP 特大"
+			"LSkill": "Increase Red ATK by 35% and HP by 10%",
+			"Skill": "Increase Red beads appearance rate for 3 chains (SS)"
 		},
 		"Sun": {
-			"LSkill": "赤属性の攻撃力を35%/HP20%UP",
-			"Skill": "4chainの間、赤の出現率UP 特大"
+			"LSkill": "Increase Red ATK by 35% and HP by 20%",
+			"Skill": "Increase Red beads appearance rate for 4 chains (SS)"
 		},
 		"Moon": {
-			"LSkill": "赤属性の攻撃力を50%/HP10%UP",
-			"Skill": "3chainの間、赤の出現率UP 特大"
+			"LSkill": "Increase Red ATK by 50% and HP by 10%",
+			"Skill": "Increase Red beads appearance rate for 3 chains (SS)"
 		}
 	},
 	"527": {
 		"Before": {
-			"LSkill": "王子獲得EXPを20%UP",
-			"Skill": "ピースを5色のストライプに変換"
+			"LSkill": "Increase Prince EXP gain by 20%",
+			"Skill": "Turn beads into 5 colored stripes"
 		},
 		"Sun": {
-			"LSkill": "王子獲得EXPを25%UP",
-			"Skill": "ピースを5色のストライプに変換"
+			"LSkill": "Increase Prince EXP gain by 25%",
+			"Skill": "Turn beads into 5 colored stripes"
 		},
 		"Moon": {
-			"LSkill": "王子獲得EXPを20%/全員の攻を15%UP",
-			"Skill": "ピースを5色のストライプに変換"
+			"LSkill": "Increase Prince EXP gain by 20% and Party ATK by 15%",
+			"Skill": "Turn beads into 5 colored stripes"
 		}
 	}
 }
