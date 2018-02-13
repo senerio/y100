@@ -1935,6 +1935,30 @@
 		"no": 485,
 		"name": "Amano (Maple Leaf)"
 	},
+	"515": {
+		"no": 528,
+		"name": "Katsuki Yuuri"
+	},
+	"516": {
+		"no": 529,
+		"name": "Victor"
+	},
+	"517": {
+		"no": 530,
+		"name": "Hercules (YOI)"
+	},
+	"518": {
+		"no": 531,
+		"name": "Vega (YOI)"
+	},
+	"519": {
+		"no": 532,
+		"name": "Altair (YOI)"
+	},
+	"520": {
+		"no": 533,
+		"name": "Yuri"
+	},
 	"521": {
 		"no": 445,
 		"name": "Yatterman-1"
@@ -2054,6 +2078,10 @@
 	"550": {
 		"no": 514,
 		"name": "Vashti (After Story)"
+	},
+	"551": {
+		"no": 534,
+		"name": "Hope"
 	},
 	"552": {
 		"no": 515,
@@ -2450,6 +2478,10 @@
 	"81050": {
 		"no": "81050",
 		"name": "Fairy Princess (Oath)"
+	},
+	"81051": {
+		"no": "81051",
+		"name": "Fairy Princess (YOI)"
 	},
 	"81052": {
 		"no": "81052",

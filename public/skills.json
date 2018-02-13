@@ -7368,5 +7368,103 @@
 			"LSkill": "Increase Prince EXP gain by 20% and Party ATK by 15%",
 			"Skill": "Turn beads into 5 colored stripes"
 		}
+	},
+	"528": {
+		"Before": {
+			"LSkill": "全員のHPと回復力を15%UP",
+			"Skill": "回復力に応じてHPを回復　大"
+		},
+		"Sun": {
+			"LSkill": "全員のHPと回復力を20%UP",
+			"Skill": "回復力に応じてHPを回復　大"
+		},
+		"Moon": {
+			"LSkill": "全HPと回復力15%/攻撃力10%UP",
+			"Skill": "回復力に応じてHPを回復　特大"
+		}
+	},
+	"529": {
+		"Before": {
+			"LSkill": "HP50%以上で攻撃/以下で回復30%UP",
+			"Skill": "青を紫に変換/ハートを追加する"
+		},
+		"Sun": {
+			"LSkill": "HP50%以上で攻撃/以下で回復40%UP",
+			"Skill": "青を紫に変換/ハートを追加する"
+		},
+		"Moon": {
+			"LSkill": "HP50%以上で攻撃/以下で回復40%UP",
+			"Skill": "緑を紫に変換/ハートを追加する"
+		}
+	},
+	"530": {
+		"Before": {
+			"LSkill": "黄属性の攻撃力を35%/HP10%UP",
+			"Skill": "3chainの間、黄の出現率UP 特大"
+		},
+		"Sun": {
+			"LSkill": "黄属性の攻撃力を35%/HP20%UP",
+			"Skill": "4chainの間、黄の出現率UP 特大"
+		},
+		"Moon": {
+			"LSkill": "黄属性の攻撃力を50%/HP10%UP",
+			"Skill": "3chainの間、黄の出現率UP 特大"
+		}
+	},
+	"531": {
+		"Before": {
+			"LSkill": "出現する爆弾を全て強化爆弾にする",
+			"Skill": "封印を回復し、1ターン封印無効/全員の攻UP"
+		},
+		"Sun": {
+			"LSkill": "出現する爆弾を全て強化爆弾にする",
+			"Skill": "封印を回復し、1ターン封印無効/全員の攻UP"
+		},
+		"Moon": {
+			"LSkill": "出現する爆弾を全て強化爆弾にする",
+			"Skill": "封印を回復し、1ターン封印無効/全員の攻UP"
+		}
+	},
+	"532": {
+		"Before": {
+			"LSkill": "4chain毎に攻撃力10%UP 最大60%",
+			"Skill": "11chainでランダムにピースを消す"
+		},
+		"Sun": {
+			"LSkill": "4chain毎に攻撃力12%UP 最大72%",
+			"Skill": "13chainでランダムにピースを消す"
+		},
+		"Moon": {
+			"LSkill": "3chain毎に攻撃力10%UP 最大70%",
+			"Skill": "13chainでランダムにピースを消す"
+		}
+	},
+	"533": {
+		"Before": {
+			"LSkill": "メンバー3属性以上で攻撃力を20%UP",
+			"Skill": "横中央を黄ピースに変換　小"
+		},
+		"Sun": {
+			"LSkill": "メンバー3属性以上で攻20%/HP10%UP",
+			"Skill": "横中央を黄ピースに変換　中"
+		},
+		"Moon": {
+			"LSkill": "メンバー3属性以上で攻撃力を30%UP",
+			"Skill": "横中央を黄ピースに変換　中"
+		}
+	},
+	"534": {
+		"Before": {
+			"LSkill": "全員の攻撃力を80%UP/他能力を大きく下げる",
+			"Skill": "全員のスキルゲージを消費し、FEVERを発動"
+		},
+		"Sun": {
+			"LSkill": "全員の攻撃力を80%UP/他能力を下げる",
+			"Skill": "全員のスキルゲージを消費し、FEVERを発動"
+		},
+		"Moon": {
+			"LSkill": "全員の攻撃力を100%UP/他能力を大きく下げる",
+			"Skill": "全員のスキルゲージを消費し、FEVERを発動"
+		}
 	}
 }
