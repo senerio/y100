@@ -1,55 +1,28 @@
-var http = require('http');
-var qs = require('querystring');
+var bot = require('nodemw');
+var client = new bot({
+	protocol: 'http',
+	server: 'yume100prince.wikia.com',
+	path: '',
+	debug: true,
+	username: 'Senelio',
+	password: '082394',
+	concurrency: 2
+});
 
-function post(title, section, content, summary) {
-
-	var editInfo = {
-		'action': 'edit',
-		'title': title,
-		'section': section,
-		'summary': '[[User:Senelio|bot]]' + summary,
-		'text': content,
-		'format': 'json',
-		'token': '+\\'
-	}
-
-	var postDataEdit = qs.stringify(editInfo);
-
-	var options = {
-		hostname: 'yume100prince.wikia.com',
-		port: 80,
-		path: '/api.php',
-		method: 'POST',
-		headers: {
-			'Content-Type': 'application/x-www-form-urlencoded',
-			'Content-Length': Buffer.byteLength(postDataEdit)
-		}
-	}
-
-	var req = http.request(options, (res) => {
-		res.setEncoding('utf8');
-		var data = "";
-		res.on('data', (chunk) => {
-			data += chunk;
-		});
-		res.on('end', () => {
-			console.log(data);
-		});
+function login(callback) {
+	client.logIn(function(err) {
+		if(err) throw err;
+		callback()
 	});
-
-	req.on('error', (e) => {
-		console.log(new Date().toISOString().substring(0,19).replace("T"," ") + `: Problem with request: ${e.message}`);
-	});
-	req.write(postDataEdit);
-	req.end();
-
 }
 
-function create(title, content) {
-	post(title, 1, content, '');
+function post(title, content) {
+	client.edit(title, content, 'bot', true, (err) => {
+		if(err) throw err;
+	});
 }
 
 module.exports = {
-	createPage : create,
-	editPage : post
+	login: login,
+	post: post
 };

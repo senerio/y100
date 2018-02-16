@@ -22,56 +22,52 @@ function start() {
 	// post();
 }
 
-function post() {
+var wikia = require('./wikia.js');
 
-	var idList = process.argv[2].split(',');
-	var eventName = process.argv[3];
-	var wikia = require('./wikia.js');
+function post() {	
+	wikia.login(() => {
+		var idList = process.argv[2].split(',');
+		var eventName = process.argv[3];
 
-	var updates = {};
-	var updatePages = ['princeList', 'eventVersions', 'skillsAll', 'skillsAttr', 'skillClassification'];
-	for(var i of updatePages) {
-		updates[i] = '';
-	}
-
-	for(var id of idList) {
-
-		var title = require('./y.js').getTitle(id);
-		wikia.createPage(
-			title,
-			require('./profile.js').wikiaCharacterPage(id, eventName)
-		);
-		wikia.createPage(
-			title + '/Quotes',
-			require('./voice.js').wikiaQuotePage(id)
-		);
-		
-		// fs.writeFile('./update/' + title + '.txt', require('./profile.js').wikiaCharacterPage(id, eventName))
-		// fs.writeFile('./update/' + title + ' Quotes.txt', require('./voice.js').wikiaQuotePage(id))
-		
+		var updates = {};
+		var updatePages = ['princeList', 'eventVersions', 'skillsAll'];
 		for(var i of updatePages) {
-			updates[i] += require('./profile.js').wikiaUpdatePages(id, eventName)[i];
+			updates[i] = '';
 		}
-		
-	}
 
-	fs.writeFile('./public/updates.json', JSON.stringify(updates));
+		for(var id of idList) {
 
-	wikia.editPage(
-		'Skills/All',
-		0,
-		require('./profile.js').wikiaSkillsPage(),
-		'update'
-	);
-	
-	// wikia.createPage(
-	// 	'List',
-	// 	require('./profile.js').wikiaListPage(idList)
-	// );
-	// wikia.createPage(
-	// 	'Event_Versions',
-	// 	require('./profile.js').wikiaEventVersionsPage(idList, eventName)
-	// );
+			var title = require('./y.js').getTitle(id);
+			wikia.post(
+				title,
+				require('./profile.js').wikiaCharacterPage(id, eventName)
+			);
+			wikia.post(
+				title + '/Quotes',
+				require('./voice.js').wikiaQuotePage(id)
+			);
+			
+			// fs.writeFile('./update/' + title + '.txt', require('./profile.js').wikiaCharacterPage(id, eventName))
+			// fs.writeFile('./update/' + title + ' Quotes.txt', require('./voice.js').wikiaQuotePage(id))
+			
+			for(var i of updatePages) {
+				updates[i] += require('./profile.js').wikiaUpdatePages(id, eventName)[i];
+			}
+			
+		}
+
+		fs.writeFile('./public/updates.json', JSON.stringify(updates));
+	});
 }
 
-if(check() == true) { start(); }
+function skills() {	
+	wikia.login(() => {
+		wikia.post(
+			'Skills/All',
+			require('./profile.js').wikiaSkillsPage();
+		);
+	});
+}
+
+if(process.argv[2] == "skills") { skills(); }
+else if(check() == true) { start(); }

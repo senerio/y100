@@ -7371,100 +7371,100 @@
 	},
 	"528": {
 		"Before": {
-			"LSkill": "全員のHPと回復力を15%UP",
-			"Skill": "回復力に応じてHPを回復　大"
+			"LSkill": "Increase Party HP & RP by 15%",
+			"Skill": "Recover HP in accordance to RP (S)"
 		},
 		"Sun": {
-			"LSkill": "全員のHPと回復力を20%UP",
-			"Skill": "回復力に応じてHPを回復　大"
+			"LSkill": "Increase Party HP & RP by 20%",
+			"Skill": "Recover HP in accordance to RP (S)"
 		},
 		"Moon": {
-			"LSkill": "全HPと回復力15%/攻撃力10%UP",
-			"Skill": "回復力に応じてHPを回復　特大"
+			"LSkill": "Increase Party HP & RP by 15% and ATK by 10%",
+			"Skill": "Recover HP in accordance to RP (SS)"
 		}
 	},
 	"529": {
 		"Before": {
-			"LSkill": "HP50%以上で攻撃/以下で回復30%UP",
-			"Skill": "青を紫に変換/ハートを追加する"
+			"LSkill": "Increase ATK by 30% when HP over 50% and RP by 30% when HP under 50%",
+			"Skill": "Turn Blue beads into Purple and insert hearts"
 		},
 		"Sun": {
-			"LSkill": "HP50%以上で攻撃/以下で回復40%UP",
-			"Skill": "青を紫に変換/ハートを追加する"
+			"LSkill": "Increase ATK by 40% when HP over 50% and RP by 40% when HP under 50%",
+			"Skill": "Turn Blue beads into Purple and insert hearts"
 		},
 		"Moon": {
-			"LSkill": "HP50%以上で攻撃/以下で回復40%UP",
-			"Skill": "緑を紫に変換/ハートを追加する"
+			"LSkill": "Increase ATK by 40% when HP over 50% and RP by 40% when HP under 50%",
+			"Skill": "Turn Green beads into Purple and insert hearts"
 		}
 	},
 	"530": {
 		"Before": {
-			"LSkill": "黄属性の攻撃力を35%/HP10%UP",
-			"Skill": "3chainの間、黄の出現率UP 特大"
+			"LSkill": "Increase Yellow ATK by 35% and HP by 10%",
+			"Skill": "Increase Yellow beads appearance rate for 3 chains (SS)"
 		},
 		"Sun": {
-			"LSkill": "黄属性の攻撃力を35%/HP20%UP",
-			"Skill": "4chainの間、黄の出現率UP 特大"
+			"LSkill": "Increase Yellow ATK by 35% and HP by 20%",
+			"Skill": "Increase Yellow beads appearance rate for 4 chains (SS)"
 		},
 		"Moon": {
-			"LSkill": "黄属性の攻撃力を50%/HP10%UP",
-			"Skill": "3chainの間、黄の出現率UP 特大"
+			"LSkill": "Increase Yellow ATK by 50% and HP by 10%",
+			"Skill": "Increase Yellow beads appearance rate for 3 chains (SS)"
 		}
 	},
 	"531": {
 		"Before": {
-			"LSkill": "出現する爆弾を全て強化爆弾にする",
-			"Skill": "封印を回復し、1ターン封印無効/全員の攻UP"
+			"LSkill": "Turn all bombs that appear into gold bombs",
+			"Skill": "Recover seal, then nullify seal and increase Party ATK for 1 turn"
 		},
 		"Sun": {
-			"LSkill": "出現する爆弾を全て強化爆弾にする",
-			"Skill": "封印を回復し、1ターン封印無効/全員の攻UP"
+			"LSkill": "Turn all bombs that appear into gold bombs",
+			"Skill": "Recover seal, then nullify seal and increase Party ATK for 1 turn"
 		},
 		"Moon": {
-			"LSkill": "出現する爆弾を全て強化爆弾にする",
-			"Skill": "封印を回復し、1ターン封印無効/全員の攻UP"
+			"LSkill": "Turn all bombs that appear into gold bombs",
+			"Skill": "Recover seal, then nullify seal and increase Party ATK for 1 turn"
 		}
 	},
 	"532": {
 		"Before": {
-			"LSkill": "4chain毎に攻撃力10%UP 最大60%",
-			"Skill": "11chainでランダムにピースを消す"
+			"LSkill": "Increase ATK by 10% for every 4 chains (Max 60%)",
+			"Skill": "Erase random beads for 11 chains"
 		},
 		"Sun": {
-			"LSkill": "4chain毎に攻撃力12%UP 最大72%",
-			"Skill": "13chainでランダムにピースを消す"
+			"LSkill": "Increase ATK by 12% for every 4 chains (Max 72%)",
+			"Skill": "Erase random beads for 13 chains"
 		},
 		"Moon": {
-			"LSkill": "3chain毎に攻撃力10%UP 最大70%",
-			"Skill": "13chainでランダムにピースを消す"
+			"LSkill": "Increase ATK by 10% for every 3 chains (Max 70%)",
+			"Skill": "Erase random beads for 13 chains"
 		}
 	},
 	"533": {
 		"Before": {
-			"LSkill": "メンバー3属性以上で攻撃力を20%UP",
-			"Skill": "横中央を黄ピースに変換　小"
+			"LSkill": "Increase ATK by 20% when members consist of 3 colors and above",
+			"Skill": "Turn middle row beads into Yellow (B)"
 		},
 		"Sun": {
-			"LSkill": "メンバー3属性以上で攻20%/HP10%UP",
-			"Skill": "横中央を黄ピースに変換　中"
+			"LSkill": "Increase ATK by 20% and HP by 10%when members consist of 3 colors and above",
+			"Skill": "Turn middle row beads into Yellow (A)"
 		},
 		"Moon": {
-			"LSkill": "メンバー3属性以上で攻撃力を30%UP",
-			"Skill": "横中央を黄ピースに変換　中"
+			"LSkill": "Increase ATK by 30% when members consist of 3 colors and above",
+			"Skill": "Turn middle row beads into Yellow (A)"
 		}
 	},
 	"534": {
 		"Before": {
-			"LSkill": "全員の攻撃力を80%UP/他能力を大きく下げる",
-			"Skill": "全員のスキルゲージを消費し、FEVERを発動"
+			"LSkill": "Increase Party ATK by 80% and greatly reduce all other stats",
+			"Skill": "Exhaust the skill gauge of entire party and activate Fever"
 		},
 		"Sun": {
-			"LSkill": "全員の攻撃力を80%UP/他能力を下げる",
-			"Skill": "全員のスキルゲージを消費し、FEVERを発動"
+			"LSkill": "Increase Party ATK by 80% and reduce all other stats",
+			"Skill": "Exhaust the skill gauge of entire party and activate Fever"
 		},
 		"Moon": {
-			"LSkill": "全員の攻撃力を100%UP/他能力を大きく下げる",
-			"Skill": "全員のスキルゲージを消費し、FEVERを発動"
+			"LSkill": "Increase Party ATK by 100% and greatly reduce all other stats",
+			"Skill": "Exhaust the skill gauge of entire party and activate Fever"
 		}
 	}
 }
