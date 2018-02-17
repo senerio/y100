@@ -64,7 +64,7 @@ function skills() {
 	wikia.login(() => {
 		wikia.post(
 			'Skills/All',
-			require('./profile.js').wikiaSkillsPage();
+			require('./profile.js').wikiaSkillsPage()
 		);
 	});
 }

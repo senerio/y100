@@ -3879,15 +3879,15 @@
 	},
 	"278": {
 		"Before": {
-			"LSkill": "Increase ATK by 10% for every 5 chains (Max is 90%)",
+			"LSkill": "Increase ATK by 10% for every 4 chains (Max is 90%)",
 			"Skill": "Consume own HP and erase right & left side beads by consuming own HP"
 		},
 		"Sun": {
-			"LSkill": "Increase ATK by 10% for every 4 chains (Max is 90%)",
+			"LSkill": "Increase ATK by 10% for every 3 chains (Max is 90%)",
 			"Skill": "Consume own HP and erase right & left side beads"
 		},
 		"Moon": {
-			"LSkill": "Increase ATK by 10% for every 5 chains (Max is 110%)",
+			"LSkill": "Increase ATK by 10% for every 4 chains (Max is 110%)",
 			"Skill": "Consume own HP and erase right & left side beads"
 		}
 	},
@@ -4075,15 +4075,15 @@
 	},
 	"292": {
 		"Before": {
-			"LSkill": "Increase ATK by 10% for every 6 chains (Max is 70%)",
+			"LSkill": "Increase ATK by 10% for every 5 chains (Max is 70%)",
 			"Skill": "Erase random beads for 11 chains"
 		},
 		"Sun": {
-			"LSkill": "Increase ATK by 10% for every 5 chains (Max is 70%)",
+			"LSkill": "Increase ATK by 10% for every 4 chains (Max is 70%)",
 			"Skill": "Erase random beads for 13 chains"
 		},
 		"Moon": {
-			"LSkill": "Increase ATK by 10% for every 5 chains (Max is 70%)",
+			"LSkill": "Increase ATK by 10% for every 4 chains (Max is 70%)",
 			"Skill": "Erase random beads for 13 chains"
 		}
 	},
@@ -4299,15 +4299,15 @@
 	},
 	"308": {
 		"Before": {
-			"LSkill": "Increase ATK by 10% for every 5 chains (Max is 60%)",
+			"LSkill": "Increase ATK by 10% for every 5 chains (Max is 70%)",
 			"Skill": "Erase random beads for 11 chains "
 		},
 		"Sun": {
-			"LSkill": "Increase ATK by 10% for every 4 chains (Max is 60%)",
+			"LSkill": "Increase ATK by 10% for every 4 chains (Max is 70%)",
 			"Skill": "Erase random beads for 13 chains "
 		},
 		"Moon": {
-			"LSkill": "Increase ATK by 10% for every 4 chains (Max is 60%)",
+			"LSkill": "Increase ATK by 10% for every 4 chains (Max is 70%)",
 			"Skill": "Erase random beads for 13 chains "
 		}
 	},
@@ -4425,15 +4425,15 @@
 	},
 	"317": {
 		"Before": {
-			"LSkill": "Increase ATK by 10% every 5 chains (Max is 90%)",
+			"LSkill": "Increase ATK by 10% every 4 chains (Max is 90%)",
 			"Skill": "Erase random beads for 13 chains"
 		},
 		"Sun": {
-			"LSkill": "Increase ATK by 10% every 4 chains (Max is 90%)",
+			"LSkill": "Increase ATK by 10% every 3 chains (Max is 90%)",
 			"Skill": "Erase random beads for 16 chains"
 		},
 		"Moon": {
-			"LSkill": "Increase ATK by 10% every 5 chains (Max is 110%)",
+			"LSkill": "Increase ATK by 10% every 4 chains (Max is 110%)",
 			"Skill": "Erase random beads for 14-18 chains"
 		}
 	},
@@ -4803,15 +4803,15 @@
 	},
 	"344": {
 		"Before": {
-			"LSkill": "Increase ATK by 10% every 4 chains (Max is 60%)",
+			"LSkill": "Increase ATK by 10% every 4 chains (Max is 70%)",
 			"Skill": "Erase random beads for 11 chains"
 		},
 		"Sun": {
-			"LSkill": "Increase ATK by 12% every 4 chains (Max is 60%)",
+			"LSkill": "Increase ATK by 12% every 4 chains (Max is 72%)",
 			"Skill": "Erase random beads for 13 chains"
 		},
 		"Moon": {
-			"LSkill": "Increase ATK by 10% every 3 chains (Max is 60%)",
+			"LSkill": "Increase ATK by 10% every 3 chains (Max is 70%)",
 			"Skill": "Erase random beads for 13 chains"
 		}
 	},
@@ -5195,15 +5195,15 @@
 	},
 	"372": {
 		"Before": {
-			"LSkill": "Increase ATK by 10% for every 4 chains (Max is 60%)",
+			"LSkill": "Increase ATK by 10% for every 4 chains (Max is 70%)",
 			"Skill": "Erase random beads for 11 chains"
 		},
 		"Sun": {
-			"LSkill": "Increase ATK by 12% for every 4 chains (Max is 60%)",
+			"LSkill": "Increase ATK by 12% for every 4 chains (Max is 72%)",
 			"Skill": "Erase random beads for 13 chains"
 		},
 		"Moon": {
-			"LSkill": "Increase ATK by 10% for every 3 chains (Max is 60%)",
+			"LSkill": "Increase ATK by 10% for every 3 chains (Max is 70%)",
 			"Skill": "Erase random beads for 13 chains"
 		}
 	},
@@ -6251,16 +6251,16 @@
 	},
 	"448": {
 		"Before": {
-			"LSkill": "Increase ATK by 10% for every 4 chains (Max is 60%)",
-			"Skill": "Erase random beads for 8 chains"
-		},
-		"Sun": {
-			"LSkill": "Increase ATK by 12% for every 4 chains (Max is 60%)",
+			"LSkill": "Increase ATK by 10% for every 4 chains (Max is 70%)",
 			"Skill": "Erase random beads for 11 chains"
 		},
+		"Sun": {
+			"LSkill": "Increase ATK by 12% for every 4 chains (Max is 72%)",
+			"Skill": "Erase random beads for 13 chains"
+		},
 		"Moon": {
-			"LSkill": "Increase ATK by 10% for every 3 chains (Max is 60%)",
-			"Skill": "Erase random beads for 8 chains"
+			"LSkill": "Increase ATK by 10% for every 3 chains (Max is 70%)",
+			"Skill": "Erase random beads for 11 chains"
 		}
 	},
 	"449": {
@@ -6755,15 +6755,15 @@
 	},
 	"484": {
 		"Before": {
-			"LSkill": "Increase ATK by 10% for every 5 chains (Max 50%)",
+			"LSkill": "Increase ATK by 10% for every 5 chains (Max 60%)",
 			"Skill": "Erase random beads for 9 chains"
 		},
 		"Sun": {
-			"LSkill": "Increase ATK by 10% for every 4 chains (Max 50%)",
+			"LSkill": "Increase ATK by 10% for every 4 chains (Max 60%)",
 			"Skill": "Erase random beads for 11 chains"
 		},
 		"Moon": {
-			"LSkill": "Increase ATK by 10% for every 4 chains (Max 50%)",
+			"LSkill": "Increase ATK by 10% for every 4 chains (Max 60%)",
 			"Skill": "Erase random beads for 11 chains"
 		}
 	},
