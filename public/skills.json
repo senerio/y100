@@ -7466,5 +7466,103 @@
 			"LSkill": "Increase Party ATK by 100% and greatly reduce all other stats",
 			"Skill": "Exhaust the skill gauge of entire party and activate Fever"
 		}
+	},
+	"535": {
+		"Before": {
+			"LSkill": "全員の全能力を10%UP",
+			"Skill": "ランダムでピースを強化 10個"
+		},
+		"Sun": {
+			"LSkill": "全員の全能力を20%UP",
+			"Skill": "ランダムでピースを強化 15～25個"
+		},
+		"Moon": {
+			"LSkill": "全員の全能力を20%UP",
+			"Skill": "ランダムでピースを強化 10～30個"
+		}
+	},
+	"536": {
+		"Before": {
+			"LSkill": "青属性の攻撃力を35%/HP10%UP",
+			"Skill": "次のchainで青ピースが100%出現"
+		},
+		"Sun": {
+			"LSkill": "青属性の攻撃力を35%/HP20%UP",
+			"Skill": "次のchainで青ピースが100%出現"
+		},
+		"Moon": {
+			"LSkill": "青属性の攻撃力を50%/HP10%UP",
+			"Skill": "次のchainで青ピースが100%出現"
+		}
+	},
+	"537": {
+		"Before": {
+			"LSkill": "全員のHPを下げ、攻と回25%UP",
+			"Skill": "横中央を緑ピースに変換　小"
+		},
+		"Sun": {
+			"LSkill": "全員のHPを下げ、攻と回35%UP",
+			"Skill": "横中央を緑ピースに変換　中"
+		},
+		"Moon": {
+			"LSkill": "全員のHPを下げ、攻と回35%UP",
+			"Skill": "横中央を緑ピースに変換　中"
+		}
+	},
+	"538": {
+		"Before": {
+			"LSkill": "赤の攻撃力と回復力を30%UP",
+			"Skill": "十字方向にピースを消す　特大"
+		},
+		"Sun": {
+			"LSkill": "赤の攻撃力と回復力30%/HP5%UP",
+			"Skill": "十字方向にピースを消す　極大"
+		},
+		"Moon": {
+			"LSkill": "赤の攻撃力と回復力を35%UP",
+			"Skill": "十字にピースを消し、1ターン全員の攻撃力UP"
+		}
+	},
+	"539": {
+		"Before": {
+			"LSkill": "緑・黄属性の攻撃力を25%UP",
+			"Skill": "HPを回復し、自分以外のスキル回復"
+		},
+		"Sun": {
+			"LSkill": "緑・黄属性の攻撃力を35%UP",
+			"Skill": "HPを回復し、自分以外のスキル回復"
+		},
+		"Moon": {
+			"LSkill": "緑・黄属性の攻撃力を35%UP",
+			"Skill": "HPを回復し、自分以外のスキル回復"
+		}
+	},
+	"540": {
+		"Before": {
+			"LSkill": "HP50%以上で攻撃力50%UP",
+			"Skill": "黄を赤に、紫を青に変換"
+		},
+		"Sun": {
+			"LSkill": "HP50%以上で攻撃力60%UP",
+			"Skill": "黄を赤に、紫を青に変換"
+		},
+		"Moon": {
+			"LSkill": "HP50%以上で攻撃力60%UP",
+			"Skill": "紫を赤に、黄を緑に変換"
+		}
+	},
+	"541": {
+		"Before": {
+			"LSkill": "メンバー3属性以上でHPを25%UP",
+			"Skill": "ハート2個と青ピース3個を追加する"
+		},
+		"Sun": {
+			"LSkill": "メンバー3属性以上でHPを30%UP",
+			"Skill": "ハート2個と青ピース5個を追加する"
+		},
+		"Moon": {
+			"LSkill": "メンバー3属性以上でHPを25%UP/攻10%UP",
+			"Skill": "ハート1～3個と青ピース5個を追加する"
+		}
 	}
 }
