@@ -2163,6 +2163,30 @@
 		"no": 541,
 		"name": "Ster (New Dream)"
 	},
+	"573": {
+		"no": 542,
+		"name": "Douglas (Dream Ship)"
+	},
+	"574": {
+		"no": 543,
+		"name": "Vicky (Dream Ship)"
+	},
+	"575": {
+		"no": 544,
+		"name": "Orion (Dream Ship)"
+	},
+	"576": {
+		"no": 545,
+		"name": "Toni (Dream Ship)"
+	},
+	"578": {
+		"no": 546,
+		"name": "Seras (Dream Ship)"
+	},
+	"579": {
+		"no": 547,
+		"name": "Haku (Dream Ship)"
+	},
 	"70011": {
 		"no": 70011,
 		"name": "Love Up Trainer"
@@ -2538,6 +2562,10 @@
 	"81058": {
 		"no": "81058",
 		"name": "Fairy Princess (Gems of Snow)"
+	},
+	"81059": {
+		"no": "81059",
+		"name": "フェアリープリンセス"
 	},
 	"82002": {
 		"no": 82002,

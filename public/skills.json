@@ -7469,100 +7469,184 @@
 	},
 	"535": {
 		"Before": {
-			"LSkill": "全員の全能力を10%UP",
-			"Skill": "ランダムでピースを強化 10個"
+			"LSkill": "Increase all Party stats by 10%",
+			"Skill": "Strengthen random beads (10)"
 		},
 		"Sun": {
-			"LSkill": "全員の全能力を20%UP",
-			"Skill": "ランダムでピースを強化 15～25個"
+			"LSkill": "Increase all Party stats by 20%",
+			"Skill": "Strengthen random beads (15-25)"
 		},
 		"Moon": {
-			"LSkill": "全員の全能力を20%UP",
-			"Skill": "ランダムでピースを強化 10～30個"
+			"LSkill": "Increase all Party stats by 20%",
+			"Skill": "Strengthen random beads (10-30)"
 		}
 	},
 	"536": {
 		"Before": {
-			"LSkill": "青属性の攻撃力を35%/HP10%UP",
-			"Skill": "次のchainで青ピースが100%出現"
+			"LSkill": "Increase Blue ATK by 35% and HP by 10%",
+			"Skill": "Blue beads appearance for next chain is 100%"
 		},
 		"Sun": {
-			"LSkill": "青属性の攻撃力を35%/HP20%UP",
-			"Skill": "次のchainで青ピースが100%出現"
+			"LSkill": "Increase Blue ATK by 35% and HP by 20%",
+			"Skill": "Blue beads appearance for next chain is 100%"
 		},
 		"Moon": {
-			"LSkill": "青属性の攻撃力を50%/HP10%UP",
-			"Skill": "次のchainで青ピースが100%出現"
+			"LSkill": "Increase Blue ATK by 50% and HP by 10%",
+			"Skill": "Blue beads appearance for next chain is 100%"
 		}
 	},
 	"537": {
 		"Before": {
-			"LSkill": "全員のHPを下げ、攻と回25%UP",
-			"Skill": "横中央を緑ピースに変換　小"
+			"LSkill": "Reduce Party HP and increase ATK & RP by 25%",
+			"Skill": "Turn middle row beads Green (B)"
 		},
 		"Sun": {
-			"LSkill": "全員のHPを下げ、攻と回35%UP",
-			"Skill": "横中央を緑ピースに変換　中"
+			"LSkill": "Reduce Party HP and increase ATK & RP by 35%",
+			"Skill": "Turn middle row beads Green (A)"
 		},
 		"Moon": {
-			"LSkill": "全員のHPを下げ、攻と回35%UP",
-			"Skill": "横中央を緑ピースに変換　中"
+			"LSkill": "Reduce Party HP and increase ATK & RP by 35%",
+			"Skill": "Turn middle row beads Green (A)"
 		}
 	},
 	"538": {
 		"Before": {
-			"LSkill": "赤の攻撃力と回復力を30%UP",
-			"Skill": "十字方向にピースを消す　特大"
+			"LSkill": "Increase Red ATK & RP by 30%",
+			"Skill": "Erase beads in a cross (SS)"
 		},
 		"Sun": {
-			"LSkill": "赤の攻撃力と回復力30%/HP5%UP",
-			"Skill": "十字方向にピースを消す　極大"
+			"LSkill": "Increase Red ATK & RP by 30% and HP by 5%",
+			"Skill": "Erase beads in a cross (SSS)"
 		},
 		"Moon": {
-			"LSkill": "赤の攻撃力と回復力を35%UP",
-			"Skill": "十字にピースを消し、1ターン全員の攻撃力UP"
+			"LSkill": "Increase Red ATK & RP by 35%",
+			"Skill": "Erase beads in a cross and increase Party ATK for 1 turn"
 		}
 	},
 	"539": {
 		"Before": {
-			"LSkill": "緑・黄属性の攻撃力を25%UP",
-			"Skill": "HPを回復し、自分以外のスキル回復"
+			"LSkill": "Increase Green & Yellow ATK by 25%",
+			"Skill": "Recover HP and skill gauge of other party members "
 		},
 		"Sun": {
-			"LSkill": "緑・黄属性の攻撃力を35%UP",
-			"Skill": "HPを回復し、自分以外のスキル回復"
+			"LSkill": "Increase Green & Yellow ATK by 35%",
+			"Skill": "Recover HP and skill gauge of other party members "
 		},
 		"Moon": {
-			"LSkill": "緑・黄属性の攻撃力を35%UP",
-			"Skill": "HPを回復し、自分以外のスキル回復"
+			"LSkill": "Increase Green & Yellow ATK by 35%",
+			"Skill": "Recover HP and skill gauge of other party members "
 		}
 	},
 	"540": {
 		"Before": {
-			"LSkill": "HP50%以上で攻撃力50%UP",
-			"Skill": "黄を赤に、紫を青に変換"
+			"LSkill": "Increase ATK by 50% when HP over 50%",
+			"Skill": "Turn Yellow beads into Red and Purple beads into Blue"
 		},
 		"Sun": {
-			"LSkill": "HP50%以上で攻撃力60%UP",
-			"Skill": "黄を赤に、紫を青に変換"
+			"LSkill": "Increase ATK by 60% when HP over 50%",
+			"Skill": "Turn Yellow beads into Red and Purple beads into Blue"
 		},
 		"Moon": {
-			"LSkill": "HP50%以上で攻撃力60%UP",
-			"Skill": "紫を赤に、黄を緑に変換"
+			"LSkill": "Increase ATK by 60% when HP over 50%",
+			"Skill": "Turn Purple beads into Red and Yellow beads into Green"
 		}
 	},
 	"541": {
 		"Before": {
-			"LSkill": "メンバー3属性以上でHPを25%UP",
-			"Skill": "ハート2個と青ピース3個を追加する"
+			"LSkill": "Increase HP by 25% when Party consists of 3 colors or more",
+			"Skill": "Insert 2 hearts and 3 Blue beads"
 		},
 		"Sun": {
-			"LSkill": "メンバー3属性以上でHPを30%UP",
-			"Skill": "ハート2個と青ピース5個を追加する"
+			"LSkill": "Increase HP by 30% when Party consists of 3 colors or more",
+			"Skill": "Insert 2 hearts and 5 Blue beads"
 		},
 		"Moon": {
-			"LSkill": "メンバー3属性以上でHPを25%UP/攻10%UP",
-			"Skill": "ハート1～3個と青ピース5個を追加する"
+			"LSkill": "Increase HP by 25% and ATK by 10% when Party consists of 3 colors or more",
+			"Skill": "Insert 1-3 hearts and 5 Blue beads"
+		}
+	},
+	"542": {
+		"Before": {
+			"LSkill": "全員の回復力を大きく下げ、HPと攻35%UP",
+			"Skill": "全ピースを4色のイカリの形に変換"
+		},
+		"Sun": {
+			"LSkill": "全員の回復力を大きく下げ、HPと攻40%UP",
+			"Skill": "全ピースを4色のイカリの形に変換"
+		},
+		"Moon": {
+			"LSkill": "全員の回復力を大きく下げ、HPと攻40%UP",
+			"Skill": "全ピースを4色のイカリの形に変換"
+		}
+	},
+	"543": {
+		"Before": {
+			"LSkill": "緑の攻25%UP/スキル発動数を2減らす",
+			"Skill": "時間を回復し、爆弾を1～2個追加"
+		},
+		"Sun": {
+			"LSkill": "緑の攻35%UP/スキル発動数を2減らす",
+			"Skill": "時間を回復し、爆弾を2個追加"
+		},
+		"Moon": {
+			"LSkill": "緑の攻35%UP/スキル発動数を2減らす",
+			"Skill": "時間を回復し、爆弾を2個追加"
+		}
+	},
+	"544": {
+		"Before": {
+			"LSkill": "紫・青・緑属性の攻撃力を30%UP",
+			"Skill": "5chainの間、なぞった方向のピースを消去"
+		},
+		"Sun": {
+			"LSkill": "紫・青・緑属性の攻撃力を40%UP",
+			"Skill": "6chainの間、なぞった方向のピースを消去"
+		},
+		"Moon": {
+			"LSkill": "紫・緑・黄属性の攻撃力を40%UP",
+			"Skill": "6chainの間、なぞった方向のピースを消去"
+		}
+	},
+	"545": {
+		"Before": {
+			"LSkill": "黄・紫属性の攻撃力を25%UP",
+			"Skill": "赤を黄に変換/ハートを追加する"
+		},
+		"Sun": {
+			"LSkill": "黄・紫属性の攻撃力を35%UP",
+			"Skill": "赤を黄に変換/ハートを追加する"
+		},
+		"Moon": {
+			"LSkill": "黄・紫属性の攻撃力を35%UP",
+			"Skill": "赤を黄に変換/ハートを追加する"
+		}
+	},
+	"546": {
+		"Before": {
+			"LSkill": "青の攻40%/HPMAXで全員の攻25%UP",
+			"Skill": "1ターン全員の攻UP、赤を青に変換"
+		},
+		"Sun": {
+			"LSkill": "青の攻40%/HPMAXで全員の攻35%UP",
+			"Skill": "1ターン全員の攻UP、赤を青に変換"
+		},
+		"Moon": {
+			"LSkill": "青の攻50%/HPMAXで全員の攻25%UP",
+			"Skill": "1ターン全員の攻UP、黄を青に変換"
+		}
+	},
+	"547": {
+		"Before": {
+			"LSkill": "ステージ開始時に紫ピースを追加　特大",
+			"Skill": "1ターンの間、ダメージ15%減少/紫の攻UP"
+		},
+		"Sun": {
+			"LSkill": "ステージ開始時に紫ピースを追加　極大",
+			"Skill": "1ターンの間、ダメージを35%減らす"
+		},
+		"Moon": {
+			"LSkill": "ステージ開始時に紫ピースを追加/紫の攻撃力を25%UP",
+			"Skill": "1ターン紫の攻撃力をUP　特大"
 		}
 	}
 }
