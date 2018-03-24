@@ -4636,7 +4636,7 @@
 	"332": {
 		"Before": {
 			"LSkill": "Increase ATK by 40% when HP is above 50%",
-			"Skill": "2chain繋いだピースの周りも消す"
+			"Skill": "2chain繋いだピースの周りも���す"
 		},
 		"Sun": {
 			"LSkill": "Increase ATK by 50% when HP is above 50%",
@@ -7567,86 +7567,86 @@
 	},
 	"542": {
 		"Before": {
-			"LSkill": "全員の回復力を大きく下げ、HPと攻35%UP",
-			"Skill": "全ピースを4色のイカリの形に変換"
+			"LSkill": "Reduce Party RP greatly and increase HP & ATK by 35%",
+			"Skill": "Turn all beads into the shape of an anchor with 4 colors"
 		},
 		"Sun": {
-			"LSkill": "全員の回復力を大きく下げ、HPと攻40%UP",
-			"Skill": "全ピースを4色のイカリの形に変換"
+			"LSkill": "Reduce Party RP greatly and increase HP & ATK by 40%",
+			"Skill": "Turn all beads into the shape of an anchor with 4 colors"
 		},
 		"Moon": {
-			"LSkill": "全員の回復力を大きく下げ、HPと攻40%UP",
-			"Skill": "全ピースを4色のイカリの形に変換"
+			"LSkill": "Reduce Party RP greatly and increase HP & ATK by 40%",
+			"Skill": "Turn all beads into the shape of an anchor with 4 colors"
 		}
 	},
 	"543": {
 		"Before": {
-			"LSkill": "緑の攻25%UP/スキル発動数を2減らす",
-			"Skill": "時間を回復し、爆弾を1～2個追加"
+			"LSkill": "Increase Green ATK by 25% and reduce skill activation beads count by 2",
+			"Skill": "Recover time and insert bombs (1-2)"
 		},
 		"Sun": {
-			"LSkill": "緑の攻35%UP/スキル発動数を2減らす",
-			"Skill": "時間を回復し、爆弾を2個追加"
+			"LSkill": "Increase Green ATK by 35% and reduce skill activation beads count by 2",
+			"Skill": "Recover time and insert bombs (2)"
 		},
 		"Moon": {
-			"LSkill": "緑の攻35%UP/スキル発動数を2減らす",
-			"Skill": "時間を回復し、爆弾を2個追加"
+			"LSkill": "Increase Green ATK by 35% and reduce skill activation beads count by 2",
+			"Skill": "Recover time and insert bombs (2)"
 		}
 	},
 	"544": {
 		"Before": {
-			"LSkill": "紫・青・緑属性の攻撃力を30%UP",
-			"Skill": "5chainの間、なぞった方向のピースを消去"
+			"LSkill": "Increase Purple, Blue & Green ATK by 30%",
+			"Skill": "Erase beads in the direction you swipe for 5 chains"
 		},
 		"Sun": {
-			"LSkill": "紫・青・緑属性の攻撃力を40%UP",
-			"Skill": "6chainの間、なぞった方向のピースを消去"
+			"LSkill": "Increase Purple, Blue & Green ATK by 40%",
+			"Skill": "Erase beads in the direction you swipe for 6 chains"
 		},
 		"Moon": {
-			"LSkill": "紫・緑・黄属性の攻撃力を40%UP",
-			"Skill": "6chainの間、なぞった方向のピースを消去"
+			"LSkill": "Increase Purple, Green & Yellow ATK by 40%",
+			"Skill": "Erase beads in the direction you swipe for 6 chains"
 		}
 	},
 	"545": {
 		"Before": {
-			"LSkill": "黄・紫属性の攻撃力を25%UP",
-			"Skill": "赤を黄に変換/ハートを追加する"
+			"LSkill": "Increase Yellow & Purple ATK by 25%",
+			"Skill": "Turn Red beads into Yellow and insert hearts"
 		},
 		"Sun": {
-			"LSkill": "黄・紫属性の攻撃力を35%UP",
-			"Skill": "赤を黄に変換/ハートを追加する"
+			"LSkill": "Increase Yellow & Purple ATK by 35%",
+			"Skill": "Turn Red beads into Yellow and insert hearts"
 		},
 		"Moon": {
-			"LSkill": "黄・紫属性の攻撃力を35%UP",
-			"Skill": "赤を黄に変換/ハートを追加する"
+			"LSkill": "Increase Yellow & Purple ATK by 35%",
+			"Skill": "Turn Red beads into Yellow and insert hearts"
 		}
 	},
 	"546": {
 		"Before": {
-			"LSkill": "青の攻40%/HPMAXで全員の攻25%UP",
-			"Skill": "1ターン全員の攻UP、赤を青に変換"
+			"LSkill": "Increase Blue ATK by 40% and Party ATK by 25% when Max HP",
+			"Skill": "Increase Party ATK for 1 turn and turn Red beads into Blue"
 		},
 		"Sun": {
-			"LSkill": "青の攻40%/HPMAXで全員の攻35%UP",
-			"Skill": "1ターン全員の攻UP、赤を青に変換"
+			"LSkill": "Increase Blue ATK by 40% and Party ATK by 35% when Max HP",
+			"Skill": "Increase Party ATK for 1 turn and turn Red beads into Blue"
 		},
 		"Moon": {
-			"LSkill": "青の攻50%/HPMAXで全員の攻25%UP",
-			"Skill": "1ターン全員の攻UP、黄を青に変換"
+			"LSkill": "Increase Blue ATK by 50% and Party ATK by 25% when Max HP",
+			"Skill": "Increase Party ATK for 1 turn and turn Yellow beads into Blue"
 		}
 	},
 	"547": {
 		"Before": {
-			"LSkill": "ステージ開始時に紫ピースを追加　特大",
-			"Skill": "1ターンの間、ダメージ15%減少/紫の攻UP"
+			"LSkill": "Insert Purple beads at beginning of stage (SS)",
+			"Skill": "Recover time and increase Purple beads appearance rate for 2 chains (S)"
 		},
 		"Sun": {
-			"LSkill": "ステージ開始時に紫ピースを追加　極大",
-			"Skill": "1ターンの間、ダメージを35%減らす"
+			"LSkill": "Insert Purple beads at beginning of stage (SSS)",
+			"Skill": "Recover time and increase Purple beads appearance rate for 4 chains (S)"
 		},
 		"Moon": {
-			"LSkill": "ステージ開始時に紫ピースを追加/紫の攻撃力を25%UP",
-			"Skill": "1ターン紫の攻撃力をUP　特大"
+			"LSkill": "Insert Purple beads at beginning of stage and increase Purple ATK by 25%",
+			"Skill": "Recover time and increase Purple beads appearance rate for 2 chains (SS)"
 		}
 	}
 }
