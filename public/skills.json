@@ -7648,5 +7648,117 @@
 			"LSkill": "Insert Purple beads at beginning of stage and increase Purple ATK by 25%",
 			"Skill": "Recover time and increase Purple beads appearance rate for 2 chains (SS)"
 		}
+	},
+	"548": {
+		"Before": {
+			"LSkill": "赤の回30%UP/3属性以上で攻35%UP",
+			"Skill": "3chain赤出現率UP、赤ピースを追加"
+		},
+		"Sun": {
+			"LSkill": "赤の回30%UP/3属性以上で攻50%UP",
+			"Skill": "3chain赤出現率UP、赤ピースを追加"
+		},
+		"Moon": {
+			"LSkill": "赤の回40%UP/3属性以上で攻35%UP",
+			"Skill": "3chain赤出現率UP、赤ピースを追加"
+		}
+	},
+	"549": {
+		"Before": {
+			"LSkill": "全員の攻撃力を60%UP/他能力を少し下げる",
+			"Skill": "斜め方向を青・赤・青に変換"
+		},
+		"Sun": {
+			"LSkill": "全員の攻撃力を70%UP/他能力を少し下げる",
+			"Skill": "斜め方向を青・赤・青に変換"
+		},
+		"Moon": {
+			"LSkill": "全員の攻撃力を70%UP/他能力を少し下げる",
+			"Skill": "斜め方向を青・緑・青に変換"
+		}
+	},
+	"550": {
+		"Before": {
+			"LSkill": "緑属性の攻撃力と回復力を25%UP",
+			"Skill": "回復力に応じてHPを回復　中"
+		},
+		"Sun": {
+			"LSkill": "緑属性の攻撃力と回復力を30%UP",
+			"Skill": "回復力に応じてHPを回復　大"
+		},
+		"Moon": {
+			"LSkill": "緑属性の攻撃力と回復力を30%UP",
+			"Skill": "回復力に応じてHPを回復　大"
+		}
+	},
+	"551": {
+		"Before": {
+			"LSkill": "赤属性のHPと回復力を25%UP",
+			"Skill": "左右を赤の扇の形に変換"
+		},
+		"Sun": {
+			"LSkill": "赤属性のHPと回復力を30%UP",
+			"Skill": "左右を赤の扇の形に変換"
+		},
+		"Moon": {
+			"LSkill": "赤のHPと回復力25%/攻撃力15%UP",
+			"Skill": "左右を赤の扇の形に変換"
+		}
+	},
+	"552": {
+		"Before": {
+			"LSkill": "ランク獲得EXPを20%UP/HPと回復力を下げる",
+			"Skill": "黄ピースを赤ピースに変換する"
+		},
+		"Sun": {
+			"LSkill": "ランク獲得EXPを25%UP/HPと回復力を下げる",
+			"Skill": "黄ピースを赤ピースに変換する"
+		},
+		"Moon": {
+			"LSkill": "ランク獲得EXPを25%UP/HPと回復力を下げる",
+			"Skill": "黄ピースを赤ピースに変換する"
+		}
+	},
+	"553": {
+		"Before": {
+			"LSkill": "赤の攻35%UP/スキル発動数を2減らす",
+			"Skill": "3chain繋いだピースの周りも消す"
+		},
+		"Sun": {
+			"LSkill": "赤の攻35%UP/スキル発動数を3減らす",
+			"Skill": "5chain繋いだピースの周りも消す"
+		},
+		"Moon": {
+			"LSkill": "赤の攻50%UP/スキル発動数を2減らす",
+			"Skill": "4chain周りも消し、赤ピースを追加"
+		}
+	},
+	"554": {
+		"Before": {
+			"LSkill": "全員のHPを20%UP",
+			"Skill": "10chainの間、青の出現率UP　小"
+		},
+		"Sun": {
+			"LSkill": "全員のHPを20%UP/攻5%UP",
+			"Skill": "10chainの間、青の出現率UP　中"
+		},
+		"Moon": {
+			"LSkill": "全員のHPを25%UP",
+			"Skill": "10chainの間、青の出現率UP　中"
+		}
+	},
+	"555": {
+		"Before": {
+			"LSkill": "全員の回復力を0にし、HPを40%UP",
+			"Skill": "1ターンの間、全員の攻撃力を0/ダメージ35%減少"
+		},
+		"Sun": {
+			"LSkill": "全員の回復力を0にし、HPを50%UP",
+			"Skill": "1ターンの間、全員の攻撃力を0/ダメージ40%減少"
+		},
+		"Moon": {
+			"LSkill": "全員の回復力を0にし、HPを50%UP",
+			"Skill": "1ターンの間、全員の攻撃力を0/ダメージ40%減少"
+		}
 	}
 }
