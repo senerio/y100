@@ -1,9 +1,5 @@
 {
 	"1": {
-		"Before": {
-			"LSkill": "Increase Red ATK by 25%",
-			"Skill": "Erase middle column beads (A)"
-		},
 		"Sun": {
 			"LSkill": "Increase Red ATK by 35%",
 			"Skill": "Erase middle column beads (S)"
@@ -4496,15 +4492,15 @@
 	"322": {
 		"Before": {
 			"LSkill": "Increase ATK by 50% when HP is above 50%",
-			"Skill": "3chain繋いだピースの周りも消す"
+			"Skill": "Surrounding beads will be erased when chaining for 3 chains"
 		},
 		"Sun": {
 			"LSkill": "Increase ATK by 60% when HP is above 50%",
-			"Skill": "5chain繋いだピースの周りも消す"
+			"Skill": "Surrounding beads will be erased when chaining for 5 chains"
 		},
 		"Moon": {
 			"LSkill": "Increase ATK by 60% when HP is above 50%",
-			"Skill": "5chain繋いだピースの周りも消す"
+			"Skill": "Surrounding beads will be erased when chaining for 5 chains"
 		}
 	},
 	"323": {
@@ -4636,15 +4632,15 @@
 	"332": {
 		"Before": {
 			"LSkill": "Increase ATK by 40% when HP is above 50%",
-			"Skill": "2chain繋いだピースの周りも���す"
+			"Skill": "Surrounding beads will be erased when chaining for 2 chains"
 		},
 		"Sun": {
 			"LSkill": "Increase ATK by 50% when HP is above 50%",
-			"Skill": "3chain繋いだピースの周りも消す"
+			"Skill": "Surrounding beads will be erased when chaining for 3 chains"
 		},
 		"Moon": {
 			"LSkill": "Increase ATK by 50% when HP is above 50%",
-			"Skill": "3chain繋いだピースの周りも消す"
+			"Skill": "Surrounding beads will be erased when chaining for 3 chains"
 		}
 	},
 	"333": {
@@ -4790,15 +4786,15 @@
 	"343": {
 		"Before": {
 			"LSkill": "Increase Party ATK by 50% when Max HP",
-			"Skill": "2chain繋いだピースの周りも消す"
+			"Skill": "Surrounding beads will be erased when chaining for 2 chains"
 		},
 		"Sun": {
 			"LSkill": "Increase Party ATK by 65% when Max HP",
-			"Skill": "3chain繋いだピースの周りも消す"
+			"Skill": "Surrounding beads will be erased when chaining for 3 chains"
 		},
 		"Moon": {
 			"LSkill": "Increase Party ATK by 65% when Max HP",
-			"Skill": "3chain繋いだピースの周りも消す"
+			"Skill": "Surrounding beads will be erased when chaining for 3 chains"
 		}
 	},
 	"344": {
@@ -5028,15 +5024,15 @@
 	"360": {
 		"Before": {
 			"LSkill": "Increase Red ATK by 50%",
-			"Skill": "Erases beads around a chain (3 chains)"
+			"Skill": "Surrounding beads will be erased when chaining for 3 chains"
 		},
 		"Sun": {
 			"LSkill": "Increase Red ATK by 65%",
-			"Skill": "Erases beads around a chain (5 chains)"
+			"Skill": "Surrounding beads will be erased when chaining for 5 chains"
 		},
 		"Moon": {
 			"LSkill": "Increase Red ATK by 50% and HP 10%",
-			"Skill": "Erases beads around a chain (5 chains)"
+			"Skill": "Surrounding beads will be erased when chaining for 5 chains"
 		}
 	},
 	"361": {
@@ -5224,15 +5220,15 @@
 	"374": {
 		"Before": {
 			"LSkill": "Increase Blue HP by 35%",
-			"Skill": "Erases bead around a chain (3 chains)"
+			"Skill": "Surrounding beads will be erased when chaining for 3 chains"
 		},
 		"Sun": {
 			"LSkill": "Increase Blue HP by 40%",
-			"Skill": "Erase beads around a chain (5 chains)"
+			"Skill": "Surrounding beads will be erased when chaining for 5 chains"
 		},
 		"Moon": {
 			"LSkill": "Increase Blue HP by 35% and ATK by 15%",
-			"Skill": "Erase beads around a chain (4 chains) and insert Blue beads"
+			"Skill": "Surrounding beads will be erased when chaining for 5 chains and insert Blue beads"
 		}
 	},
 	"375": {
@@ -5588,15 +5584,15 @@
 	"400": {
 		"Before": {
 			"LSkill": "Increase Party ATK by 50% when Max HP",
-			"Skill": "Erase the beads around 2 connected chains"
+			"Skill": "Surrounding beads will be erased when chaining for 2 chains"
 		},
 		"Sun": {
 			"LSkill": "Increase Party ATK by 65% when Max HP",
-			"Skill": "Erase the beads around 3 connected chains"
+			"Skill": "Surrounding beads will be erased when chaining for 3 chains"
 		},
 		"Moon": {
 			"LSkill": "Increase Party ATK by 65% when Max HP",
-			"Skill": "Erase the beads around 3 connected chains"
+			"Skill": "Surrounding beads will be erased when chaining for 3 chains"
 		}
 	},
 	"401": {
@@ -5784,15 +5780,15 @@
 	"414": {
 		"Before": {
 			"LSkill": "Increase Yellow ATK by 40% and Party ATK by 25% when Max HP",
-			"Skill": "Erase beads around a chain (3 chains)"
+			"Skill": "Surrounding beads will be erased when chaining for 3 chains"
 		},
 		"Sun": {
 			"LSkill": "Increase Yellow ATK by 40% and Party ATK by 35% when Max HP",
-			"Skill": "Erase beads around a chain (5 chains)"
+			"Skill": "Surrounding beads will be erased when chaining for 5 chains"
 		},
 		"Moon": {
 			"LSkill": "Increase Yellow ATK by 50% and Party ATK by 25% when Max HP",
-			"Skill": "Erase beads around a chain (4 chains) and insert Yellow beads"
+			"Skill": "Surrounding beads will be erased when chaining for 4 chains and insert Yellow beads"
 		}
 	},
 	"415": {
@@ -6120,15 +6116,15 @@
 	"438": {
 		"Before": {
 			"LSkill": "Increase Party ATK by 50% when Max HP",
-			"Skill": "Erase beads around a chain (2 chains)"
+			"Skill": "Surrounding beads will be erased when chaining for 2 chains"
 		},
 		"Sun": {
 			"LSkill": "Increase Party ATK by 65% when Max HP",
-			"Skill": "Erase beads around a chain (3 chains)"
+			"Skill": "Surrounding beads will be erased when chaining for 3 chains"
 		},
 		"Moon": {
 			"LSkill": "Increase Party ATK by 65% when Max HP",
-			"Skill": "Erase beads around a chain (3 chains)"
+			"Skill": "Surrounding beads will be erased when chaining for 3 chains"
 		}
 	},
 	"439": {
@@ -6294,15 +6290,15 @@
 	"451": {
 		"Before": {
 			"LSkill": "Increase ATK by 80% and reduce other stats when party consists of all 5 colours",
-			"Skill": "Erase beads around a chain (3 chains)"
+			"Skill": "Surrounding beads will be erased when chaining for 3 chains"
 		},
 		"Sun": {
 			"LSkill": "Increase ATK by 80% and reduce other stats a little when party consists of all 5 colours",
-			"Skill": "Erase beads around a chain (5 chains)"
+			"Skill": "Surrounding beads will be erased when chaining for 5 chains"
 		},
 		"Moon": {
 			"LSkill": "Increase ATK by 100% and reduce other stats when party consists of all 5 colours",
-			"Skill": "Erase beads around a chain (5 chains)"
+			"Skill": "Surrounding beads will be erased when chaining for 5 chains"
 		}
 	},
 	"452": {
@@ -6658,15 +6654,15 @@
 	"477": {
 		"Before": {
 			"LSkill": "Increase ATK by 30% when HP over 50% and RP by 30% when HP under 50%",
-			"Skill": "Erase the surrounding beads of a chain for 3 chains"
+			"Skill": "Surrounding beads will be erased when chaining for 3 chains"
 		},
 		"Sun": {
 			"LSkill": "Increase ATK by 40% when HP over 50% and RP by 40% when HP under 50%",
-			"Skill": "Erase the surrounding beads of a chain for 5 chains"
+			"Skill": "Surrounding beads will be erased when chaining for 5 chains"
 		},
 		"Moon": {
 			"LSkill": "Increase ATK by 40% when HP over 50% and RP by 40% when HP under 50%",
-			"Skill": "Erase the surrounding beads of a chain for 5 chains"
+			"Skill": "Surrounding beads will be erased when chaining for 5 chains"
 		}
 	},
 	"478": {
@@ -7049,15 +7045,15 @@
 	},
 	"505": {
 		"Before": {
-			"LSkill": "Increase Yellow ATK by 35% and Party ATK by 30% when Max HP",
+			"LSkill": "Increase Yellow ATK by 35% and increase Party ATK by 30% when Party consists of 3 colors or more",
 			"Skill": "Turn middle row beads into Yellow, Blue and Green"
 		},
 		"Sun": {
-			"LSkill": "Increase Yellow ATK by 50% and Party ATK by 30% when Max HP",
+			"LSkill": "Increase Yellow ATK by 50% and increase Party ATK by 30% when Party consists of 3 colors or more",
 			"Skill": "Turn middle row beads into Yellow, Blue and Green"
 		},
 		"Moon": {
-			"LSkill": "Increase Yellow ATK by 35% and Party ATK by 50% when Max HP",
+			"LSkill": "Increase Yellow ATK by 35% and increase Party ATK by 50% when Party consists of 3 colors or more",
 			"Skill": "Turn middle row beads into Yellow, Red and Purple"
 		}
 	},
@@ -7302,15 +7298,15 @@
 	"523": {
 		"Before": {
 			"LSkill": "Increase ATK & RP by 25% when HP over 50%",
-			"Skill": "Erase surrounding beads of 2 chains"
+			"Skill": "Surrounding beads will be erased when chaining for 2 chains"
 		},
 		"Sun": {
 			"LSkill": "Increase ATK & RP by 30% when HP over 50%",
-			"Skill": "Erase surrounding beads of 3 chains"
+			"Skill": "Surrounding beads will be erased when chaining for 3 chains"
 		},
 		"Moon": {
 			"LSkill": "Increase ATK & RP by 30% when HP over 50%",
-			"Skill": "Erase surrounding beads of 3 chains"
+			"Skill": "Surrounding beads will be erased when chaining for 3 chains"
 		}
 	},
 	"524": {
@@ -7470,15 +7466,15 @@
 	"535": {
 		"Before": {
 			"LSkill": "Increase all Party stats by 10%",
-			"Skill": "Strengthen random beads (10)"
+			"Skill": "Attach Attack UP effects on random beads (10)"
 		},
 		"Sun": {
 			"LSkill": "Increase all Party stats by 20%",
-			"Skill": "Strengthen random beads (15-25)"
+			"Skill": "Attach Attack UP effects on random beads (15-25)"
 		},
 		"Moon": {
 			"LSkill": "Increase all Party stats by 20%",
-			"Skill": "Strengthen random beads (10-30)"
+			"Skill": "Attach Attack UP effects on random beads (10-30)"
 		}
 	},
 	"536": {
@@ -7651,114 +7647,120 @@
 	},
 	"548": {
 		"Before": {
-			"LSkill": "赤の回30%UP/3属性以上で攻35%UP",
-			"Skill": "3chain赤出現率UP、赤ピースを追加"
+			"LSkill": "Increase Red RP by 30% and increase Party ATK by 30% when Party consists of 3 colors or more",
+			"Skill": "Increase Red beads appearance rate for 3 chains and insert Red beads"
 		},
 		"Sun": {
-			"LSkill": "赤の回30%UP/3属性以上で攻50%UP",
-			"Skill": "3chain赤出現率UP、赤ピースを追加"
+			"LSkill": "Increase Red RP by 30% and increase Party ATK by 50% when Party consists of 3 colors or more",
+			"Skill": "Increase Red beads appearance rate for 3 chains and insert Red beads"
 		},
 		"Moon": {
-			"LSkill": "赤の回40%UP/3属性以上で攻35%UP",
-			"Skill": "3chain赤出現率UP、赤ピースを追加"
+			"LSkill": "Increase Red RP by 40% and increase Party ATK by 30% when Party consists of 3 colors or more",
+			"Skill": "Increase Red beads appearance rate for 3 chains and insert Red beads"
 		}
 	},
 	"549": {
 		"Before": {
-			"LSkill": "全員の攻撃力を60%UP/他能力を少し下げる",
-			"Skill": "斜め方向を青・赤・青に変換"
+			"LSkill": "Incease Party ATK by 60% and reduce other stats a little",
+			"Skill": "Turn all beads into Blue,Red and Blue beads diagonally"
 		},
 		"Sun": {
-			"LSkill": "全員の攻撃力を70%UP/他能力を少し下げる",
-			"Skill": "斜め方向を青・赤・青に変換"
+			"LSkill": "Incease Party ATK by 70% and reduce other stats a little",
+			"Skill": "Turn all beads into Blue,Red and Blue beads diagonally"
 		},
 		"Moon": {
-			"LSkill": "全員の攻撃力を70%UP/他能力を少し下げる",
-			"Skill": "斜め方向を青・緑・青に変換"
+			"LSkill": "Incease Party ATK by 70% and reduce other stats a little",
+			"Skill": "Turn all beads into Blue,Green and Blue beads diagonally"
 		}
 	},
 	"550": {
 		"Before": {
-			"LSkill": "緑属性の攻撃力と回復力を25%UP",
-			"Skill": "回復力に応じてHPを回復　中"
+			"LSkill": "Increase Green ATK & RP by 25%",
+			"Skill": "Recovery of HP in accordance to RP (A)"
 		},
 		"Sun": {
-			"LSkill": "緑属性の攻撃力と回復力を30%UP",
-			"Skill": "回復力に応じてHPを回復　大"
+			"LSkill": "Increase Green ATK & RP by 30%",
+			"Skill": "Recovery of HP in accordance to RP (S)"
 		},
 		"Moon": {
-			"LSkill": "緑属性の攻撃力と回復力を30%UP",
-			"Skill": "回復力に応じてHPを回復　大"
+			"LSkill": "Increase Green ATK & RP by 30%",
+			"Skill": "Recovery of HP in accordance to RP (S)"
 		}
 	},
 	"551": {
 		"Before": {
-			"LSkill": "赤属性のHPと回復力を25%UP",
-			"Skill": "左右を赤の扇の形に変換"
+			"LSkill": "Increase Red HP & RP by 25%",
+			"Skill": "Turn left and right beads Red in the shape of a fan"
 		},
 		"Sun": {
-			"LSkill": "赤属性のHPと回復力を30%UP",
-			"Skill": "左右を赤の扇の形に変換"
+			"LSkill": "Increase Red HP & RP by 30%",
+			"Skill": "Turn left and right beads Red in the shape of a fan"
 		},
 		"Moon": {
-			"LSkill": "赤のHPと回復力25%/攻撃力15%UP",
-			"Skill": "左右を赤の扇の形に変換"
+			"LSkill": "Increase Red HP & RP by 25% and ATK by 15%",
+			"Skill": "Turn left and right beads Red in the shape of a fan"
 		}
 	},
 	"552": {
 		"Before": {
-			"LSkill": "ランク獲得EXPを20%UP/HPと回復力を下げる",
-			"Skill": "黄ピースを赤ピースに変換する"
+			"LSkill": "Increase Rank EXP by 20% , reduce HP & RP",
+			"Skill": "Turn Yellow beads into Red"
 		},
 		"Sun": {
-			"LSkill": "ランク獲得EXPを25%UP/HPと回復力を下げる",
-			"Skill": "黄ピースを赤ピースに変換する"
+			"LSkill": "Increase Rank EXP by 25% , reduce HP & RP",
+			"Skill": "Turn Yellow beads into Red"
 		},
 		"Moon": {
-			"LSkill": "ランク獲得EXPを25%UP/HPと回復力を下げる",
-			"Skill": "黄ピースを赤ピースに変換する"
+			"LSkill": "Increase Rank EXP by 25% , reduce HP & RP",
+			"Skill": "Turn Yellow beads into Red"
 		}
 	},
 	"553": {
 		"Before": {
-			"LSkill": "赤の攻35%UP/スキル発動数を2減らす",
-			"Skill": "3chain繋いだピースの周りも消す"
+			"LSkill": "Increase Red ATK by 35%, reduce skill activation beads count by 2",
+			"Skill": "Surrounding beads will be erased when chaining for 3 chains"
 		},
 		"Sun": {
-			"LSkill": "赤の攻35%UP/スキル発動数を3減らす",
-			"Skill": "5chain繋いだピースの周りも消す"
+			"LSkill": "Increase Red ATK by 35%, reduce skill activation beads count by 3",
+			"Skill": "Surrounding beads will be erased when chaining for 5 chains"
 		},
 		"Moon": {
-			"LSkill": "赤の攻50%UP/スキル発動数を2減らす",
-			"Skill": "4chain周りも消し、赤ピースを追加"
+			"LSkill": "Increase Red ATK by 50%, reduce skill activation beads count by 2",
+			"Skill": "Surrounding beads will be erased when chaining for 4 chains"
 		}
 	},
 	"554": {
 		"Before": {
-			"LSkill": "全員のHPを20%UP",
-			"Skill": "10chainの間、青の出現率UP　小"
+			"LSkill": "Increase Party HP by 20%",
+			"Skill": "Increase Blue beads appearance rate for 10 chains (B)"
 		},
 		"Sun": {
-			"LSkill": "全員のHPを20%UP/攻5%UP",
-			"Skill": "10chainの間、青の出現率UP　中"
+			"LSkill": "Increase Party HP by 20% and ATK by 5%",
+			"Skill": "Increase Blue beads appearance rate for 10 chains (A)"
 		},
 		"Moon": {
-			"LSkill": "全員のHPを25%UP",
-			"Skill": "10chainの間、青の出現率UP　中"
+			"LSkill": "Increase Party HP by 25%",
+			"Skill": "Increase Blue beads appearance rate for 10 chains (A)"
 		}
 	},
 	"555": {
 		"Before": {
-			"LSkill": "全員の回復力を0にし、HPを40%UP",
-			"Skill": "1ターンの間、全員の攻撃力を0/ダメージ35%減少"
+			"LSkill": "Set Party RP at 0, increase HP by 40%",
+			"Skill": "Turn Party ATK 0 and reduce damage by 35% for 1 turn"
 		},
 		"Sun": {
-			"LSkill": "全員の回復力を0にし、HPを50%UP",
-			"Skill": "1ターンの間、全員の攻撃力を0/ダメージ40%減少"
+			"LSkill": "Set Party RP at 0, increase HP by 50%",
+			"Skill": "Turn Party ATK 0 and reduce damage by 40% for 1 turn"
 		},
 		"Moon": {
-			"LSkill": "全員の回復力を0にし、HPを50%UP",
-			"Skill": "1ターンの間、全員の攻撃力を0/ダメージ40%減少"
+			"LSkill": "Set Party RP at 0, increase HP by 50%",
+			"Skill": "Turn Party ATK 0 and reduce damage by 40% for 1 turn"
+		}
+	},
+	"w": {
+		"Before": {
+			"LSkill": "Increase Red ATK by 25%",
+			"Skill": "Erase middle column beads (A)"
 		}
 	}
 }
