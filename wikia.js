@@ -4,8 +4,8 @@ var client = new bot({
 	server: 'yume100prince.wikia.com',
 	path: '',
 	debug: true,
-	username: 'Senelio',
-	password: '082394',
+	username: '',
+	password: '',
 	concurrency: 2
 });
 

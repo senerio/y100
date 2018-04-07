@@ -1,5 +1,9 @@
 {
 	"1": {
+		"Before": {
+			"LSkill": "Increase Red ATK by 25%",
+			"Skill": "Erase middle column beads (A)"
+		},
 		"Sun": {
 			"LSkill": "Increase Red ATK by 35%",
 			"Skill": "Erase middle column beads (S)"
@@ -572,7 +576,7 @@
 	"42": {
 		"Before": {
 			"LSkill": "Increase Yellow HP & RP by 20%",
-			"Skill": "Recovery of HP in accordance to RP (S)"
+			"Skill": "Recover HP in accordance to RP (S)"
 		},
 		"Sun": {
 			"LSkill": "Increase Yellow HP & RP by 25%",
@@ -2896,11 +2900,11 @@
 	"208": {
 		"Before": {
 			"LSkill": "Increase HP & RP by 20% when Party consists of all 5 colors",
-			"Skill": "Recover HP in accordance to RP (SS)"
+			"Skill": "Recovery of HP in accordance to RP (SS)"
 		},
 		"Sun": {
 			"LSkill": "Increase HP & RP by 20% and ATK by 15% when Party consists of all 5 colors",
-			"Skill": "Recover HP in accordance to RP (SSS)"
+			"Skill": "Recovery of HP in accordance to RP (SSS)"
 		},
 		"Moon": {
 			"LSkill": "Increase HP & RP by 25% when Party consists of all 5 colors",
@@ -3470,15 +3474,15 @@
 	"249": {
 		"Before": {
 			"LSkill": "Increase HP by 20% when Party consists of 3 colors or more",
-			"Skill": "Recover HP in accordance to RP (S)"
+			"Skill": "Recovery of HP in accordance to RP (S)"
 		},
 		"Sun": {
 			"LSkill": "Increase HP by 25% when Party consists of 3 colors or more",
-			"Skill": "Recover HP in accordance to RP (SS)"
+			"Skill": "Recovery of HP in accordance to RP (SS)"
 		},
 		"Moon": {
 			"LSkill": "Increase HP by 25% when Party consists of 3 colors or more",
-			"Skill": "Recover HP in accordance to RP (SS)"
+			"Skill": "Recovery of HP in accordance to RP (SS)"
 		}
 	},
 	"250": {
@@ -3722,15 +3726,15 @@
 	"267": {
 		"Before": {
 			"LSkill": "Increase Purple HP by 35%",
-			"Skill": "Recover HP in accordance to Party RP (SS)"
+			"Skill": "Recovery of HP in accordance to Party RP (SS)"
 		},
 		"Sun": {
 			"LSkill": "Increase Purple HP by 40%",
-			"Skill": "Recover HP in accordance to Party RP (SS)"
+			"Skill": "Recovery of HP in accordance to Party RP (SS)"
 		},
 		"Moon": {
 			"LSkill": "Increase Purple HP by 35% and RP by 15%",
-			"Skill": "Recover HP in accordance to Party RP and insert heart"
+			"Skill": "Recovery of HP in accordance to Party RP and insert heart"
 		}
 	},
 	"268": {
@@ -3806,15 +3810,15 @@
 	"273": {
 		"Before": {
 			"LSkill": "Increase ATK by 20% when HP is above 50%, increase RP by 20% when HP is below 50%",
-			"Skill": "Recover HP in accordance to RP (A)"
+			"Skill": "Recovery of HP in accordance to RP (A)"
 		},
 		"Sun": {
 			"LSkill": "Increase ATK by 30% when HP is above 50%, increase RP by 30% when HP is below 50%",
-			"Skill": "Recover HP in accordance to RP (S)"
+			"Skill": "Recovery of HP in accordance to RP (S)"
 		},
 		"Moon": {
 			"LSkill": "Increase ATK by 30% when HP is above 50%, increase RP by 30% when HP is below 50%",
-			"Skill": "Recover HP in accordance to RP (S)"
+			"Skill": "Recovery of HP in accordance to RP (S)"
 		}
 	},
 	"274": {
@@ -4016,15 +4020,15 @@
 	"288": {
 		"Before": {
 			"LSkill": "Increase Purple HP & RP by 25%",
-			"Skill": "Recover HP in accordance to RP (S)"
+			"Skill": "Recovery of HP in accordance to RP (S)"
 		},
 		"Sun": {
 			"LSkill": "Increase Purple HP & RP by 30%",
-			"Skill": "Recover HP in accordance to RP (S)"
+			"Skill": "Recovery of HP in accordance to RP (S)"
 		},
 		"Moon": {
 			"LSkill": "Increase Purple HP & RP by 25% and ATK by 15%",
-			"Skill": "Recover HP in accordance to RP (SS)"
+			"Skill": "Recovery of HP in accordance to RP (SS)"
 		}
 	},
 	"289": {
@@ -4170,11 +4174,11 @@
 	"299": {
 		"Before": {
 			"LSkill": "Increase ATK by 30% when HP is above 50% and RP by 30% when HP is below 50%",
-			"Skill": "Recover HP in accordance to RP (SS)"
+			"Skill": "Recovery of HP in accordance to RP (SS)"
 		},
 		"Sun": {
 			"LSkill": "Increase ATK by 40% when HP is above 50% and RP by 40% when HP is below 50%",
-			"Skill": "Recover HP in accordance to RP (SSS)"
+			"Skill": "Recovery of HP in accordance to RP (SSS)"
 		},
 		"Moon": {
 			"LSkill": "Increase ATK by 40% when HP is above 50% and RP by 40% when HP is below 50%",
@@ -4324,15 +4328,15 @@
 	"310": {
 		"Before": {
 			"LSkill": "Increase Green HP by 30%",
-			"Skill": "Recover set amount of HP (3000)"
+			"Skill": "Recover 3000 HP"
 		},
 		"Sun": {
 			"LSkill": "Increase Green HP by 35%",
-			"Skill": "Recover set amount of HP (4000)"
+			"Skill": "Recover 4000 HP"
 		},
 		"Moon": {
 			"LSkill": "Increase Green HP by 35%",
-			"Skill": "Recover set amount of HP (4000)"
+			"Skill": "Recover 4000 HP"
 		}
 	},
 	"311": {
@@ -4618,15 +4622,15 @@
 	"331": {
 		"Before": {
 			"LSkill": "Increase HP by 35% when Party consists of all 5 colors",
-			"Skill": "Recover HP in accordance to RP (S)"
+			"Skill": "Recovery of HP in accordance to RP (S)"
 		},
 		"Sun": {
 			"LSkill": "Increase HP by 35% and ATK by 15% when Party consists of all 5 colors",
-			"Skill": "Recover HP in accordance to RP (SS)"
+			"Skill": "Recovery of HP in accordance to RP (SS)"
 		},
 		"Moon": {
 			"LSkill": "Increase HP by 40% when Party consists of all 5 colors",
-			"Skill": "Recover HP in accordance to RP (S)"
+			"Skill": "Recovery of HP in accordance to RP (S)"
 		}
 	},
 	"332": {
@@ -4870,15 +4874,15 @@
 	"349": {
 		"Before": {
 			"LSkill": "Increase HP by 20% when Party consists of 3 colors or more",
-			"Skill": "Recover HP in accordance to RP (A)"
+			"Skill": "Recovery of HP in accordance to RP (A)"
 		},
 		"Sun": {
 			"LSkill": "Increase HP by 25% when Party consists of 3 colors or more",
-			"Skill": "Recover HP in accordance to RP (S)"
+			"Skill": "Recovery of HP in accordance to RP (S)"
 		},
 		"Moon": {
 			"LSkill": "Increase HP by 25% when Party consists of 3 colors or more",
-			"Skill": "Recover HP in accordance to RP (S)"
+			"Skill": "Recovery of HP in accordance to RP (S)"
 		}
 	},
 	"350": {
@@ -5528,15 +5532,15 @@
 	"396": {
 		"Before": {
 			"LSkill": "Increase Red & Green HP & RP by 20%",
-			"Skill": "Recover HP in accordance to RP (S)"
+			"Skill": "Recovery of HP in accordance to RP (S)"
 		},
 		"Sun": {
 			"LSkill": "Increase Red & Green HP & RP by 25%",
-			"Skill": "Recover HP in accordance to RP (S)"
+			"Skill": "Recovery of HP in accordance to RP (S)"
 		},
 		"Moon": {
 			"LSkill": "Increase Red & Green HP & RP by 25%",
-			"Skill": "Recover HP in accordance to RP (SS)"
+			"Skill": "Recovery of HP in accordance to RP (SS)"
 		}
 	},
 	"397": {
@@ -5724,15 +5728,15 @@
 	"410": {
 		"Before": {
 			"LSkill": "Increase ATK by 50% when HP over 50%",
-			"Skill": "Recover HP in accordance to Party RP (SS)"
+			"Skill": "Recovery of HP in accordance to Party RP (SS)"
 		},
 		"Sun": {
 			"LSkill": "Increase ATK by 60% when HP over 50%",
-			"Skill": "Recover HP in accordance to Party RP (SS)"
+			"Skill": "Recovery of HP in accordance to Party RP (SS)"
 		},
 		"Moon": {
 			"LSkill": "Increase ATK by 60% when HP over 50%",
-			"Skill": "Recover HP in accordance to Party RP and insert heart"
+			"Skill": "Recovery of HP in accordance to Party RP and insert heart"
 		}
 	},
 	"411": {
@@ -5892,11 +5896,11 @@
 	"422": {
 		"Before": {
 			"LSkill": "Increase Purple RP by 30% and Party ATK by 40% when Max HP",
-			"Skill": "Recover HP in accordance to RP (SS)"
+			"Skill": "Recovery of HP in accordance to RP (SS)"
 		},
 		"Sun": {
 			"LSkill": "Increase Purple RP by 40% and Party ATK by 40% when Max HP",
-			"Skill": "Recover HP in accordance to RP (SSS)"
+			"Skill": "Recovery of HP in accordance to RP (SSS)"
 		},
 		"Moon": {
 			"LSkill": "Increase Purple RP by 30% and Party ATK by 50% when Max HP",
@@ -5976,15 +5980,15 @@
 	"428": {
 		"Before": {
 			"LSkill": "Increase ATK by 20% when HP over 50% and RP by 20% when HP under 50%",
-			"Skill": "Recover HP in accordance to RP (S)"
+			"Skill": "Recovery of HP in accordance to RP (S)"
 		},
 		"Sun": {
 			"LSkill": "Increase ATK by 30% when HP over 50% and RP by 30% when HP under 50%",
-			"Skill": "Recover HP in accordance to RP (SS)"
+			"Skill": "Recovery of HP in accordance to RP (SS)"
 		},
 		"Moon": {
 			"LSkill": "Increase ATK by 30% when HP over 50% and RP by 30% when HP under 50%",
-			"Skill": "Recover HP in accordance to RP (SS)"
+			"Skill": "Recovery of HP in accordance to RP (SS)"
 		}
 	},
 	"429": {
@@ -6304,15 +6308,15 @@
 	"452": {
 		"Before": {
 			"LSkill": "Additional attack will occur when attacking with 5 colors",
-			"Skill": "Recover party HP in accordance to RP (S)"
+			"Skill": "Recovery of HP in accordance to Party RP (S)"
 		},
 		"Sun": {
 			"LSkill": "Additional attack will occur when attacking with 5 colors",
-			"Skill": "Recover party HP in accordance to RP (SS)"
+			"Skill": "Recovery of HP in accordance to Party RP (SS)"
 		},
 		"Moon": {
 			"LSkill": "Additional attack will occur when attacking with 5 colors",
-			"Skill": "Recover party HP in accordance to RP (SS)"
+			"Skill": "Recovery of HP in accordance to Party RP (SS)"
 		}
 	},
 	"453": {
@@ -6584,15 +6588,15 @@
 	"472": {
 		"Before": {
 			"LSkill": "Insert Red beads at beginning of stage (SS)",
-			"Skill": "Recover HP in accordance to Party RP (SS)"
+			"Skill": "Recovery HP in accordance to Party RP (SS)"
 		},
 		"Sun": {
 			"LSkill": "Insert Red beads at beginning of stage (SSS)",
-			"Skill": "Recover HP in accordance to Party RP (SS)"
+			"Skill": "Recovery HP in accordance to Party RP (SS)"
 		},
 		"Moon": {
 			"LSkill": "Insert Red beads at beginning of stage and increase Red ATK by 25%",
-			"Skill": "Recover HP in accordance to Party RP and insert heart"
+			"Skill": "Recovery of HP in accordance to Party RP and insert heart"
 		}
 	},
 	"473": {
@@ -6724,15 +6728,15 @@
 	"482": {
 		"Before": {
 			"LSkill": "Increase Green HP & RP by 20%",
-			"Skill": "Recover HP in accordance to RP (S)"
+			"Skill": "Recovery of HP in accordance to RP (S)"
 		},
 		"Sun": {
 			"LSkill": "Increase Green HP & RP by 25%",
-			"Skill": "Recover HP in accordance to RP (SS)"
+			"Skill": "Recovery of HP in accordance to RP (SS)"
 		},
 		"Moon": {
 			"LSkill": "Increase Green HP & RP by 25%",
-			"Skill": "Recover HP in accordance to RP (SS)"
+			"Skill": "Recovery of HP in accordance to RP (SS)"
 		}
 	},
 	"483": {
@@ -7102,15 +7106,15 @@
 	"509": {
 		"Before": {
 			"LSkill": "Insert Blue beads at the beginning of the stage (S)",
-			"Skill": "Recover HP in accordance to RP (S)"
+			"Skill": "Recovery of HP in accordance to RP (S)"
 		},
 		"Sun": {
 			"LSkill": "Insert Blue beads at the beginning of the stage (SS)",
-			"Skill": "Recover HP in accordance to RP (SS)"
+			"Skill": "Recovery of HP in accordance to RP (SS)"
 		},
 		"Moon": {
 			"LSkill": "Insert Blue beads at the beginning of the stage (SS)",
-			"Skill": "Recover HP in accordance to RP (SS)"
+			"Skill": "Recovery of HP in accordance to RP (SS)"
 		}
 	},
 	"510": {
@@ -7368,15 +7372,15 @@
 	"528": {
 		"Before": {
 			"LSkill": "Increase Party HP & RP by 15%",
-			"Skill": "Recover HP in accordance to RP (S)"
+			"Skill": "Recovery of HP in accordance to RP (S)"
 		},
 		"Sun": {
 			"LSkill": "Increase Party HP & RP by 20%",
-			"Skill": "Recover HP in accordance to RP (S)"
+			"Skill": "Recovery of HP in accordance to RP (S)"
 		},
 		"Moon": {
 			"LSkill": "Increase Party HP & RP by 15% and ATK by 10%",
-			"Skill": "Recover HP in accordance to RP (SS)"
+			"Skill": "Recovery of HP in accordance to RP (SS)"
 		}
 	},
 	"529": {
@@ -7662,15 +7666,15 @@
 	"549": {
 		"Before": {
 			"LSkill": "Incease Party ATK by 60% and reduce other stats a little",
-			"Skill": "Turn all beads into Blue,Red and Blue beads diagonally"
+			"Skill": "Turn diagonal lines into Blue,Red and Blue beads"
 		},
 		"Sun": {
 			"LSkill": "Incease Party ATK by 70% and reduce other stats a little",
-			"Skill": "Turn all beads into Blue,Red and Blue beads diagonally"
+			"Skill": "Turn diagonal lines into Blue,Red and Blue beads"
 		},
 		"Moon": {
 			"LSkill": "Incease Party ATK by 70% and reduce other stats a little",
-			"Skill": "Turn all beads into Blue,Green and Blue beads diagonally"
+			"Skill": "Turn diagonal lines into Blue,Green and Blue beads"
 		}
 	},
 	"550": {
@@ -7726,7 +7730,7 @@
 		},
 		"Moon": {
 			"LSkill": "Increase Red ATK by 50%, reduce skill activation beads count by 2",
-			"Skill": "Surrounding beads will be erased when chaining for 4 chains"
+			"Skill": "Surrounding beads will be erased when chaining for 4 chains and insert Red beads"
 		}
 	},
 	"554": {
@@ -7755,12 +7759,6 @@
 		"Moon": {
 			"LSkill": "Set Party RP at 0, increase HP by 50%",
 			"Skill": "Turn Party ATK 0 and reduce damage by 40% for 1 turn"
-		}
-	},
-	"w": {
-		"Before": {
-			"LSkill": "Increase Red ATK by 25%",
-			"Skill": "Erase middle column beads (A)"
 		}
 	}
 }
