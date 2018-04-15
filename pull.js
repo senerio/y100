@@ -14,8 +14,10 @@ function hashChanged(newHash) {
 function saveData(json) {
 	keys = ['MCard', 'MCardSkill', 'MCardHaveSkill', 'MCardSkillLevel', 'MEvolutionSacrifice', 'MCardEvolution', 'MCv', 'MCvInside', 'MCardVoice', 'MVoice'];
 	for(var key of keys) {
+		console.log("Writing " + key + "...");
 		fs.writeFileSync('./api/' + key, JSON.stringify(json[key].list[0]));
 	}
+	console.log("Save data done.");
 }
 
 function getDiff() {
@@ -29,6 +31,7 @@ function getDiff() {
 function updateList() {
 	var diff = getDiff();
 	if(diff.length > 0) {
+		console.log("Updating...");
 		appendNew(diff, appendSkills, updateVoiceRename, getNewData);
 	} else {
 		console.log("Nothing new.");
@@ -43,6 +46,7 @@ function appendNew(newIds, callback1, callback2, callback3) {
 			if(list[i].no > lastNo && list[i].no < 1000) lastNo = list[i].no;
 		}
 		mCard = JSON.parse(fs.readFileSync('./api/MCard'));
+		console.log("Getting new card data...");
 		for(var id of newIds) {
 			list[id] = {};
 			list[id].no = (function() {
@@ -55,6 +59,7 @@ function appendNew(newIds, callback1, callback2, callback3) {
 			list[id].name = mCard[id].name;
 		}
 		fs.writeFileSync('./public/list.json', JSON.stringify(list,null,'\t'));
+		console.log("List updated.");
 		callback1(list); callback2(list); callback3();
 	});
 }
@@ -76,6 +81,7 @@ function appendSkills (list) {
 		var skills = JSON.parse(data);
 		var y = require('./y.js');
 		var skill = require('./skill.js');
+		console.log("Getting skills...");
 		for(var id of listNew()) {
 			if(id > 1000) { continue; }
 			skills[list[id].no] = {
@@ -94,18 +100,21 @@ function appendSkills (list) {
 			skills[list[id].no].Moon.Skill = detailsMoon.main.desc;
 		}
 		fs.writeFile('./public/skills.json', JSON.stringify(skills,null,'\t'));
+		console.log("Skills updated.");
 	});
 }
 
 function updateVoiceRename (list) {
 	var voice = require('./voice.js');
 	var r = {};
+	console.log("Creating rename file...");
 	for(var id in list) {
 		if(id < 1000) {
 			r[require('./y.js').getNo(id)] = voice.renameScript(id);
 		}
 	};
 	fs.writeFile('./public/rename.json', JSON.stringify(r,null,'\t'));
+	console.log("Rename file created.");
 }
 
 function getNewData () {
