@@ -25,7 +25,8 @@ function wikiaAwakeningReqs (id) {
 	var sacrifice = JSON.parse(fs.readFileSync('./api/MEvolutionSacrifice'));
 	var gold = JSON.parse(fs.readFileSync('./api/MCardEvolution'));
 	return ''
-	+ '\n== Awakening Requirements =='
+	+ '\n== Awakening =='
+	+ '\n{{Choice\n}}'
 	+ '\n{{Awakening'
 	+ '\n|gold = ' + gold[id+',SUN'].evolutionNeedGold
 	+ (function() {
@@ -78,7 +79,7 @@ function wikiaRouteStats(id) {
 function wikiaCharacterPage (id, eventName) {
 	var mCard = JSON.parse(fs.readFileSync('./api/MCard'));
 	var t = ''
-		+ '== Status=='
+		+ '== Stats =='
 		+ '\n{{Infobox'
 		+ '\n|no = ' + y.getNo(id)
 		+ '\n|name = ' + y.getName(id)
@@ -96,12 +97,9 @@ function wikiaCharacterPage (id, eventName) {
 		+ (function() {
 			if(y.isEvent(id) == true) {
 				return ''
-				+ '\n|original = [[' + y.getName(id) + ']]'
 				+ '\n|event = ' + eventName;
 			} else {
 				return ''
-				+ '\n|versions = '
-				+ '\n|va = ' + getCv(id).cvName + '(' + getCv(id).cvKanaName + ')'
 				+ '\n|origin = ' + mCard[id].detail.split('の王子')[0]
 				+ '\n|age = ' + mCard[id].age
 				+ '\n|birth = '
@@ -113,10 +111,10 @@ function wikiaCharacterPage (id, eventName) {
 		+ '\n}}';
 	if(mCard[y.getSunId(id)]) {
 		t += ''
-		+ '\n== Story =='
+		+ wikiaAwakeningReqs(id)
+		+ '\n\n== Story =='
 		+ '\n{{Still|text=Sun Still|img=Still_' + y.getNo(id) + 's.jpg}}'
 		+ '\n{{Still|text=Moon Still|img=Still_' + y.getNo(id) + 'm.jpg}}'
-		+ wikiaAwakeningReqs(id)
 	}
 	t += '\n\n{{ShowQuotes}}';
 	return t;
