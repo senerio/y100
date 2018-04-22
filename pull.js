@@ -12,7 +12,7 @@ function hashChanged(newHash) {
 }
 
 function saveData(json) {
-	keys = ['MCard', 'MCardSkill', 'MCardHaveSkill', 'MCardSkillLevel', 'MEvolutionSacrifice', 'MCardEvolution', 'MCv', 'MCvInside', 'MCardVoice', 'MVoice'];
+	keys = ['MCard', 'MCardSkill', 'MCardHaveSkill', 'MCardSkillLevel', 'MEvolutionSacrifice', 'MCardEvolution', 'MCv', 'MCvInside', 'MCardVoice', 'MVoice', 'MPrinceStyle']; //'MMasterVersion'
 	for(var key of keys) {
 		console.log("Writing " + key + "...");
 		fs.writeFileSync('./api/' + key, JSON.stringify(json[key].list[0]));
