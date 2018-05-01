@@ -2243,6 +2243,34 @@
 		"no": 562,
 		"name": "Grad (Masquerade)"
 	},
+	"594": {
+		"no": 563,
+		"name": "Will (Trial)"
+	},
+	"595": {
+		"no": 564,
+		"name": "Cheshire Cat (Trial)"
+	},
+	"596": {
+		"no": 565,
+		"name": "Capita (Trial)"
+	},
+	"597": {
+		"no": 566,
+		"name": "Vashti (Trial)"
+	},
+	"598": {
+		"no": 567,
+		"name": "Jet (Trial)"
+	},
+	"599": {
+		"no": 568,
+		"name": "Superbia (Trial)"
+	},
+	"600": {
+		"no": 569,
+		"name": "Micaela (Trial)"
+	},
 	"653": {
 		"no": 555,
 		"name": "Gudetama"
@@ -2630,6 +2658,10 @@
 	"81060": {
 		"no": "81060",
 		"name": "Fairy Princess (Fluttering Sakura)"
+	},
+	"81061": {
+		"no": "81061",
+		"name": "フェアリープリンセス"
 	},
 	"82002": {
 		"no": 82002,
