@@ -7861,100 +7861,100 @@
 	},
 	"563": {
 		"Before": {
-			"LSkill": "紫の攻35%UP/3属性以上で回30%UP",
-			"Skill": "右側を紫に変換する　中"
+			"LSkill": "Increase Purple ATK by 35% and RP by 30% when party consists of more than 3 colors",
+			"Skill": "Turn right collumn beads Purple (A)"
 		},
 		"Sun": {
-			"LSkill": "紫の攻50%UP/3属性以上で回30%UP",
-			"Skill": "右側を紫に変換する　大"
+			"LSkill": "Increase Purple ATK by 50% and RP by 30% when party consists of more than 3 colors",
+			"Skill": "Turn right collumn beads Purple (S)"
 		},
 		"Moon": {
-			"LSkill": "紫の攻35%UP/3属性以上で回40%UP",
-			"Skill": "右側を紫に変換し、紫に回復効果付与"
+			"LSkill": "Increase Purple ATK by 35% and RP by 40% when party consists of more than 3 colors",
+			"Skill": "Turn right collumn beads Purple and attach heal properties to Purple beads "
 		}
 	},
 	"564": {
 		"Before": {
-			"LSkill": "HP50%以上で攻撃力50%UP",
-			"Skill": "黄ピースを追加　10個"
+			"LSkill": "Increase ATK by 50% when HP is above 50%",
+			"Skill": "Insert Yellow beads (10)"
 		},
 		"Sun": {
-			"LSkill": "HP50%以上で攻撃力60%UP",
-			"Skill": "黄ピースを追加　12個"
+			"LSkill": "Increase ATK by 60% when HP is above 50%",
+			"Skill": "Insert Yellow beads (12)"
 		},
 		"Moon": {
-			"LSkill": "HP50%以上で攻撃力60%UP",
-			"Skill": "黄ピースを追加し、HPを回復"
+			"LSkill": "Increase ATK by 60% when HP is above 50%",
+			"Skill": "Insert Yellow beads and recover HP"
 		}
 	},
 	"565": {
 		"Before": {
-			"LSkill": "全員の回復力を大きく下げ、HPと攻25%UP",
-			"Skill": "赤を青に変換し、回復"
+			"LSkill": "Reduce Party RP greatly and increase HP & ATK by 25%",
+			"Skill": "Turn Red beads into Blue and recover HP"
 		},
 		"Sun": {
-			"LSkill": "全員の回復力を大きく下げ、HPと攻35%UP",
-			"Skill": "赤を青に変換し、回復"
+			"LSkill": "Reduce Party RP greatly and increase HP & ATK by 35%",
+			"Skill": "Turn Red beads into Blue and recover HP"
 		},
 		"Moon": {
-			"LSkill": "全員の回復力を大きく下げ、HPと攻35%UP",
-			"Skill": "赤を青に変換し、回復"
+			"LSkill": "Reduce Party RP greatly and increase HP & ATK by 35%",
+			"Skill": "Turn Red beads into Blue and recover HP"
 		}
 	},
 	"566": {
 		"Before": {
-			"LSkill": "赤・紫の攻撃力・回復力を20%UP",
-			"Skill": "1ターン黄と紫から受けるダメージを25%減らす"
+			"LSkill": "Increase Red & Puple ATK & RP by 20%",
+			"Skill": "Reduce Yellow and Purple damage by 25% for 1 turn"
 		},
 		"Sun": {
-			"LSkill": "赤・紫の攻撃力・回復力を25%UP",
-			"Skill": "1ターン黄と紫から受けるダメージを35%減らす"
+			"LSkill": "Increase Red & Puple ATK & RP by 25%",
+			"Skill": "Reduce Yellow and Purple damage by 35% for 1 turn"
 		},
 		"Moon": {
-			"LSkill": "赤・黄の攻撃力・回復力を25%UP",
-			"Skill": "1ターン黄と紫から受けるダメージを35%減らす"
+			"LSkill": "Increase Red & Puple ATK & RP by 25%",
+			"Skill": "Reduce Yellow and Purple damage by 35% for 1 turn"
 		}
 	},
 	"567": {
 		"Before": {
-			"LSkill": "毎ターンスキルゲージ回復　中",
-			"Skill": "左側を赤ピースに変換"
+			"LSkill": "Recover Skill Gauge every turn (A)",
+			"Skill": "Turn left side beads into Red"
 		},
 		"Sun": {
-			"LSkill": "毎ターンスキルゲージ回復　大",
-			"Skill": "左側を赤ピースに変換/赤に攻UP効果付与"
+			"LSkill": "Recover Skill Gauge every turn (S)",
+			"Skill": "Turn left side beads into Red and attach Red ATK up properties"
 		},
 		"Moon": {
-			"LSkill": "毎ターンスキルゲージ回復　大",
-			"Skill": "左側を赤ピースに変換/赤に攻UP効果付与"
+			"LSkill": "Recover Skill Gauge every turn (S)",
+			"Skill": "Turn left side beads into Red and attach Red ATK up properties"
 		}
 	},
 	"568": {
 		"Before": {
-			"LSkill": "10chainで全員の攻撃力40%UP/HP10%UP",
-			"Skill": "青ピースに変換する　ハート型"
+			"LSkill": "Increase Party ATK by 40% when reach 10 chains and increase HP by 10%",
+			"Skill": "Turn Blue beads (Heart shape)"
 		},
 		"Sun": {
-			"LSkill": "10chainで全員の攻撃力50%UP/HP10%UP",
-			"Skill": "青ピースに変換する　ハート型"
+			"LSkill": "Increase Party ATK by 50% when reach 10 chains and increase HP by 10%",
+			"Skill": "Turn Blue beads (Heart shape)"
 		},
 		"Moon": {
-			"LSkill": "10chainで全員の攻撃力40%UP/HP15%UP",
-			"Skill": "青ピースに変換する　ハート型"
+			"LSkill": "Increase Party ATK by 40% when reach 10 chains and increase HP by 15%",
+			"Skill": "Turn Blue beads (Heart shape)"
 		}
 	},
 	"569": {
 		"Before": {
-			"LSkill": "黄の攻撃力と回復力を30%UP",
-			"Skill": "5chain緑が出現しなくなり、黄の出現UP"
+			"LSkill": "Increase Yellow ATK & RP by 30%",
+			"Skill": "Green beads won't appear and increase Yellow beads appearance rate (5 chains) "
 		},
 		"Sun": {
-			"LSkill": "黄の攻撃力と回復力30%/HP5%UP",
-			"Skill": "5chain緑が出現しなくなり、黄の出現UP"
+			"LSkill": "Increase Yellow ATK & RP by 30% and HP by 5%",
+			"Skill": "Green beads won't appear and increase Yellow beads appearance rate (5 chains) "
 		},
 		"Moon": {
-			"LSkill": "黄の攻撃力と回復力を35%UP",
-			"Skill": "5chain赤が出現しなくなり、黄の出現UP"
+			"LSkill": "Increase Yellow ATK & RP by 35%",
+			"Skill": "Red beads won't appear and increase Yellow beads appearance rate (5 chains) "
 		}
 	}
 }
