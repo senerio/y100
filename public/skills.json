@@ -3292,15 +3292,15 @@
 	"236": {
 		"Before": {
 			"LSkill": "A certain chance to attack disregarding the enemy's defense and increase Party ATK by 35% when Max HP",
-			"Skill": "Erase middle column beads and recover time"
+			"Skill": "Erase middle column beads and recover time (1s)"
 		},
 		"Sun": {
 			"LSkill": "A certain chance to attack disregarding the enemy's defense and increase Party ATK by 50% when Max HP",
-			"Skill": "Erase middle column beads and recover time"
+			"Skill": "Erase middle column beads and recover time (1s)"
 		},
 		"Moon": {
 			"LSkill": "A certain chance to attack disregarding the enemy's defense and increase Party ATK by 50% when Max HP",
-			"Skill": "Erase middle column beads and recover time"
+			"Skill": "Erase middle column beads and recover time (1s)"
 		}
 	},
 	"237": {
@@ -3544,15 +3544,15 @@
 	"254": {
 		"Before": {
 			"LSkill": "Increase Red ATK by 50%",
-			"Skill": "Insert Red beads, increase Red beads appearance"
+			"Skill": "Insert Red beads (8), increase Red beads appearance"
 		},
 		"Sun": {
 			"LSkill": "Increase Red ATK by 65%",
-			"Skill": "Insert Red beads, increase Red beads appearance"
+			"Skill": "Insert Red beads (8), increase Red beads appearance (A)"
 		},
 		"Moon": {
 			"LSkill": "Increase Red ATK by 50%, increase Party ATK by 30% when Party consists of 3 colors or more",
-			"Skill": "Insert Red beads, increase Red beads appearance"
+			"Skill": "Insert Red beads (8), increase Red beads appearance (S)"
 		}
 	},
 	"255": {
@@ -5578,11 +5578,11 @@
 		},
 		"Sun": {
 			"LSkill": "Increase Red HP by 50% and reduce RP ",
-			"Skill": "Insert Red beads and increase Party ATK for 1 turn"
+			"Skill": "Insert Red beads (6) and increase Party ATK for 1 turn"
 		},
 		"Moon": {
 			"LSkill": "Increase Red HP by 40% and reduce RP a bit",
-			"Skill": "Insert Red beads and increase Party ATK for 1 turn"
+			"Skill": "Insert Red beads (8) and increase Party ATK for 1 turn"
 		}
 	},
 	"400": {
@@ -5658,7 +5658,7 @@
 	"405": {
 		"Before": {
 			"LSkill": "Increase Yellow HP & RP by 25%",
-			"Skill": "Increase Yellow beads appearance rate for 3 chains and insert Yellow beads"
+			"Skill": "Increase Yellow beads appearance rate for 3 chains and erase left side beads"
 		},
 		"Sun": {
 			"LSkill": "Increase Yellow HP & RP by 30%",
@@ -6148,15 +6148,15 @@
 	"440": {
 		"Before": {
 			"LSkill": "Increase ATK by 40% when HP is above 50% and RP by 40% when HP is below 50%",
-			"Skill": "Insert Red beads and hearts"
+			"Skill": "Insert Red beads (6) and heart"
 		},
 		"Sun": {
 			"LSkill": "Increase ATK by 50% when HP is above 50% and RP by 50% when HP is below 50%",
-			"Skill": "Insert Red beads and hearts"
+			"Skill": "Insert Red beads (9) and heart"
 		},
 		"Moon": {
 			"LSkill": "Increase ATK by 50% when HP is above 50% and RP by 50% when HP is below 50%",
-			"Skill": "Insert Red beads and hearts"
+			"Skill": "Insert Red beads (7) and 2 hearts "
 		}
 	},
 	"441": {
@@ -7204,15 +7204,15 @@
 	"516": {
 		"Before": {
 			"LSkill": "Increase Red RP by 15% and Party ATK by 40% when Max HP",
-			"Skill": "Recover time and insert Red beads"
+			"Skill": "Recover time (1s) and insert Red beads (6)"
 		},
 		"Sun": {
 			"LSkill": "Increase Red RP by 30% and Party ATK by 40% when Max HP",
-			"Skill": "Recover time and insert Red beads"
+			"Skill": "Recover time (1s)  and insert Red beads (8)"
 		},
 		"Moon": {
 			"LSkill": "Increase Red RP by 30% and Party ATK by 40% when Max HP",
-			"Skill": "Recover time and insert Red beads"
+			"Skill": "Recover time (1s) and insert Red beads (8)"
 		}
 	},
 	"517": {
@@ -7652,15 +7652,15 @@
 	"548": {
 		"Before": {
 			"LSkill": "Increase Red RP by 30% and increase Party ATK by 30% when Party consists of 3 colors or more",
-			"Skill": "Increase Red beads appearance rate for 3 chains and insert Red beads"
+			"Skill": "Increase Red beads appearance rate for 3 chains and insert Red beads (4)"
 		},
 		"Sun": {
 			"LSkill": "Increase Red RP by 30% and increase Party ATK by 50% when Party consists of 3 colors or more",
-			"Skill": "Increase Red beads appearance rate for 3 chains and insert Red beads"
+			"Skill": "Increase Red beads appearance rate for 3 chains and insert Red beads (4)"
 		},
 		"Moon": {
 			"LSkill": "Increase Red RP by 40% and increase Party ATK by 30% when Party consists of 3 colors or more",
-			"Skill": "Increase Red beads appearance rate for 3 chains and insert Red beads"
+			"Skill": "Increase Red beads appearance rate for 3 chains and insert Red beads (6)"
 		}
 	},
 	"549": {
@@ -7730,7 +7730,7 @@
 		},
 		"Moon": {
 			"LSkill": "Increase Red ATK by 50%, reduce skill activation beads count by 2",
-			"Skill": "Surrounding beads will be erased when chaining for 4 chains and insert Red beads"
+			"Skill": "Surrounding beads will be erased when chaining for 4 chains and insert Red beads (3)"
 		}
 	},
 	"554": {
@@ -7955,6 +7955,90 @@
 		"Moon": {
 			"LSkill": "Increase Yellow ATK & RP by 35%",
 			"Skill": "Red beads won't appear and increase Yellow beads appearance rate (5 chains) "
+		}
+	},
+	"570": {
+		"Before": {
+			"LSkill": "Increase Party ATK by 60% and reduce other stats a little",
+			"Skill": "Turn Blue beads into Green"
+		},
+		"Sun": {
+			"LSkill": "Increase Party ATK by 70% and reduce other stats a little",
+			"Skill": "Turn Blue beads into Green"
+		},
+		"Moon": {
+			"LSkill": "Increase Party ATK by 70% and reduce other stats a little",
+			"Skill": "Turn Yellow beads into Green"
+		}
+	},
+	"571": {
+		"Before": {
+			"LSkill": "Increase Purple ATK by 35% and HP by 10%",
+			"Skill": "Turn beads Purple in the shape of a will o wisp "
+		},
+		"Sun": {
+			"LSkill": "Increase Purple ATK by 35% and HP by 20%",
+			"Skill": "Turn beads Purple in the shape of a will o wisp "
+		},
+		"Moon": {
+			"LSkill": "Increase Purple ATK by 50% and HP by 10%",
+			"Skill": "Turn beads Purple in the shape of a will o wisp "
+		}
+	},
+	"572": {
+		"Before": {
+			"LSkill": "Increase Purple RP by 20% and Party ATK by 40% when Max HP",
+			"Skill": "Increase Purple beads appearance rate for 3 turns and insert Purple beads"
+		},
+		"Sun": {
+			"LSkill": "Increase Purple RP by 30% and Party ATK by 40% when Max HP",
+			"Skill": "Increase Purple beads appearance rate for 3 turns and insert Purple beads"
+		},
+		"Moon": {
+			"LSkill": "Increase Purple RP by 30% and Party ATK by 40% when Max HP",
+			"Skill": "Increase Purple beads appearance rate for 3 turns and insert Purple beads"
+		}
+	},
+	"573": {
+		"Before": {
+			"LSkill": "Increase Prince EXP by 20%",
+			"Skill": "Use own HP to erase left, middle and right beads"
+		},
+		"Sun": {
+			"LSkill": "Increase Prince EXP by 25%",
+			"Skill": "Use own HP to erase left, middle and right beads"
+		},
+		"Moon": {
+			"LSkill": "Increase Prince EXP by 20% and Party ATK by 15%",
+			"Skill": "Use own HP to erase left, middle and right beads"
+		}
+	},
+	"574": {
+		"Before": {
+			"LSkill": "Increase Blue HP by 30%",
+			"Skill": "Restore time & HP"
+		},
+		"Sun": {
+			"LSkill": "Increase Blue HP by 35%",
+			"Skill": "Restore time & HP"
+		},
+		"Moon": {
+			"LSkill": "Increase Blue HP by 35%",
+			"Skill": "Restore time & HP"
+		}
+	},
+	"575": {
+		"Before": {
+			"LSkill": "Increase Purple & Green HP by 30%",
+			"Skill": "Turn right beads Purple and left beads Green"
+		},
+		"Sun": {
+			"LSkill": "Increase Purple & Green HP by 30%",
+			"Skill": "Turn right beads Purple and left beads Green"
+		},
+		"Moon": {
+			"LSkill": "Increase Purple & Blue HP by 30%",
+			"Skill": "Turn right beads Purple and left beads Blue"
 		}
 	}
 }
