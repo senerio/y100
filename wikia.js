@@ -17,7 +17,7 @@ function login(callback) {
 }
 
 function post(title, content) {
-	client.edit(title, content, 'bot', true, (err) => {
+	client.edit(title, content, 'bot', false, (err) => {
 		if(err) throw err;
 	});
 }
