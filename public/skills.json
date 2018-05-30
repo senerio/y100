@@ -7763,15 +7763,15 @@
 	},
 	"556": {
 		"Before": {
-			"LSkill": "increase Party ATK by 50% and HP by 20% when Party consists of 3 colors or more and decrease Party RP",
+			"LSkill": "Increase Party ATK by 50% and HP by 20% and decrease Party RP when Party consists of 3 colors or more",
 			"Skill": "Insert Purple beads and Increase Party ATK for 1 turn "
 		},
 		"Sun": {
-			"LSkill": "increase Party ATK by 50% and HP by 30% when Party consists of 3 colors or more and decrease Party RP",
+			"LSkill": "Increase Party ATK by 50% and HP by 30% and decrease Party RP when Party consists of 3 colors or more",
 			"Skill": "Insert Purple beads and Increase Party ATK for 1 turn"
 		},
 		"Moon": {
-			"LSkill": "increase Party ATK by 60% and HP by 20% when Party consists of 3 colors or more and decrease Party RP",
+			"LSkill": "Increase Party ATK by 60% and HP by 20% and decrease Party RP when Party consists of 3 colors or more",
 			"Skill": "Insert Purple beads and Increase Party ATK for 1 turn"
 		}
 	},
@@ -8039,6 +8039,104 @@
 		"Moon": {
 			"LSkill": "Increase Purple & Blue HP by 30%",
 			"Skill": "Turn right beads Purple and left beads Blue"
+		}
+	},
+	"576": {
+		"Before": {
+			"LSkill": "メンバーが5属性でHPと回復25%UP",
+			"Skill": "ピースを5色のストライプに変換"
+		},
+		"Sun": {
+			"LSkill": "メンバーが5属性でHPと回復25%/攻撃15%UP",
+			"Skill": "ピースを5色のストライプに変換"
+		},
+		"Moon": {
+			"LSkill": "メンバーが5属性でHPと回復30%UP",
+			"Skill": "ピースを5色のストライプに変換"
+		}
+	},
+	"577": {
+		"Before": {
+			"LSkill": "青の攻撃力を80%UP/他能力を下げる",
+			"Skill": "縦中央を青に変換し、1ターン青属性の攻撃力UP"
+		},
+		"Sun": {
+			"LSkill": "青の攻撃力を80%UP/他能力を少し下げる",
+			"Skill": "右側を青に変換し、1ターン青属性の攻撃力UP"
+		},
+		"Moon": {
+			"LSkill": "青の攻撃力を100%UP/他能力を下げる",
+			"Skill": "左側を青に変換し、1ターン青属性の攻撃力UP"
+		}
+	},
+	"578": {
+		"Before": {
+			"LSkill": "緑のHP30%UP/3属性以上で攻30%UP",
+			"Skill": "2chainの間、緑と赤ピースのみ出現"
+		},
+		"Sun": {
+			"LSkill": "緑のHP35%UP/3属性以上で攻30%UP",
+			"Skill": "2chainの間、緑と赤ピースのみ出現"
+		},
+		"Moon": {
+			"LSkill": "緑のHP30%UP/3属性以上で攻40%UP",
+			"Skill": "2chainの間、緑と青ピースのみ出現"
+		}
+	},
+	"579": {
+		"Before": {
+			"LSkill": "全員の攻撃力とHPを10%UP",
+			"Skill": "十字方向にピースを消す　大"
+		},
+		"Sun": {
+			"LSkill": "全員の攻撃力とHPを15%UP",
+			"Skill": "十字方向にピースを消す　特大"
+		},
+		"Moon": {
+			"LSkill": "全員の攻撃力とHPを15%UP",
+			"Skill": "十字方向にピースを消す　特大"
+		}
+	},
+	"580": {
+		"Before": {
+			"LSkill": "メンバーが5属性で攻撃を35%UP",
+			"Skill": "赤を全て消し、紫を赤に変換する"
+		},
+		"Sun": {
+			"LSkill": "メンバーが5属性で攻撃35%/回復20%UP",
+			"Skill": "赤を全て消し、紫を赤に変換する"
+		},
+		"Moon": {
+			"LSkill": "メンバーが5属性で攻撃35%/HP20%UP",
+			"Skill": "赤を全て消し、青を赤に変換する"
+		}
+	},
+	"581": {
+		"Before": {
+			"LSkill": "赤属性の回復力を35%UP",
+			"Skill": "ハートピースを追加 1～2個"
+		},
+		"Sun": {
+			"LSkill": "赤属性の回復力を50%UP",
+			"Skill": "ハートピースを追加 1～3個"
+		},
+		"Moon": {
+			"LSkill": "赤属性の回復力を50%UP",
+			"Skill": "ハートピースを追加 1～3個"
+		}
+	},
+	"582": {
+		"Before": {
+			"LSkill": "全員のHPと回復力を15%UP",
+			"Skill": "全ピースを5色の花柄の形に変換"
+		},
+		"Sun": {
+			"LSkill": "全員のHPと回復力を20%UP",
+			"Skill": "全ピースを5色の花柄の形に変換し、HPを回復"
+		},
+		"Moon": {
+			"LSkill": "全員のHPと回復力15%/攻撃力10%UP",
+			"Skill": "全ピースを5色の花柄の形に変換し、1ターン自分の攻UP"
 		}
 	}
 }

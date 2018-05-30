@@ -2295,6 +2295,34 @@
 		"no": 575,
 		"name": "Byakuyo (Oni)"
 	},
+	"611": {
+		"no": 576,
+		"name": "Kaede (Snow Moon)"
+	},
+	"612": {
+		"no": 577,
+		"name": "Frost (Snow Moon)"
+	},
+	"613": {
+		"no": 578,
+		"name": "Oka (Snow Moon)"
+	},
+	"614": {
+		"no": 579,
+		"name": "Toya (Snow Moon)"
+	},
+	"615": {
+		"no": 580,
+		"name": "Graysia (Snow Moon)"
+	},
+	"616": {
+		"no": 581,
+		"name": "Hikage (Snow Moon)"
+	},
+	"617": {
+		"no": 582,
+		"name": "Synny (Snow Moon)"
+	},
 	"653": {
 		"no": 555,
 		"name": "Gudetama"
@@ -2686,6 +2714,10 @@
 	"81061": {
 		"no": "81061",
 		"name": "Fairy Princess (Trial)"
+	},
+	"81062": {
+		"no": "81062",
+		"name": "Fairy Princess (Snow Moon)"
 	},
 	"82002": {
 		"no": 82002,
