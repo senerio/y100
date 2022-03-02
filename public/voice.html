@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rename Script</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="initial-scale=1,maximum-scale=1" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+	<nav>
+		<a href="index.html">index</a>
+		<a href="voice.html">voice</a>
+		<a href="list.html">list</a>
+		<a href="skills.html">skills</a>
+		<a href="choice.html">choice</a>
+		<a href="pages.html">pages</a>
+	</nav>
+	<main>
+		<input type="text" id="nos" placeholder="eg. 49,148,218" />
+		<button id="submit">go</button>
+		<button id="copy">copy</button>
+		<textarea id="text">Loading...</textarea>
+	</main>
+	<script>
+		var json;
+		var xhr = new XMLHttpRequest();
+	    xhr.onreadystatechange = function() {
+	        if(xhr.readyState == 4) {
+	        	json = JSON.parse(xhr.responseText);
+	        	document.getElementById('text').innerHTML = 'Ready.';
+	        }
+	    }
+	    xhr.open('GET', './rename.json', true);
+	    xhr.setRequestHeader("Content-Type", "application/json");
+	    xhr.send();
+		document.getElementById("submit").addEventListener('click', function() {
+			document.getElementById('text').innerHTML = '';
+        	for(var i of document.getElementById('nos').value.split(',')) {
+        		document.getElementById('text').innerHTML += json[i];
+        	}
+		});
+	    document.getElementById('copy').addEventListener('click', function(event) {
+			document.querySelector('#text').select();
+			document.execCommand('Copy');
+		});
+	</script>
+</body>
+</html>

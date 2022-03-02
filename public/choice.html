@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Story Choice</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="initial-scale=1,maximum-scale=1" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+	<nav>
+		<a href="index.html">index</a>
+		<a href="voice.html">voice</a>
+		<a href="list.html">list</a>
+		<a href="skills.html">skills</a>
+		<a href="choice.html">choice</a>
+		<a href="pages.html">pages</a>
+	</nav>
+	<main>
+		<textarea id="input" placeholder="Paste here."></textarea>
+		<textarea id="choice"></textarea>
+		<a href="http://kneesockscollector.net/wiki/yume-100/?キャラクター" target="_blank">jp wiki list</a>
+		<button id="submit">generate</button>
+		<button id="copy">copy code</button>
+		<input type="text" id="title" placeholder="eg. Avi (Bridal)" />
+		<button id="edit">edit wikia page</button>
+		<button id="clear">clear</button>
+	</main>
+	<script>
+		function parse(text) {
+			var c = document.getElementById('choice');
+			var rows = text.split('\n').filter( x => /\d/.test(x) );
+			c.innerHTML = '{{Choice';
+			var chapter = 1, route, set;
+			for(var i in rows) {
+				var row = rows[i].split('\t').reverse(),
+					title = row[2],
+					choice = row[1],
+					points = row[0];
+				// title
+				if (title != undefined) {
+					chapter++; set = 1;
+					c.innerHTML += '\n|title' + chapter + ' = ' + title;
+				}
+				// points
+				console.log('月' + points);
+				if (points.indexOf('月') != -1) {
+					route = 'm';
+				}
+				else {
+					route = 's';
+				}
+				// choice
+				c.innerHTML += '\n|points' + chapter + set + route + ' = ' + points.match(/\d.*/);
+				c.innerHTML += '\n|choice' + chapter + set + route + ' = ' + choice;
+				// set
+				if (i%2 == 1) {
+					set++;
+				}
+			}
+			c.innerHTML += '\n}}';
+		}
+		document.getElementById('submit').addEventListener('click', function() {
+			parse(document.getElementById('input').value);
+		});
+		document.getElementById('copy').addEventListener('click', function(event) {
+			document.querySelector('#choice').select();
+			document.execCommand('Copy');
+		});
+		document.getElementById('edit').addEventListener('click', function() {
+			window.open('http://yume100prince.wikia.com/wiki/' + document.getElementById('title').value + '?action=edit&section=3', '_blank');
+		});
+		document.getElementById('clear').addEventListener('click', function() {
+			document.getElementById('input').value = '';
+			document.getElementById('choice').value = '';
+		});
+	</script>
+</body>
+</html>

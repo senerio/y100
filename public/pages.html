@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Update Wikia Pages</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="initial-scale=1,maximum-scale=1" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+	<nav>
+		<a href="index.html">index</a>
+		<a href="voice.html">voice</a>
+		<a href="list.html">list</a>
+		<a href="skills.html">skills</a>
+		<a href="choice.html">choice</a>
+		<a href="pages.html">pages</a>
+	</nav>
+	<main>
+		<button id="copy0">copy</button>
+		<a href="http://yume100prince.wikia.com/wiki/Prince_List?action=edit">Prince List</a>
+		<textarea id="text0">Loading...</textarea>
+
+		<button id="copy1">copy</button>
+		<a href="http://yume100prince.wikia.com/wiki/Event_Versions?action=edit">Event Versions</a>
+		<textarea id="text1">Loading...</textarea>
+
+		<button id="copy2">copy</button>
+		<a href="http://yume100prince.wikia.com/wiki/Skills/All?action=edit">Skills (all)</a>
+		<textarea id="text2">Loading...</textarea>
+	</main>
+	<script>
+	    var updatePages = ['princeList', 'eventVersions', 'skillsAll'];
+		var json;
+		var xhr = new XMLHttpRequest();
+	    xhr.onreadystatechange = function() {
+	        if(xhr.readyState == 4) {
+	        	json = JSON.parse(xhr.responseText);
+	        	for(var i in updatePages) {
+	        		document.getElementById('text'+i).innerHTML = json[updatePages[i]];
+	        		document.getElementById('copy'+i).addEventListener('click', function (event) {
+					document.querySelector('#text'+this).select();
+					document.execCommand('Copy');
+				}.bind(i));
+	        	};
+	        }
+	    }
+	    xhr.open('GET', './updates.json', true);
+	    xhr.setRequestHeader("Content-Type", "application/json");
+	    xhr.send();
+	</script>
+</body>
+</html>

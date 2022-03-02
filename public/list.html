@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>List</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="initial-scale=1,maximum-scale=1" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+	<nav>
+		<a href="index.html">index</a>
+		<a href="voice.html">voice</a>
+		<a href="list.html">list</a>
+		<a href="skills.html">skills</a>
+		<a href="choice.html">choice</a>
+		<a href="pages.html">pages</a>
+	</nav>
+	<main>
+		<button id="showFull">full list</button>
+		<button id="showNew">new</button>
+		<pre id="text">Loading...</pre>
+	</main>
+	<script>
+	    function showList(newOnly) {
+	    	document.getElementById('text').innerHTML = 'ID\tNo.\tTitle\n';
+		    for(var id in json) {
+		    	var regex = /[\u3000-\u303F]|[\u3040-\u309F]|[\u30A0-\u30FF]|[\uFF00-\uFFEF]|[\u4E00-\u9FAF]|[\u2605-\u2606]|[\u2190-\u2195]|\u203B/g;
+		    	if(newOnly && !regex.test(json[id].name)) { continue; } 
+	    		document.getElementById('text').innerHTML += id + '\t' + json[id].no + '\t' + json[id].name + '\n';
+	    	}
+	    }
+		var json;
+		var xhr = new XMLHttpRequest();
+	    xhr.onreadystatechange = function() {
+	        if(xhr.readyState == 4) {
+	        	json = JSON.parse(xhr.responseText);
+	        	document.getElementById('text').innerHTML = 'Ready.';
+	        }
+	    }
+	    xhr.open('GET', './list.json', true);
+	    xhr.setRequestHeader("Content-Type", "application/json");
+	    xhr.send();
+	    document.getElementById("showFull").addEventListener('click', () => showList(false));
+	    document.getElementById("showNew").addEventListener('click', () => showList(true));
+	</script>
+</body>
+</html>

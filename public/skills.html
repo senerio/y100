@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Skills List</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="initial-scale=1,maximum-scale=1" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+	<nav>
+		<a href="index.html">index</a>
+		<a href="voice.html">voice</a>
+		<a href="list.html">list</a>
+		<a href="skills.html">skills</a>
+		<a href="choice.html">choice</a>
+		<a href="pages.html">pages</a>
+	</nav>
+	<main>
+		<textarea id="skills">Loading...</textarea>
+		<button id="copy">copy</button>
+		<a href="https://docs.google.com/spreadsheets/d/1gF78PNTX34_kvmdedVE8SSLINuQV6og_VQkOPdYX2z4/edit#gid=0" target="_blank">go to sheets</a>
+		<iframe src="https://docs.google.com/spreadsheets/d/1gF78PNTX34_kvmdedVE8SSLINuQV6og_VQkOPdYX2z4/edit#gid=0"></iframe>
+	</main>
+	<script>
+		var json;
+		var xhr = new XMLHttpRequest();
+	    xhr.onreadystatechange = function() {
+	        if(xhr.readyState == 4) {
+	        	json = JSON.parse(xhr.responseText);
+	        	showNewSkills();
+	        }
+	    }
+	    xhr.open('GET', './skills.json', true);
+	    xhr.setRequestHeader("Content-Type", "application/json");
+	    xhr.send();
+	    document.getElementById('copy').addEventListener('click', function(event) {
+			document.querySelector('#skills').select();
+			document.execCommand('Copy');
+		});
+	    function showNewSkills() {
+	    	document.getElementById('skills').innerHTML = 'No.\t\tRoute\t\tLSkill\t\tSkill\n';
+		    for(var no in json) {
+		    	var regex = /[\u3000-\u303F]|[\u3040-\u309F]|[\u30A0-\u30FF]|[\uFF00-\uFFEF]|[\u4E00-\u9FAF]|[\u2605-\u2606]|[\u2190-\u2195]|\u203B/g;
+		    	if(!regex.test(JSON.stringify(json[no]))) { continue; } 
+	    		document.getElementById('skills').innerHTML += 
+	    			no + '\t\tBefore\t' + json[no].Before.LSkill + '\t\t' + json[no].Before.Skill + '\n' +
+	    			no + '\t\tSun\t' + json[no].Sun.LSkill + '\t\t' + json[no].Sun.Skill + '\n' +
+	    			no + '\t\tMoon\t' + json[no].Moon.LSkill + '\t\t' + json[no].Moon.Skill + '\n';
+	    	}
+	    }
+	</script>
+</body>
+</html>
